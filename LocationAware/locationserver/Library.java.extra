@@ -1,0 +1,132 @@
+  /** 
+   * a depth first search.  returns the first valid route found from
+   * space1 to space2
+   */
+  public static Vector findRouteDepthFirst(Space start, Space finish) { 
+    // create an initial path containing only the start space 
+    Vector touched = new Vector();
+    touched.add(start);
+
+    Collection nextSpaces = getSpacesExcluding(touched, start);
+
+    Vector firstRoute = new Vector();
+    firstRoute.add(start);
+
+    return findRouteHelper(firstRoute, start, finish, touched);
+  }
+  
+  /**
+   * Helper for DFS. Takes a path to explore, the space being
+   * currently examined, and a vector of all the spaces which have
+   * been inspected already.
+   */ 
+  private static Vector findRouteHelper(Vector path, 
+					Space thisSpace, 
+					Space goal, 
+					Vector touched) {
+   
+    // if current space is our goal, we're done!
+    if (thisSpace == goal) {
+      return path;
+    }
+
+    // return null if there are no spaces left to search
+    Collection nextSpaces = getSpacesExcluding(touched, thisSpace);
+    if (nextSpaces == null) {
+      return null;
+    }
+    
+    Vector returnVector = null;
+    // for each space adjacent to our current location
+    for (Iterator i = nextSpaces.iterator(); i.hasNext();) {
+      Space nextSpace = (Space) i.next();
+      // mark node as visited
+      touched.add(nextSpace);
+      // append the space we just found to the partial path
+      Vector nextPath = (Vector) path.clone();
+      nextPath.add(nextSpace);
+      // make recursive call
+      returnVector = findRouteHelper(nextPath, nextSpace, goal, touched);
+
+      // did we get someting back? if so, it is the first valid path
+      // by DFS and we are done
+      if (returnVector != null) {
+	return returnVector;
+      }
+
+    }
+    // this will be null if we get here
+    return returnVector;
+  }
+  
+  /** the nameRoot must give a space on the correct floor.  If there
+      are no spaces on the floor specified in nameRoot, it returns null*/
+  public static Collection getSpacesOnFloor(String nameRoot,
+					    LocationServer locationServer) {
+    Space firstSpace = null;
+    try {
+      firstSpace = locationServer.getSpace(nameRoot);
+    }
+    catch(java.rmi.RemoteException e) {
+      System.out.println("Library.java:  RMI error.  exiting...");
+      e.printStackTrace();
+      System.exit(1);
+    }
+    if (firstSpace == null)
+      return null;
+    HashSet excludedRooms = new HashSet();
+    
+    /*render map depth-first */
+    recurseGetSpacesOnFloor(firstSpace.getFloorNumber(), 
+			    excludedRooms, firstSpace);
+    return excludedRooms;
+  }
+  
+  /** getSpacesOnFloor's recursive buddy*/
+  private static void recurseGetSpacesOnFloor
+    (int floorNumber, Collection excludedRooms, Space firstSpace) {
+    excludedRooms.add(firstSpace);
+    Collection nextRooms = Library.getSpacesExcluding(excludedRooms,
+						      firstSpace);
+    if (nextRooms == null)
+      return;
+    else {
+      for (Iterator i = nextRooms.iterator(); i.hasNext();) {
+	Space nextSpace = (Space) i.next();
+	if (nextSpace == null)
+	  continue;
+	else if (nextSpace.getFloorNumber() != floorNumber) {
+	  continue;
+	}
+	else {
+	  recurseGetSpacesOnFloor(floorNumber, excludedRooms, nextSpace);
+	}
+      }
+    }
+  }
+
+  /**
+   * helper function: get a Collection of Spaces adjacent to a Space
+   * 'space', not including the Spaces in the argument
+   * 'spaces'. Return a vector of spaces if they exist, or null if no
+   * spaces exist.
+   */
+  public static Collection getSpacesExcluding(Collection spaces, Space space) {
+    Collection portals = space.getPortals();
+    Vector returnVector = new Vector();
+    for (Iterator i = portals.iterator(); i.hasNext();) {
+      Portal port = (Portal) i.next();
+      // check if the portal's spaces are excluded before adding them
+      // in be careful not to add nulls
+      if (!spaces.contains(port.spaces[0]) && (port.spaces[0] != null))
+	returnVector.add(port.spaces[0]);
+      if (!spaces.contains(port.spaces[1]) && (port.spaces[1] != null))
+	returnVector.add(port.spaces[1]);
+    }
+    if (returnVector.size() > 0) {
+      return returnVector;
+    } else {
+      return null;
+    }
+  }
+
