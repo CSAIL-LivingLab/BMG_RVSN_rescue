@@ -38,7 +38,7 @@ public class MITquest2D {
         
         try {
 
-            String name = "//maps.csail.mit.edu/LocationServer";
+            String name = "//localhost/LocationServer";
 
             System.err.println("* Attempting to connect to server *");
             locationServer = (LocationServer) Naming.lookup(name);
