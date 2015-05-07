@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709417.373953" y="495470.852266"/>
+			  <extent maxx="709429.844324" maxy="495487.503601" minx="709404.081691" miny="495450.622771"/>
+			  <point x="709421.063430" y="495463.426780"/>
+			  <point x="709425.244921" y="495454.251337"/>
+			  <point x="709417.282759" y="495450.622771"/>
+			  <point x="709404.081691" y="495479.589871"/>
+			  <point x="709421.446786" y="495487.503601"/>
+			  <point x="709429.844324" y="495469.076885"/>
+			  <point x="709421.654672" y="495465.344646"/>
+			  <point x="709422.276712" y="495463.979704"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-600SB" type="explicit">
+			  <edge index="2" param="0.854712"/></portal>
+	</floor>
+	<space name="W20-600SA" type="STAIR">
+		  <contour>
+			  <centroid x="709364.971875" y="495449.861233"/>
+			  <extent maxx="709373.131104" maxy="495460.909517" minx="709356.812677" miny="495438.812963"/>
+			  <point x="709356.812677" y="495457.315509"/>
+			  <point x="709365.244773" y="495438.812963"/>
+			  <point x="709373.131104" y="495442.406971"/>
+			  <point x="709364.699008" y="495460.909517"/>
+			  <point x="709356.812677" y="495457.315509"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-600SB" type="STAIR">
+		  <contour>
+			  <centroid x="709413.179180" y="495471.784778"/>
+			  <extent maxx="709421.393609" maxy="495482.888259" minx="709404.964794" miny="495460.681317"/>
+			  <point x="709412.926955" y="495482.888259"/>
+			  <point x="709404.964794" y="495479.259693"/>
+			  <point x="709413.431448" y="495460.681317"/>
+			  <point x="709421.393609" y="495464.309883"/>
+			  <point x="709412.926955" y="495482.888259"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-6FLOORCONTOUR" type="explicit">
+			  <edge index="1" param="0.193878"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-602Z" type="SHAFT">
+		  <contour>
+			  <centroid x="709356.264360" y="495446.762990"/>
+			  <extent maxx="709363.981534" maxy="495457.039047" minx="709348.547195" miny="495436.486938"/>
+			  <point x="709348.547195" y="495453.548712"/>
+			  <point x="709356.206036" y="495457.039047"/>
+			  <point x="709363.981534" y="495439.977273"/>
+			  <point x="709356.322694" y="495436.486938"/>
+			  <point x="709348.547195" y="495453.548712"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+
+</MITquest>

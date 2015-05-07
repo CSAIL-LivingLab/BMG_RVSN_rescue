@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709342.036341" y="495573.724069"/>
+			  <extent maxx="709437.430461" maxy="495657.912898" minx="709208.136869" miny="495494.977153"/>
+			  <point x="709406.112627" y="495580.853212"/>
+			  <point x="709217.674814" y="495494.977153"/>
+			  <point x="709208.136869" y="495515.906262"/>
+			  <point x="709391.494066" y="495599.466950"/>
+			  <point x="709372.418176" y="495641.325169"/>
+			  <point x="709408.816627" y="495657.912898"/>
+			  <point x="709437.430461" y="495595.125571"/>
+			  <point x="709406.112627" y="495580.853212"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W32-200CA" type="explicit">
+			  <edge index="3" param="0.748188"/></portal>
+		  <portal class="horizontal" source="true" target="W32-205" type="explicit">
+			  <edge index="2" param="0.913875"/></portal>
+		  <portal class="horizontal" source="true" target="W32-205" type="explicit">
+			  <edge index="2" param="0.923594"/></portal>
+		  <portal class="horizontal" source="false" target="W32-200CA" type="explicit">
+			  <edge index="4" param="0.069792"/></portal>
+	</floor>
+	<space name="W32-200CA" type="CORR">
+		  <contour>
+			  <centroid x="709389.070963" y="495612.420053"/>
+			  <extent maxx="709403.997889" maxy="495641.482739" minx="709374.144095" miny="495583.357395"/>
+			  <point x="709392.805291" y="495598.599246"/>
+			  <point x="709399.751403" y="495583.357395"/>
+			  <point x="709403.997889" y="495585.292630"/>
+			  <point x="709378.390581" y="495641.482739"/>
+			  <point x="709374.144095" y="495639.547503"/>
+			  <point x="709392.805291" y="495598.599246"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W32-2FLOORCONTOUR" type="explicit">
+			  <edge index="4" param="0.205556"/></portal>
+		  <portal class="horizontal" source="true" target="W32-2FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.580357"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+  </space>
+	<space name="W32-200SA" type="STAIR">
+		  <contour>
+			  <centroid x="709218.355534" y="495507.650538"/>
+			  <extent maxx="709226.241646" maxy="495518.033625" minx="709210.469429" miny="495497.267455"/>
+			  <point x="709218.279485" y="495497.267455"/>
+			  <point x="709226.241646" y="495500.896021"/>
+			  <point x="709218.431590" y="495518.033625"/>
+			  <point x="709210.469429" y="495514.405059"/>
+			  <point x="709218.279485" y="495497.267455"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W32-205" type="explicit">
+			  <edge index="1" param="0.867257"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="W32-100SC" type="STAIR"/></space>
+	<space name="W32-205" type="U/M">
+		  <contour>
+			  <centroid x="709309.523481" y="495549.747639"/>
+			  <extent maxx="709400.271739" maxy="495598.253669" minx="709218.775198" miny="495501.241599"/>
+			  <point x="709226.999947" y="495501.241599"/>
+			  <point x="709400.271739" y="495580.206103"/>
+			  <point x="709392.046990" y="495598.253669"/>
+			  <point x="709218.775198" y="495519.289164"/>
+			  <point x="709226.999947" y="495501.241599"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W32-200SA" type="explicit">
+			  <edge index="3" param="0.176471"/></portal>
+		  <portal class="horizontal" source="false" target="W32-2FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.091138"/></portal>
+		  <portal class="horizontal" source="false" target="W32-2FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.080853"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W32-245" type="ATHLET">
+		  <contour>
+			  <centroid x="709417.027058" y="495598.098789"/>
+			  <extent maxx="709435.387793" maxy="495613.075192" minx="709398.666323" miny="495583.122385"/>
+			  <point x="709435.387793" y="495596.392569"/>
+			  <point x="709427.785083" y="495613.075192"/>
+			  <point x="709398.666323" y="495599.805009"/>
+			  <point x="709406.269032" y="495583.122385"/>
+			  <point x="709435.387793" y="495596.392569"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W32-247" type="ATHLET">
+		  <contour>
+			  <centroid x="709408.854145" y="495616.032609"/>
+			  <extent maxx="709427.163043" maxy="495630.895267" minx="709390.545247" miny="495601.169950"/>
+			  <point x="709419.664007" y="495630.895267"/>
+			  <point x="709390.545247" y="495617.625083"/>
+			  <point x="709398.044283" y="495601.169950"/>
+			  <point x="709427.163043" y="495614.440134"/>
+			  <point x="709419.664007" y="495630.895267"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W32-249" type="ATHLET">
+		  <contour>
+			  <centroid x="709400.681232" y="495633.966429"/>
+			  <extent maxx="709419.041967" maxy="495648.942832" minx="709382.320497" miny="495618.990025"/>
+			  <point x="709411.439258" y="495648.942832"/>
+			  <point x="709382.320497" y="495635.672649"/>
+			  <point x="709389.923207" y="495618.990025"/>
+			  <point x="709419.041967" y="495632.260209"/>
+			  <point x="709411.439258" y="495648.942832"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708772.612423" y="496667.972821"/>
+			  <extent maxx="708778.238614" maxy="496673.486471" minx="708766.986408" miny="496662.459153"/>
+			  <point x="708766.986408" y="496663.449559"/>
+			  <point x="708767.952853" y="496673.486471"/>
+			  <point x="708778.238614" y="496672.496065"/>
+			  <point x="708777.272169" y="496662.459153"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="N52-501" type="explicit">
+			  <edge index="2" param="0.512397"/></portal>
+	</floor>
+	<space name="N52-501" type="U/M">
+		  <contour>
+			  <centroid x="708772.612329" y="496667.972830"/>
+			  <extent maxx="708777.147372" maxy="496672.395229" minx="708768.077650" miny="496663.550395"/>
+			  <point x="708768.852403" y="496672.395229"/>
+			  <point x="708768.077650" y="496664.349110"/>
+			  <point x="708776.372619" y="496663.550395"/>
+			  <point x="708777.147372" y="496671.596514"/>
+			  <point x="708768.852403" y="496672.395229"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="N52-5FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.484536"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="N52-503" type="U/M">
+		  <contour>
+			  <centroid x="708668.137974" y="496593.267324"/>
+			  <extent maxx="708672.247956" maxy="496599.251348" minx="708664.028031" miny="496587.283296"/>
+			  <point x="708671.161704" y="496587.283296"/>
+			  <point x="708672.247956" y="496598.564453"/>
+			  <point x="708665.114283" y="496599.251348"/>
+			  <point x="708664.028031" y="496587.970191"/>
+			  <point x="708671.161704" y="496587.283296"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+
+</MITquest>

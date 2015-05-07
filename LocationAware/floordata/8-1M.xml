@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor>
+		  <contour>
+			  <centroid x="710469.124416" y="495841.892283"/>
+			  <extent maxx="710503.095396" maxy="495865.160478" minx="710437.495189" miny="495816.674195"/>
+			  <point x="710496.339351" y="495862.917988"/>
+			  <point x="710503.095396" y="495848.093202"/>
+			  <point x="710501.730454" y="495847.471162"/>
+			  <point x="710501.903242" y="495847.092012"/>
+			  <point x="710468.841316" y="495832.024824"/>
+			  <point x="710473.679404" y="495821.408609"/>
+			  <point x="710463.290680" y="495816.674195"/>
+			  <point x="710458.452592" y="495827.290409"/>
+			  <point x="710444.424022" y="495820.897222"/>
+			  <point x="710437.495189" y="495836.101158"/>
+			  <point x="710458.386383" y="495845.621824"/>
+			  <point x="710457.228698" y="495848.162132"/>
+			  <point x="710460.982288" y="495849.872742"/>
+			  <point x="710460.895894" y="495850.062317"/>
+			  <point x="710460.857979" y="495850.045038"/>
+			  <point x="710455.985333" y="495860.737083"/>
+			  <point x="710465.691587" y="495865.160478"/>
+			  <point x="710471.808312" y="495851.738549"/>
+			  <point x="710496.339351" y="495862.917988"/>
+		</contour>
+	</floor>
+	<space name="8-100E1M" type="ELEV">
+		  <contour>
+			  <centroid x="710465.979588" y="495824.539077"/>
+			  <extent maxx="710473.127465" maxy="495831.852035" minx="710458.831742" miny="495817.226134"/>
+			  <point x="710458.831742" y="495827.463198"/>
+			  <point x="710463.497041" y="495817.226134"/>
+			  <point x="710473.127465" y="495821.614971"/>
+			  <point x="710468.462166" y="495831.852035"/>
+			  <point x="710458.831742" y="495827.463198"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-140M" type="explicit">
+			  <edge index="3" param="0.637795"/></portal>
+		  <portal class="horizontal" source="false" target="8-140M" type="explicit">
+			  <edge index="3" param="0.354331"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="8-100E1" type="ELEV"/><portal class="VERTICAL" direction="UP" target="8-200E1" type="ELEV"/></space>
+	<space name="8-139M" type="RES LO">
+		  <contour>
+			  <centroid x="710475.438902" y="495847.140584"/>
+			  <extent maxx="710493.654547" maxy="495861.044524" minx="710458.161488" miny="495832.594042"/>
+			  <point x="710469.085593" y="495832.594042"/>
+			  <point x="710493.654547" y="495843.790760"/>
+			  <point x="710487.071292" y="495858.236395"/>
+			  <point x="710471.601950" y="495851.186610"/>
+			  <point x="710467.109440" y="495861.044524"/>
+			  <point x="710458.161488" y="495856.966707"/>
+			  <point x="710461.409918" y="495849.838677"/>
+			  <point x="710461.258258" y="495849.769561"/>
+			  <point x="710469.085593" y="495832.594042"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-140M" type="explicit">
+			  <edge index="7" param="0.761589"/></portal>
+		  <portal class="horizontal" source="true" target="8-139MC" type="explicit">
+			  <edge index="4" param="0.233051"/></portal>
+		  <portal class="horizontal" source="true" target="8-139MA" type="explicit">
+			  <edge index="1" param="0.782152"/></portal>
+		  <portal class="horizontal" source="true" target="8-139MB" type="explicit">
+			  <edge index="4" param="0.758475"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="6"/>
+    <triangle v0="0" v1="6" v2="7"/>
+    <triangle v0="6" v1="3" v2="4"/>
+    <triangle v0="6" v1="4" v2="5"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-139MA" type="RES LO">
+		  <contour>
+			  <centroid x="710494.590461" y="495852.940179"/>
+			  <extent maxx="710501.730454" maxy="495861.916797" minx="710487.450443" miny="495843.963549"/>
+			  <point x="710494.033698" y="495843.963549"/>
+			  <point x="710501.730454" y="495847.471162"/>
+			  <point x="710495.147198" y="495861.916797"/>
+			  <point x="710487.450443" y="495858.409184"/>
+			  <point x="710494.033698" y="495843.963549"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-139M" type="explicit">
+			  <edge index="3" param="0.217848"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-139MB" type="LAB SV">
+		  <contour>
+			  <centroid x="710459.386293" y="495859.905936"/>
+			  <extent maxx="710462.235185" maxy="495862.465957" minx="710456.537273" miny="495857.345857"/>
+			  <point x="710457.988699" y="495857.345857"/>
+			  <point x="710462.235185" y="495859.281092"/>
+			  <point x="710460.783759" y="495862.465957"/>
+			  <point x="710456.537273" y="495860.530722"/>
+			  <point x="710457.988699" y="495857.345857"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-139M" type="explicit">
+			  <edge index="0" param="0.508929"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-139MC" type="LAB SV">
+		  <contour>
+			  <centroid x="710464.049759" y="495862.031200"/>
+			  <extent maxx="710466.936652" maxy="495864.608538" minx="710461.162909" miny="495859.453881"/>
+			  <point x="710466.936652" y="495861.423674"/>
+			  <point x="710465.485225" y="495864.608538"/>
+			  <point x="710461.162909" y="495862.638746"/>
+			  <point x="710462.614335" y="495859.453881"/>
+			  <point x="710466.936652" y="495861.423674"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-139M" type="explicit">
+			  <edge index="3" param="0.517544"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-140M" type="CONF">
+		  <contour>
+			  <centroid x="710454.021019" y="495834.718878"/>
+			  <extent maxx="710468.706442" maxy="495849.786348" minx="710439.032920" miny="495821.898412"/>
+			  <point x="710460.792713" y="495849.786348"/>
+			  <point x="710457.607849" y="495848.334921"/>
+			  <point x="710458.765534" y="495845.794613"/>
+			  <point x="710460.547541" y="495846.606720"/>
+			  <point x="710460.720330" y="495846.227570"/>
+			  <point x="710439.032920" y="495836.344047"/>
+			  <point x="710445.616175" y="495821.898412"/>
+			  <point x="710468.706442" y="495832.421253"/>
+			  <point x="710460.792713" y="495849.786348"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-139M" type="explicit">
+			  <edge index="7" param="0.235808"/></portal>
+		  <portal class="horizontal" source="true" target="8-100E1M" type="explicit">
+			  <edge index="6" param="0.715928"/></portal>
+		  <portal class="horizontal" source="true" target="8-100E1M" type="explicit">
+			  <edge index="6" param="0.834154"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+    <triangle v0="0" v1="4" v2="7"/>
+    <triangle v0="7" v1="4" v2="6"/>
+    <triangle v0="6" v1="4" v2="5"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+
+</MITquest>

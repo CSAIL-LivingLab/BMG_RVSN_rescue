@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="712023.436965" y="496390.655238"/>
+			  <extent maxx="712086.032285" maxy="496504.335428" minx="711961.941181" miny="496273.893528"/>
+			  <point x="712086.032285" y="496491.385038"/>
+			  <point x="712069.206961" y="496316.647379"/>
+			  <point x="712059.513015" y="496302.527857"/>
+			  <point x="711997.246118" y="496273.893528"/>
+			  <point x="711961.941181" y="496277.293007"/>
+			  <point x="711981.569476" y="496481.140633"/>
+			  <point x="712003.622995" y="496499.320151"/>
+			  <point x="712057.497594" y="496494.132617"/>
+			  <point x="712058.480013" y="496504.335428"/>
+			  <point x="712073.908654" y="496502.849818"/>
+			  <point x="712073.429425" y="496497.872837"/>
+			  <point x="712079.816551" y="496497.257827"/>
+			  <point x="712079.313360" y="496492.031997"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E42-000SC" type="explicit">
+			  <edge index="8" param="0.844086"/></portal>
+	</floor>
+	<space name="E42-000SC" type="STAIR">
+		  <contour>
+			  <centroid x="712073.171793" y="496496.392757"/>
+			  <extent maxx="712079.270930" maxy="496502.767452" minx="712068.612851" miny="496492.079920"/>
+			  <point x="712068.612851" y="496493.062339"/>
+			  <point x="712078.815662" y="496492.079920"/>
+			  <point x="712079.270930" y="496496.808052"/>
+			  <point x="712072.883804" y="496497.423062"/>
+			  <point x="712073.363033" y="496502.400043"/>
+			  <point x="712069.547347" y="496502.767452"/>
+			  <point x="712068.612851" y="496493.062339"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="E42-0FLOORCONTOUR" type="explicit">
+			  <edge index="4" param="0.500000"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="UP" target="E42-100SC" type="STAIR"/></space>
+	<space name="E42-001" type="U/M">
+		  <contour>
+			  <centroid x="712076.589976" y="496476.459023"/>
+			  <extent maxx="712085.486664" maxy="496492.564641" minx="712066.775808" miny="496457.091792"/>
+			  <point x="712071.195600" y="496458.154083"/>
+			  <point x="712082.227908" y="496457.091792"/>
+			  <point x="712085.486664" y="496490.935263"/>
+			  <point x="712068.564928" y="496492.564641"/>
+			  <point x="712066.775808" y="496473.983912"/>
+			  <point x="712072.665235" y="496473.416824"/>
+			  <point x="712071.195600" y="496458.154083"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+
+</MITquest>

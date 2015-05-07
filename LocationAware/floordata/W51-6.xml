@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708403.943495" y="494315.783560"/>
+			  <extent maxx="708416.215792" maxy="494329.397211" minx="708391.671186" miny="494302.169903"/>
+			  <point x="708406.988868" y="494329.397211"/>
+			  <point x="708416.215792" y="494309.150573"/>
+			  <point x="708400.898111" y="494302.169903"/>
+			  <point x="708391.671186" y="494322.416541"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W51-600SI" type="explicit">
+			  <edge index="0" param="0.353933"/></portal>
+	</floor>
+	<space name="W51-600SI" type="STAIR">
+		  <contour>
+			  <centroid x="708401.645398" y="494320.826259"/>
+			  <extent maxx="708409.935947" maxy="494327.548460" minx="708393.354848" miny="494314.104058"/>
+			  <point x="708393.354848" y="494321.535408"/>
+			  <point x="708396.741509" y="494314.104058"/>
+			  <point x="708409.935947" y="494320.117110"/>
+			  <point x="708406.549286" y="494327.548460"/>
+			  <point x="708393.354848" y="494321.535408"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="BMAP-5764" type="TRANSITION">
+			  <edge index="2" param="0.219388"/></portal>
+	  <portal class="horizontal" target="W51-602" type="implicit">
+      <edge index="1" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W51-500SI" type="STAIR"/></space>
+	<space name="W51-600SL" type="STAIR">
+		  <contour>
+			  <centroid x="708578.228055" y="494391.261163"/>
+			  <extent maxx="708585.621234" maxy="494398.767640" minx="708571.011537" miny="494383.756054"/>
+			  <point x="708571.011537" y="494394.897170"/>
+			  <point x="708575.365816" y="494385.342576"/>
+			  <point x="708580.370603" y="494387.623389"/>
+			  <point x="708582.133049" y="494383.756054"/>
+			  <point x="708585.621234" y="494385.345711"/>
+			  <point x="708579.504509" y="494398.767640"/>
+			  <point x="708571.011537" y="494394.897170"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W51-500SL" type="STAIR"/></space>
+	<space name="W51-600SP" type="STAIR">
+		  <contour>
+			  <centroid x="708617.959166" y="494395.519803"/>
+			  <extent maxx="708622.346822" maxy="494398.938071" minx="708613.391437" miny="494392.160667"/>
+			  <point x="708622.346822" y="494395.580418"/>
+			  <point x="708621.274546" y="494398.938071"/>
+			  <point x="708613.391437" y="494395.345531"/>
+			  <point x="708614.842863" y="494392.160667"/>
+			  <point x="708622.346822" y="494395.580418"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W51-601" type="explicit">
+			  <edge index="0" param="0.424853"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W51-601" type="U/M">
+		  <contour>
+			  <centroid x="708626.061524" y="494404.892994"/>
+			  <extent maxx="708634.332005" maxy="494412.230312" minx="708619.131246" miny="494394.996374"/>
+			  <point x="708623.074772" y="494394.996374"/>
+			  <point x="708634.332005" y="494407.269752"/>
+			  <point x="708629.140820" y="494412.230312"/>
+			  <point x="708619.131246" y="494407.668686"/>
+			  <point x="708621.732748" y="494399.146886"/>
+			  <point x="708622.805024" y="494395.789233"/>
+			  <point x="708623.074772" y="494394.996374"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W51-600SP" type="explicit">
+			  <edge index="4" param="0.592035"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="W51-602" type="U/M">
+		  <contour>
+			  <centroid x="708405.705931" y="494311.916220"/>
+			  <extent maxx="708414.670362" maxy="494320.117110" minx="708396.741509" miny="494303.715333"/>
+			  <point x="708414.670362" y="494309.728385"/>
+			  <point x="708409.935947" y="494320.117110"/>
+			  <point x="708396.741509" y="494314.104058"/>
+			  <point x="708401.475924" y="494303.715333"/>
+			  <point x="708414.670362" y="494309.728385"/>
+		</contour>
+	  <portal class="horizontal" target="W51-600SI" type="implicit">
+      <edge index="1" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+
+</MITquest>

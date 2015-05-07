@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708628.365057" y="495461.291170"/>
+			  <extent maxx="708827.163241" maxy="495614.029450" minx="708429.664541" miny="495308.638024"/>
+			  <point x="708827.163241" y="495539.257688"/>
+			  <point x="708788.804493" y="495513.868587"/>
+			  <point x="708788.988472" y="495513.590625"/>
+			  <point x="708752.158515" y="495489.213408"/>
+			  <point x="708749.628804" y="495493.035384"/>
+			  <point x="708745.806827" y="495490.505673"/>
+			  <point x="708748.336538" y="495486.683697"/>
+			  <point x="708479.338870" y="495308.638024"/>
+			  <point x="708429.664541" y="495383.687748"/>
+			  <point x="708777.672891" y="495614.029450"/>
+			  <point x="708827.163241" y="495539.257688"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W45-101" type="explicit">
+			  <edge index="7" param="0.210185"/></portal>
+		  <portal class="horizontal" source="true" target="W45-100SB" type="explicit">
+			  <edge index="4" param="0.463636"/></portal>
+	  <portal class="horizontal" target="W45-101" type="implicit">
+      <edge index="0" maxparam="0.00724637832269" minparam="1.0"/>
+    </portal>
+  </floor>
+	<space name="W45-100SA" type="STAIR">
+		  <contour>
+			  <centroid x="708440.741590" y="495385.523131"/>
+			  <extent maxx="708451.356682" maxy="495394.540516" minx="708430.126482" miny="495376.505736"/>
+			  <point x="708430.126482" y="495383.593765"/>
+			  <point x="708434.817947" y="495376.505736"/>
+			  <point x="708451.356682" y="495387.452486"/>
+			  <point x="708446.665218" y="495394.540516"/>
+			  <point x="708430.126482" y="495383.593765"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W45-001SA" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W45-200SA" type="STAIR"/></space>
+	<space name="W45-100SB" type="STAIR">
+		  <contour>
+			  <centroid x="708740.113974" y="495490.519393"/>
+			  <extent maxx="708749.444825" maxy="495501.026790" minx="708729.885387" miny="495479.924462"/>
+			  <point x="708737.520515" y="495479.924462"/>
+			  <point x="708747.874597" y="495486.777680"/>
+			  <point x="708745.528865" y="495490.321694"/>
+			  <point x="708745.806827" y="495490.505673"/>
+			  <point x="708745.622848" y="495490.783635"/>
+			  <point x="708739.438195" y="495486.690103"/>
+			  <point x="708739.254216" y="495486.968065"/>
+			  <point x="708739.532178" y="495487.152044"/>
+			  <point x="708736.956472" y="495491.043511"/>
+			  <point x="708743.349597" y="495495.275028"/>
+			  <point x="708743.533576" y="495494.997066"/>
+			  <point x="708737.418413" y="495490.949528"/>
+			  <point x="708739.810140" y="495487.336023"/>
+			  <point x="708745.438869" y="495491.061597"/>
+			  <point x="708745.622848" y="495490.783635"/>
+			  <point x="708749.444825" y="495493.313346"/>
+			  <point x="708744.339408" y="495501.026790"/>
+			  <point x="708729.885387" y="495491.459883"/>
+			  <point x="708737.520515" y="495479.924462"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="BMAP-6949" type="TRANSITION">
+			  <edge index="14" param="0.536364"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="0" v1="5" v2="6"/>
+    <triangle v0="0" v1="6" v2="17"/>
+    <triangle v0="17" v1="6" v2="8"/>
+    <triangle v0="17" v1="8" v2="16"/>
+    <triangle v0="16" v1="8" v2="9"/>
+    <triangle v0="16" v1="9" v2="10"/>
+    <triangle v0="16" v1="10" v2="15"/>
+    <triangle v0="15" v1="10" v2="13"/>
+    <triangle v0="15" v1="13" v2="4"/>
+    <triangle v0="13" v1="10" v2="11"/>
+    <triangle v0="13" v1="11" v2="12"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W45-001SB" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W45-200SB" type="STAIR"/></space>
+	<space name="W45-101" type="VEHICLE STORAGE">
+		  <contour>
+			  <centroid x="708628.658069" y="495461.517614"/>
+			  <extent maxx="708826.885279" maxy="495613.567509" minx="708435.369884" miny="495309.099965"/>
+			  <point x="708777.578908" y="495613.567509"/>
+			  <point x="708447.499104" y="495395.092453"/>
+			  <point x="708452.742505" y="495387.170537"/>
+			  <point x="708435.369884" y="495375.671850"/>
+			  <point x="708479.432853" y="495309.099965"/>
+			  <point x="708736.825610" y="495479.464515"/>
+			  <point x="708728.730534" y="495491.694840"/>
+			  <point x="708733.316906" y="495494.730493"/>
+			  <point x="708731.109158" y="495498.066037"/>
+			  <point x="708726.314315" y="495494.892399"/>
+			  <point x="708726.222325" y="495495.031380"/>
+			  <point x="708731.156150" y="495498.297007"/>
+			  <point x="708733.455887" y="495494.822483"/>
+			  <point x="708744.574365" y="495502.181643"/>
+			  <point x="708752.669441" y="495489.951317"/>
+			  <point x="708788.804493" y="495513.868587"/>
+			  <point x="708826.885279" y="495539.073709"/>
+			  <point x="708777.578908" y="495613.567509"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="BMAP-6567" type="TRANSITION">
+			  <edge index="3" param="0.767223"/></portal>
+	  <portal class="horizontal" target="FLOORCONTOUR" type="implicit">
+      <edge index="15" maxparam="0.0" minparam="1.00729927161"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="10"/>
+    <triangle v0="0" v1="10" v2="11"/>
+    <triangle v0="0" v1="11" v2="13"/>
+    <triangle v0="0" v1="13" v2="15"/>
+    <triangle v0="0" v1="15" v2="16"/>
+    <triangle v0="15" v1="13" v2="14"/>
+    <triangle v0="13" v1="11" v2="12"/>
+    <triangle v0="10" v1="1" v2="2"/>
+    <triangle v0="10" v1="2" v2="9"/>
+    <triangle v0="9" v1="2" v2="5"/>
+    <triangle v0="9" v1="5" v2="6"/>
+    <triangle v0="9" v1="6" v2="8"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

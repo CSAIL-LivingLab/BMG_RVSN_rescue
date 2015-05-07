@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709033.498601" y="495320.302743"/>
+			  <extent maxx="709078.167110" maxy="495382.945287" minx="708988.860069" miny="495257.522807"/>
+			  <point x="708988.860069" y="495364.145860"/>
+			  <point x="709030.111647" y="495382.945287"/>
+			  <point x="709078.167110" y="495277.497198"/>
+			  <point x="709034.337308" y="495257.522807"/>
+			  <point x="709026.964985" y="495273.699895"/>
+			  <point x="709029.543208" y="495274.874859"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W35-500SF" type="explicit">
+			  <edge index="0" param="0.073530"/></portal>
+		  <portal class="horizontal" source="false" target="W35-500SF" type="explicit">
+			  <edge index="0" param="0.073530"/></portal>
+	</floor>
+	<space name="W35-500SF" type="STAIR">
+		  <contour>
+			  <centroid x="708998.786785" y="495364.398685"/>
+			  <extent maxx="709008.492547" maxy="495369.715571" minx="708989.963948" miny="495359.183331"/>
+			  <point x="708989.963948" y="495363.733137"/>
+			  <point x="708994.362094" y="495365.737488"/>
+			  <point x="708995.053250" y="495364.220886"/>
+			  <point x="709007.110236" y="495369.715571"/>
+			  <point x="709008.492547" y="495366.682367"/>
+			  <point x="708992.037414" y="495359.183331"/>
+			  <point x="708990.309526" y="495362.974836"/>
+			  <point x="708990.840336" y="495363.216740"/>
+			  <point x="708990.563874" y="495363.823381"/>
+			  <point x="708990.033064" y="495363.581477"/>
+			  <point x="708989.963948" y="495363.733137"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W35-5FLOORCONTOUR" type="explicit">
+			  <edge index="0" param="0.517250"/></portal>
+		  <portal class="horizontal" source="true" target="W35-5FLOORCONTOUR" type="explicit">
+			  <edge index="0" param="0.517250"/></portal>
+	  <triangle v0="1" v1="0" v2="8"/>
+    <triangle v0="1" v1="8" v2="7"/>
+    <triangle v0="1" v1="7" v2="2"/>
+    <triangle v0="2" v1="7" v2="5"/>
+    <triangle v0="2" v1="5" v2="4"/>
+    <triangle v0="2" v1="4" v2="3"/>
+    <triangle v0="5" v1="7" v2="6"/>
+    <triangle v0="8" v1="0" v2="9"/>
+  <portal class="VERTICAL" direction="DOWN" target="W35-400SA" type="STAIR"/></space>
+
+</MITquest>

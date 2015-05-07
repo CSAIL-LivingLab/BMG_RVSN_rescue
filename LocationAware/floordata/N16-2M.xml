@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor>
+		  <contour>
+			  <centroid x="709545.774663" y="496234.031446"/>
+			  <extent maxx="709558.374302" maxy="496246.607589" minx="709533.175025" miny="496221.455304"/>
+			  <point x="709548.393441" y="496246.607589"/>
+			  <point x="709558.374302" y="496231.528154"/>
+			  <point x="709543.155886" y="496221.455304"/>
+			  <point x="709533.175025" y="496236.534739"/>
+			  <point x="709548.393441" y="496246.607589"/>
+		</contour>
+	</floor>
+	<space name="N16-200SM" type="STAIR">
+		  <contour>
+			  <centroid x="709543.398807" y="496235.949594"/>
+			  <extent maxx="709552.180533" maxy="496244.388877" minx="709535.090286" miny="496226.500627"/>
+			  <point x="709535.090286" y="496235.603880"/>
+			  <point x="709541.115598" y="496226.500627"/>
+			  <point x="709545.285027" y="496229.260312"/>
+			  <point x="709543.077279" y="496232.595855"/>
+			  <point x="709552.180533" y="496238.621167"/>
+			  <point x="709548.362969" y="496244.388877"/>
+			  <point x="709535.090286" y="496235.603880"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="N16-200SA" type="STAIR"/><portal class="VERTICAL" direction="UP" target="N16-300SA" type="STAIR"/></space>
+
+</MITquest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708628.505888" y="495461.333742"/>
+			  <extent maxx="708827.347220" maxy="495614.029450" minx="708429.664541" miny="495308.638024"/>
+			  <point x="708827.347220" y="495538.979726"/>
+			  <point x="708479.338870" y="495308.638024"/>
+			  <point x="708429.664541" y="495383.687748"/>
+			  <point x="708777.672891" y="495614.029450"/>
+			  <point x="708827.347220" y="495538.979726"/>
+		</contour>
+	</floor>
+	<space name="W45-200SA" type="STAIR">
+		  <contour>
+			  <centroid x="708440.741590" y="495385.523131"/>
+			  <extent maxx="708451.356682" maxy="495394.540516" minx="708430.126482" miny="495376.505736"/>
+			  <point x="708430.126482" y="495383.593765"/>
+			  <point x="708434.817947" y="495376.505736"/>
+			  <point x="708451.356682" y="495387.452486"/>
+			  <point x="708446.665218" y="495394.540516"/>
+			  <point x="708430.126482" y="495383.593765"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W45-100SA" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W45-300SA" type="STAIR"/></space>
+	<space name="W45-200SB" type="STAIR">
+		  <contour>
+			  <centroid x="708742.102936" y="495488.703691"/>
+			  <extent maxx="708751.974536" maxy="495497.482776" minx="708732.231119" miny="495479.924462"/>
+			  <point x="708737.520515" y="495479.924462"/>
+			  <point x="708751.974536" y="495489.491370"/>
+			  <point x="708746.685140" y="495497.482776"/>
+			  <point x="708732.231119" y="495487.915868"/>
+			  <point x="708737.520515" y="495479.924462"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="W45-100SB" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W45-300SB" type="STAIR"/></space>
+	<space name="W45-201" type="VEHICLE STORAGE">
+		  <contour>
+			  <centroid x="708628.901988" y="495461.592961"/>
+			  <extent maxx="708826.885279" maxy="495613.567509" minx="708435.369884" miny="495309.099965"/>
+			  <point x="708777.578908" y="495613.567509"/>
+			  <point x="708447.499104" y="495395.092453"/>
+			  <point x="708452.742505" y="495387.170537"/>
+			  <point x="708435.369884" y="495375.671850"/>
+			  <point x="708479.432853" y="495309.099965"/>
+			  <point x="708736.825610" y="495479.464515"/>
+			  <point x="708731.076267" y="495488.150825"/>
+			  <point x="708746.920097" y="495498.637628"/>
+			  <point x="708752.669441" y="495489.951317"/>
+			  <point x="708826.885279" y="495539.073709"/>
+			  <point x="708777.578908" y="495613.567509"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="6"/>
+    <triangle v0="0" v1="6" v2="7"/>
+    <triangle v0="0" v1="7" v2="9"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="6" v1="1" v2="2"/>
+    <triangle v0="6" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

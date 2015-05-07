@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="711971.522727" y="496282.900289"/>
+			  <extent maxx="711980.223226" maxy="496286.203650" minx="711962.822262" miny="496279.597291"/>
+			  <point x="711977.491673" y="496284.837290"/>
+			  <point x="711980.223226" y="496284.574272"/>
+			  <point x="711979.743997" y="496279.597291"/>
+			  <point x="711962.822262" y="496281.226669"/>
+			  <point x="711963.301491" y="496286.203650"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E42-400SA" type="explicit">
+			  <edge index="1" param="0.533333"/></portal>
+	</floor>
+	<space name="E42-400SA" type="STAIR">
+		  <contour>
+			  <centroid x="711971.522744" y="496282.900470"/>
+			  <extent maxx="711979.677605" maxy="496285.658029" minx="711963.367883" miny="496280.142912"/>
+			  <point x="711979.677605" y="496284.124496"/>
+			  <point x="711963.751266" y="496285.658029"/>
+			  <point x="711963.367883" y="496281.676444"/>
+			  <point x="711979.294222" y="496280.142912"/>
+			  <point x="711979.677605" y="496284.124496"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="BMAP-6336" type="TRANSITION">
+			  <edge index="3" param="0.458333"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="E42-300SA" type="STAIR"/></space>
+	<space name="E42-400SB" type="STAIR">
+		  <contour>
+			  <centroid x="712034.330829" y="496483.837676"/>
+			  <extent maxx="712039.168873" maxy="496496.055024" minx="712030.383027" miny="496475.214434"/>
+			  <point x="712030.383027" y="496475.981201"/>
+			  <point x="712038.346197" y="496475.214434"/>
+			  <point x="712039.168873" y="496483.758252"/>
+			  <point x="712034.938439" y="496484.165596"/>
+			  <point x="712036.048653" y="496495.695602"/>
+			  <point x="712032.315917" y="496496.055024"/>
+			  <point x="712030.383027" y="496475.981201"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="E42-300SB" type="STAIR"/></space>
+	<space name="E42-407" type="U/M">
+		  <contour>
+			  <centroid x="712063.522470" y="496498.450032"/>
+			  <extent maxx="712069.049649" maxy="496503.789807" minx="712057.995292" miny="496493.110262"/>
+			  <point x="712069.049649" y="496502.815375"/>
+			  <point x="712058.929788" y="496503.789807"/>
+			  <point x="712057.995292" y="496494.084694"/>
+			  <point x="712068.115153" y="496493.110262"/>
+			  <point x="712069.049649" y="496502.815375"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

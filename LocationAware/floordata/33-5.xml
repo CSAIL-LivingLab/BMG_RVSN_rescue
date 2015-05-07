@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709623.807360" y="495918.284636"/>
+			  <extent maxx="709635.601960" maxy="495930.241591" minx="709609.758128" miny="495906.327529"/>
+			  <point x="709621.132644" y="495916.970963"/>
+			  <point x="709617.573194" y="495924.781463"/>
+			  <point x="709629.554350" y="495930.241591"/>
+			  <point x="709635.601960" y="495916.971323"/>
+			  <point x="709635.601960" y="495916.971323"/>
+			  <point x="709635.601960" y="495916.971323"/>
+			  <point x="709635.601960" y="495916.971323"/>
+			  <point x="709613.535399" y="495906.915011"/>
+			  <point x="709613.535399" y="495906.915011"/>
+			  <point x="709612.246287" y="495906.327529"/>
+			  <point x="709609.758128" y="495911.787297"/>
+			  <point x="709621.132644" y="495916.970963"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="33-500SB" type="explicit">
+			  <edge index="2" param="0.285714"/></portal>
+		  <portal class="horizontal" source="false" target="33-500SB" type="explicit">
+			  <edge index="1" param="0.231013"/></portal>
+		  <portal class="horizontal" source="false" target="33-500SB" type="explicit">
+			  <edge index="1" param="0.452532"/></portal>
+		  <portal class="horizontal" source="false" target="33-500SB" type="explicit">
+			  <edge index="1" param="0.781646"/></portal>
+	</floor>
+	<space name="33-500SB" type="STAIR">
+		  <contour>
+			  <centroid x="709624.228686" y="495918.563596"/>
+			  <extent maxx="709634.277306" maxy="495928.916937" minx="709611.082782" miny="495907.652184"/>
+			  <point x="709611.082782" y="495911.292029"/>
+			  <point x="709612.741555" y="495907.652184"/>
+			  <point x="709634.277306" y="495917.466591"/>
+			  <point x="709629.059082" y="495928.916937"/>
+			  <point x="709618.897848" y="495924.286195"/>
+			  <point x="709622.457298" y="495916.475695"/>
+			  <point x="709611.082782" y="495911.292029"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="33-5FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.748344"/></portal>
+		  <portal class="horizontal" source="true" target="33-5FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.817164"/></portal>
+		  <portal class="horizontal" source="true" target="33-5FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.555970"/></portal>
+		  <portal class="horizontal" source="true" target="33-5FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.167910"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  <portal class="VERTICAL" direction="DOWN" target="33-400SB" type="STAIR"/></space>
+
+</MITquest>

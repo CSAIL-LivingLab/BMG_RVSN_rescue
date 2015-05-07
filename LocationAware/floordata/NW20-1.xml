@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708386.234533" y="495561.103055"/>
+			  <extent maxx="708424.290054" maxy="495615.578155" minx="708346.988962" miny="495505.089865"/>
+			  <point x="708346.988962" y="495602.382158"/>
+			  <point x="708369.391321" y="495615.578155"/>
+			  <point x="708424.290054" y="495522.378601"/>
+			  <point x="708414.883935" y="495516.837974"/>
+			  <point x="708417.294742" y="495512.745235"/>
+			  <point x="708404.298503" y="495505.089865"/>
+			  <point x="708346.988962" y="495602.382158"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="NW20-100" type="explicit">
+			  <edge index="2" param="0.293740"/></portal>
+		  <portal class="horizontal" source="true" target="NW20-100" type="explicit">
+			  <edge index="0" param="0.219616"/></portal>
+		  <portal class="horizontal" source="true" target="NW20-101" type="explicit">
+			  <edge index="3" param="0.438596"/></portal>
+		  <portal class="horizontal" source="true" target="NW20-100" type="explicit">
+			  <edge index="1" param="0.288906"/></portal>
+		  <portal class="horizontal" source="true" target="NW20-100" type="explicit">
+			  <edge index="1" param="0.583975"/></portal>
+		  <portal class="horizontal" source="true" target="NW20-100" type="explicit">
+			  <edge index="1" param="0.078582"/></portal>
+	</floor>
+	<space name="NW20-100" type="LAB SV">
+		  <contour>
+			  <centroid x="708385.417266" y="495562.539012"/>
+			  <extent maxx="708423.149081" maxy="495614.437182" minx="708348.129935" miny="495510.323576"/>
+			  <point x="708405.469828" y="495552.687092"/>
+			  <point x="708413.125198" y="495539.690853"/>
+			  <point x="708399.195526" y="495531.485649"/>
+			  <point x="708399.364706" y="495531.198439"/>
+			  <point x="708413.294377" y="495539.403643"/>
+			  <point x="708423.149081" y="495522.673677"/>
+			  <point x="708415.466221" y="495518.148126"/>
+			  <point x="708414.366554" y="495520.014989"/>
+			  <point x="708408.837767" y="495516.758285"/>
+			  <point x="708409.937433" y="495514.891422"/>
+			  <point x="708402.182771" y="495510.323576"/>
+			  <point x="708348.129935" y="495602.087082"/>
+			  <point x="708369.096245" y="495614.437182"/>
+			  <point x="708385.591242" y="495586.434235"/>
+			  <point x="708381.857515" y="495584.234902"/>
+			  <point x="708386.594540" y="495576.193029"/>
+			  <point x="708388.676811" y="495577.419580"/>
+			  <point x="708383.940209" y="495585.460734"/>
+			  <point x="708385.591665" y="495586.433516"/>
+			  <point x="708404.539341" y="495554.266746"/>
+			  <point x="708402.098058" y="495552.828720"/>
+			  <point x="708403.028545" y="495551.249067"/>
+			  <point x="708405.469828" y="495552.687092"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NW20-1FLOORCONTOUR" type="explicit">
+			  <edge index="5" param="0.278741"/></portal>
+		  <portal class="horizontal" source="false" target="NW20-1FLOORCONTOUR" type="explicit">
+			  <edge index="11" param="0.195804"/></portal>
+		  <portal class="horizontal" source="false" target="NW20-1FLOORCONTOUR" type="explicit">
+			  <edge index="12" param="0.935897"/></portal>
+		  <portal class="horizontal" source="false" target="NW20-1FLOORCONTOUR" type="explicit">
+			  <edge index="18" param="0.799103"/></portal>
+		  <portal class="horizontal" source="false" target="NW20-1FLOORCONTOUR" type="explicit">
+			  <edge index="12" param="0.235897"/></portal>
+	  <portal class="horizontal" target="NW20-100SB" type="implicit">
+      <edge index="8" maxparam="1" minparam="0"/>
+    </portal>
+    <portal class="horizontal" target="NW20-100SA" type="implicit">
+      <edge index="16" maxparam="-0.0" minparam="1.00008930454"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="21"/>
+    <triangle v0="1" v1="21" v2="2"/>
+    <triangle v0="2" v1="21" v2="20"/>
+    <triangle v0="2" v1="20" v2="15"/>
+    <triangle v0="2" v1="15" v2="11"/>
+    <triangle v0="2" v1="11" v2="10"/>
+    <triangle v0="2" v1="10" v2="3"/>
+    <triangle v0="3" v1="10" v2="8"/>
+    <triangle v0="3" v1="8" v2="7"/>
+    <triangle v0="3" v1="7" v2="4"/>
+    <triangle v0="4" v1="7" v2="5"/>
+    <triangle v0="5" v1="7" v2="6"/>
+    <triangle v0="8" v1="10" v2="9"/>
+    <triangle v0="11" v1="15" v2="14"/>
+    <triangle v0="11" v1="14" v2="12"/>
+    <triangle v0="12" v1="14" v2="13"/>
+    <triangle v0="15" v1="20" v2="16"/>
+    <triangle v0="16" v1="20" v2="19"/>
+    <triangle v0="16" v1="19" v2="18"/>
+    <triangle v0="16" v1="18" v2="17"/>
+  </space>
+	<space name="NW20-100SA" type="LAB SV">
+		  <contour>
+			  <centroid x="708385.267170" y="495580.827245"/>
+			  <extent maxx="708388.676811" maxy="495585.461453" minx="708381.857515" miny="495576.193029"/>
+			  <point x="708381.857515" y="495584.234902"/>
+			  <point x="708383.939786" y="495585.461453"/>
+			  <point x="708388.676811" y="495577.419580"/>
+			  <point x="708386.594540" y="495576.193029"/>
+			  <point x="708381.857515" y="495584.234902"/>
+		</contour>
+	  <portal class="horizontal" target="NW20-100" type="implicit">
+      <edge index="1" maxparam="8.92965685665e-05" minparam="1.0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+  </space>
+	<space name="NW20-100SB" type="LAB SV">
+		  <contour>
+			  <centroid x="708412.025109" y="495517.668613"/>
+			  <extent maxx="708415.466221" maxy="495520.445804" minx="708408.583998" miny="495514.891422"/>
+			  <point x="708409.937433" y="495514.891422"/>
+			  <point x="708415.466221" y="495518.148126"/>
+			  <point x="708414.112785" y="495520.445804"/>
+			  <point x="708408.583998" y="495517.189099"/>
+			  <point x="708409.937433" y="495514.891422"/>
+		</contour>
+	  <portal class="horizontal" target="NW20-100" type="implicit">
+      <edge index="3" maxparam="1" minparam="0.187499953789"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="NW20-101" type="LAB SV">
+		  <contour>
+			  <centroid x="708409.379746" y="495511.322933"/>
+			  <extent maxx="708416.153769" maxy="495516.415025" minx="708402.605720" miny="495506.230838"/>
+			  <point x="708402.605720" y="495509.605552"/>
+			  <point x="708404.593578" y="495506.230838"/>
+			  <point x="708416.153769" y="495513.040311"/>
+			  <point x="708414.165911" y="495516.415025"/>
+			  <point x="708402.605720" y="495509.605552"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NW20-1FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.468085"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709489.846039" y="496259.022227"/>
+			  <extent maxx="709537.442694" maxy="496315.535514" minx="709442.249388" miny="496202.508943"/>
+			  <point x="709442.249388" y="496291.526255"/>
+			  <point x="709478.523421" y="496315.535514"/>
+			  <point x="709537.442694" y="496226.518202"/>
+			  <point x="709501.168661" y="496202.508943"/>
+			  <point x="709442.249388" y="496291.526255"/>
+		</contour>
+	</floor>
+	<space name="N16A-200SA" type="STAIR">
+		  <contour>
+			  <centroid x="709525.059076" y="496224.467589"/>
+			  <extent maxx="709536.056872" maxy="496233.679709" minx="709514.061280" miny="496215.255469"/>
+			  <point x="709514.061280" y="496222.135027"/>
+			  <point x="709518.614760" y="496215.255469"/>
+			  <point x="709536.056872" y="496226.800151"/>
+			  <point x="709531.503391" y="496233.679709"/>
+			  <point x="709514.061280" y="496222.135027"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="N16A-215" type="explicit">
+			  <edge index="3" param="0.749004"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="N16A-210E" type="ELEC">
+		  <contour>
+			  <centroid x="709481.612182" y="496255.478499"/>
+			  <extent maxx="709517.507896" maxy="496303.288950" minx="709445.715938" miny="496205.949008"/>
+			  <point x="709515.800535" y="496223.885818"/>
+			  <point x="709506.141638" y="496238.478820"/>
+			  <point x="709502.458642" y="496236.041098"/>
+			  <point x="709487.786317" y="496258.208563"/>
+			  <point x="709491.747275" y="496260.830263"/>
+			  <point x="709463.644484" y="496303.288950"/>
+			  <point x="709445.715938" y="496291.422305"/>
+			  <point x="709502.289479" y="496205.949008"/>
+			  <point x="709517.507896" y="496216.021858"/>
+			  <point x="709513.368368" y="496222.276002"/>
+			  <point x="709515.800535" y="496223.885818"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="N16A-215" type="explicit">
+			  <edge index="0" param="0.169048"/></portal>
+		  <portal class="horizontal" source="true" target="N16A-215" type="explicit">
+			  <edge index="4" param="0.812193"/></portal>
+		  <portal class="horizontal" source="true" target="N16A-215" type="explicit">
+			  <edge index="4" param="0.737725"/></portal>
+	  <triangle v0="0" v1="1" v2="9"/>
+    <triangle v0="9" v1="1" v2="2"/>
+    <triangle v0="9" v1="2" v2="7"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="7" v1="2" v2="3"/>
+    <triangle v0="7" v1="3" v2="6"/>
+    <triangle v0="6" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="N16A-215" type="U/M">
+		  <contour>
+			  <centroid x="709497.832656" y="496261.300384"/>
+			  <extent maxx="709531.227423" maxy="496306.448633" minx="709443.635211" miny="496203.894766"/>
+			  <point x="709501.450610" y="496203.894766"/>
+			  <point x="709518.197817" y="496214.979501"/>
+			  <point x="709517.829859" y="496215.535424"/>
+			  <point x="709502.125009" y="496205.140611"/>
+			  <point x="709444.907542" y="496291.586775"/>
+			  <point x="709463.808954" y="496304.097346"/>
+			  <point x="709492.555672" y="496260.665793"/>
+			  <point x="709488.594714" y="496258.044093"/>
+			  <point x="709502.623112" y="496236.849495"/>
+			  <point x="709506.306108" y="496239.287216"/>
+			  <point x="709516.286969" y="496224.207781"/>
+			  <point x="709531.227423" y="496234.096652"/>
+			  <point x="709492.085892" y="496293.233055"/>
+			  <point x="709484.789391" y="496288.403606"/>
+			  <point x="709475.820415" y="496301.954251"/>
+			  <point x="709475.681434" y="496301.862261"/>
+			  <point x="709472.645780" y="496306.448633"/>
+			  <point x="709467.781446" y="496303.229001"/>
+			  <point x="709465.941657" y="496306.008620"/>
+			  <point x="709443.635211" y="496291.244306"/>
+			  <point x="709501.450610" y="496203.894766"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="N16A-200SA" type="explicit">
+			  <edge index="10" param="0.125581"/></portal>
+		  <portal class="horizontal" source="false" target="N16A-210E" type="explicit">
+			  <edge index="9" param="0.836406"/></portal>
+		  <portal class="horizontal" source="false" target="N16A-210E" type="explicit">
+			  <edge index="5" param="0.194800"/></portal>
+		  <portal class="horizontal" source="false" target="N16A-210E" type="explicit">
+			  <edge index="5" param="0.267600"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="19"/>
+    <triangle v0="19" v1="3" v2="4"/>
+    <triangle v0="19" v1="4" v2="5"/>
+    <triangle v0="19" v1="5" v2="18"/>
+    <triangle v0="18" v1="5" v2="17"/>
+    <triangle v0="17" v1="5" v2="13"/>
+    <triangle v0="17" v1="13" v2="15"/>
+    <triangle v0="17" v1="15" v2="16"/>
+    <triangle v0="15" v1="13" v2="14"/>
+    <triangle v0="13" v1="5" v2="6"/>
+    <triangle v0="13" v1="6" v2="12"/>
+    <triangle v0="12" v1="6" v2="11"/>
+    <triangle v0="11" v1="6" v2="9"/>
+    <triangle v0="11" v1="9" v2="10"/>
+    <triangle v0="9" v1="6" v2="7"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+
+</MITquest>

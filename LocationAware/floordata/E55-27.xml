@@ -1,0 +1,279 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="712323.199827" y="496452.829421"/>
+			  <extent maxx="712373.447440" maxy="496503.365940" minx="712272.952216" miny="496402.292903"/>
+			  <point x="712341.654292" y="496503.365940"/>
+			  <point x="712373.447440" y="496433.602243"/>
+			  <point x="712304.745364" y="496402.292903"/>
+			  <point x="712272.952216" y="496472.056600"/>
+			  <point x="712341.654292" y="496503.365940"/>
+		</contour>
+	</floor>
+	<space name="E55-2700CA" type="CORR">
+		  <contour>
+			  <centroid x="712325.318383" y="496450.395496"/>
+			  <extent maxx="712344.144696" maxy="496474.389615" minx="712302.659984" miny="496433.193809"/>
+			  <point x="712315.480916" y="496433.193809"/>
+			  <point x="712344.144696" y="496446.256646"/>
+			  <point x="712331.323764" y="496474.389615"/>
+			  <point x="712327.077278" y="496472.454380"/>
+			  <point x="712333.263119" y="496458.880791"/>
+			  <point x="712337.375493" y="496449.857008"/>
+			  <point x="712316.370554" y="496440.284506"/>
+			  <point x="712308.422267" y="496457.725430"/>
+			  <point x="712310.242189" y="496458.554817"/>
+			  <point x="712307.892261" y="496463.711264"/>
+			  <point x="712302.659984" y="496461.326778"/>
+			  <point x="712315.480916" y="496433.193809"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="E55-2727E" type="explicit">
+			  <edge index="10" param="0.857143"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2727D" type="explicit">
+			  <edge index="0" param="0.064815"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2700SA" type="explicit">
+			  <edge index="6" param="0.647826"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2727F" type="explicit">
+			  <edge index="9" param="0.731884"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2727C" type="explicit">
+			  <edge index="0" param="0.941799"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2700SA" type="explicit">
+			  <edge index="3" param="0.824022"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2727A" type="explicit">
+			  <edge index="2" param="0.357143"/></portal>
+		  <portal class="horizontal" source="false" target="E55-2727B" type="explicit">
+			  <edge index="1" param="0.826146"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="0" v1="5" v2="6"/>
+    <triangle v0="0" v1="6" v2="10"/>
+    <triangle v0="10" v1="6" v2="7"/>
+    <triangle v0="10" v1="7" v2="9"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="E55-2700E1" type="ELEV">
+		  <contour>
+			  <centroid x="712324.085390" y="496449.981941"/>
+			  <extent maxx="712335.002646" maxy="496458.051404" minx="712313.168141" miny="496441.912481"/>
+			  <point x="712331.443196" y="496458.051404"/>
+			  <point x="712313.168141" y="496449.722982"/>
+			  <point x="712316.727591" y="496441.912481"/>
+			  <point x="712335.002646" y="496450.240904"/>
+			  <point x="712331.443196" y="496458.051404"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="E55-2600E1" type="ELEV"/><portal class="VERTICAL" direction="UP" target="E55-2800E1" type="ELEV"/></space>
+	<space name="E55-2700SA" type="STAIR">
+		  <contour>
+			  <centroid x="712321.132853" y="496457.960646"/>
+			  <extent maxx="712331.628429" maxy="496465.269679" minx="712311.202107" miny="496450.481283"/>
+			  <point x="712311.440252" y="496453.514487"/>
+			  <point x="712312.822563" y="496450.481283"/>
+			  <point x="712331.628429" y="496459.051610"/>
+			  <point x="712328.794692" y="496465.269679"/>
+			  <point x="712311.202107" y="496457.252276"/>
+			  <point x="712312.653534" y="496454.067411"/>
+			  <point x="712311.440252" y="496453.514487"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2701" type="explicit">
+			  <edge index="3" param="0.890086"/></portal>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="0" param="0.500000"/></portal>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="2" param="0.262195"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  <portal class="VERTICAL" direction="DOWN" target="E55-2600SA" type="STAIR"/><portal class="VERTICAL" direction="UP" target="E55-2800SA" type="STAIR"/></space>
+	<space name="E55-2701" type="SLPSVC">
+		  <contour>
+			  <centroid x="712312.290351" y="496461.592905"/>
+			  <extent maxx="712315.475452" maxy="496465.164660" minx="712309.147800" miny="496457.733978"/>
+			  <point x="712309.147800" y="496463.367656"/>
+			  <point x="712311.359497" y="496458.514529"/>
+			  <point x="712310.449536" y="496458.099836"/>
+			  <point x="712310.651492" y="496457.733978"/>
+			  <point x="712315.475452" y="496459.932383"/>
+			  <point x="712313.090965" y="496465.164660"/>
+			  <point x="712309.147800" y="496463.367656"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="E55-2700SA" type="explicit">
+			  <edge index="3" param="0.457678"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="E55-2701J" type="JAN CL">
+		  <contour>
+			  <centroid x="712324.634026" y="496467.265661"/>
+			  <extent maxx="712328.518230" maxy="496471.108597" minx="712320.749806" miny="496463.422718"/>
+			  <point x="712320.749806" y="496468.654995"/>
+			  <point x="712323.134292" y="496463.422718"/>
+			  <point x="712328.518230" y="496465.876319"/>
+			  <point x="712326.133744" y="496471.108597"/>
+			  <point x="712320.749806" y="496468.654995"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="E55-2727A" type="APTMNT">
+		  <contour>
+			  <centroid x="712330.321992" y="496484.221669"/>
+			  <extent maxx="712350.629823" maxy="496500.937407" minx="712308.821826" miny="496469.554302"/>
+			  <point x="712340.746300" y="496500.937407"/>
+			  <point x="712308.821826" y="496486.388585"/>
+			  <point x="712316.493651" y="496469.554302"/>
+			  <point x="712323.697511" y="496472.837290"/>
+			  <point x="712323.006355" y="496474.353892"/>
+			  <point x="712326.873691" y="496476.116339"/>
+			  <point x="712328.221444" y="496473.158964"/>
+			  <point x="712331.406308" y="496474.610391"/>
+			  <point x="712332.961408" y="496471.198036"/>
+			  <point x="712350.629823" y="496479.249996"/>
+			  <point x="712340.746300" y="496500.937407"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="6" param="0.476190"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="0" v1="5" v2="7"/>
+    <triangle v0="0" v1="7" v2="9"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="E55-2727B" type="APTMNT">
+		  <contour>
+			  <centroid x="712346.873942" y="496464.797337"/>
+			  <extent maxx="712360.617018" maxy="496479.098336" minx="712333.030524" miny="496451.937189"/>
+			  <point x="712333.030524" y="496471.046376"/>
+			  <point x="712341.739082" y="496451.937189"/>
+			  <point x="712348.715451" y="496455.116504"/>
+			  <point x="712349.924973" y="496452.462450"/>
+			  <point x="712360.617018" y="496457.335096"/>
+			  <point x="712350.698938" y="496479.098336"/>
+			  <point x="712333.030524" y="496471.046376"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="0" param="0.077381"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="E55-2727C" type="APTMNT">
+		  <contour>
+			  <centroid x="712350.712956" y="496438.205320"/>
+			  <extent maxx="712371.018907" maxy="496457.183436" minx="712330.227500" miny="496419.857739"/>
+			  <point x="712349.842429" y="496452.241674"/>
+			  <point x="712349.600524" y="496452.772485"/>
+			  <point x="712342.775815" y="496449.662286"/>
+			  <point x="712344.365472" y="496446.174101"/>
+			  <point x="712336.554971" y="496442.614651"/>
+			  <point x="712336.900549" y="496441.856350"/>
+			  <point x="712330.227500" y="496438.815266"/>
+			  <point x="712338.866942" y="496419.857739"/>
+			  <point x="712371.018907" y="496434.510234"/>
+			  <point x="712360.686134" y="496457.183436"/>
+			  <point x="712349.842429" y="496452.241674"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="3" param="0.233010"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="8"/>
+    <triangle v0="0" v1="8" v2="9"/>
+    <triangle v0="8" v1="3" v2="7"/>
+    <triangle v0="7" v1="3" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="E55-2727D" type="APTMNT">
+		  <contour>
+			  <centroid x="712316.615169" y="496422.532700"/>
+			  <extent maxx="712338.715282" maxy="496438.746150" minx="712295.320582" miny="496404.721436"/>
+			  <point x="712295.320582" y="496427.394638"/>
+			  <point x="712305.653356" y="496404.721436"/>
+			  <point x="712338.715282" y="496419.788624"/>
+			  <point x="712330.075839" y="496438.746150"/>
+			  <point x="712322.492829" y="496435.290373"/>
+			  <point x="712322.942080" y="496434.304582"/>
+			  <point x="712319.833045" y="496432.887713"/>
+			  <point x="712319.038217" y="496434.631806"/>
+			  <point x="712315.398372" y="496432.973033"/>
+			  <point x="712314.050619" y="496435.930407"/>
+			  <point x="712295.320582" y="496427.394638"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="7" param="0.447917"/></portal>
+	  <triangle v0="0" v1="1" v2="8"/>
+    <triangle v0="0" v1="8" v2="9"/>
+    <triangle v0="8" v1="1" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="1" v2="2"/>
+    <triangle v0="6" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="E55-2727E" type="APTMNT">
+		  <contour>
+			  <centroid x="712299.565265" y="496441.955118"/>
+			  <extent maxx="712313.981503" maxy="496454.736273" minx="712285.298829" miny="496427.546298"/>
+			  <point x="712305.480292" y="496454.736273"/>
+			  <point x="712297.518131" y="496451.107707"/>
+			  <point x="712296.066704" y="496454.292572"/>
+			  <point x="712285.298829" y="496449.385368"/>
+			  <point x="712295.251467" y="496427.546298"/>
+			  <point x="712313.981503" y="496436.082067"/>
+			  <point x="712305.480292" y="496454.736273"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="5" param="0.056911"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="E55-2727F" type="APTMNT">
+		  <contour>
+			  <centroid x="712295.728347" y="496468.150275"/>
+			  <extent maxx="712316.341991" maxy="496486.319470" minx="712275.380749" miny="496449.537029"/>
+			  <point x="712275.380749" y="496471.148609"/>
+			  <point x="712285.229714" y="496449.537029"/>
+			  <point x="712296.149249" y="496454.513348"/>
+			  <point x="712296.633058" y="496453.451726"/>
+			  <point x="712304.443559" y="496457.011176"/>
+			  <point x="712302.439208" y="496461.409323"/>
+			  <point x="712307.823145" y="496463.862924"/>
+			  <point x="712308.733107" y="496464.277617"/>
+			  <point x="712308.076509" y="496465.718389"/>
+			  <point x="712316.341991" y="496469.485186"/>
+			  <point x="712308.670166" y="496486.319470"/>
+			  <point x="712275.380749" y="496471.148609"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E55-2700CA" type="explicit">
+			  <edge index="5" param="0.288732"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="0" v1="5" v2="10"/>
+    <triangle v0="10" v1="5" v2="8"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="8" v1="5" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

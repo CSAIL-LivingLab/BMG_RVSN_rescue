@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708553.466261" y="496579.117679"/>
+			  <extent maxx="708566.502073" maxy="496599.042662" minx="708539.505426" miny="496551.980882"/>
+			  <point x="708542.280765" y="496599.042662"/>
+			  <point x="708566.502073" y="496596.710415"/>
+			  <point x="708562.195108" y="496551.980882"/>
+			  <point x="708539.505426" y="496570.219662"/>
+		</contour>
+	</floor>
+	<space name="N51-000SA" type="STAIR">
+		  <contour>
+			  <centroid x="708546.609876" y="496590.965550"/>
+			  <extent maxx="708551.309385" maxy="496597.951420" minx="708541.910360" miny="496583.979680"/>
+			  <point x="708543.180316" y="496597.951420"/>
+			  <point x="708541.910360" y="496584.762420"/>
+			  <point x="708550.039429" y="496583.979680"/>
+			  <point x="708551.309385" y="496597.168679"/>
+			  <point x="708543.180316" y="496597.951420"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="N51-002" type="explicit">
+			  <edge index="1" param="0.250000"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="UP" target="N51-100SA" type="STAIR"/></space>
+	<space name="N51-000SB" type="STAIR">
+		  <contour>
+			  <centroid x="708560.127018" y="496699.136540"/>
+			  <extent maxx="708562.521589" maxy="496701.089241" minx="708557.129860" miny="496697.003240"/>
+			  <point x="708557.129860" y="496701.089241"/>
+			  <point x="708558.777205" y="496697.330713"/>
+			  <point x="708562.178142" y="496697.003240"/>
+			  <point x="708562.521589" y="496700.570077"/>
+			  <point x="708557.129860" y="496701.089241"/>
+		</contour>
+	  <portal class="horizontal" target="N51-072" type="implicit">
+      <edge index="2" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="UP" target="N51-100SD" type="STAIR"/></space>
+	<space name="N51-002" type="OFF SV">
+		  <contour>
+			  <centroid x="708554.668007" y="496576.994417"/>
+			  <extent maxx="708565.410831" maxy="496597.072834" minx="708540.552545" miny="496553.921275"/>
+			  <point x="708565.410831" y="496595.810865"/>
+			  <point x="708552.304781" y="496597.072834"/>
+			  <point x="708550.938979" y="496582.888438"/>
+			  <point x="708541.814514" y="496583.767024"/>
+			  <point x="708540.552545" y="496570.660974"/>
+			  <point x="708561.377322" y="496553.921275"/>
+			  <point x="708565.410831" y="496595.810865"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="N51-000SA" type="explicit">
+			  <edge index="2" param="0.777273"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="N51-072" type="OFF SV">
+		  <contour>
+			  <centroid x="708558.335692" y="496684.183272"/>
+			  <extent maxx="708566.669073" maxy="496701.464637" minx="708550.132212" miny="496667.986242"/>
+			  <point x="708553.231225" y="496701.464637"/>
+			  <point x="708550.132212" y="496669.280160"/>
+			  <point x="708563.570060" y="496667.986242"/>
+			  <point x="708566.669073" y="496700.170720"/>
+			  <point x="708562.521589" y="496700.570077"/>
+			  <point x="708562.178142" y="496697.003240"/>
+			  <point x="708558.777205" y="496697.330713"/>
+			  <point x="708557.129860" y="496701.089241"/>
+			  <point x="708553.231225" y="496701.464637"/>
+		</contour>
+	  <portal class="horizontal" target="N51-000SB" type="implicit">
+      <edge index="4" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="6"/>
+    <triangle v0="0" v1="6" v2="7"/>
+    <triangle v0="6" v1="1" v2="2"/>
+    <triangle v0="6" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+
+</MITquest>

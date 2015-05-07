@@ -1,0 +1,1419 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="710449.168938" y="495808.018678"/>
+			  <extent maxx="710527.578297" maxy="495894.616581" minx="710360.757159" miny="495731.165794"/>
+			  <point x="710385.396849" y="495731.165794"/>
+			  <point x="710360.757159" y="495785.232659"/>
+			  <point x="710443.639464" y="495823.004302"/>
+			  <point x="710423.319496" y="495867.592404"/>
+			  <point x="710482.618638" y="495894.616581"/>
+			  <point x="710496.823249" y="495863.447408"/>
+			  <point x="710504.592032" y="495846.199416"/>
+			  <point x="710509.878004" y="495834.600409"/>
+			  <point x="710510.408815" y="495834.842313"/>
+			  <point x="710519.773971" y="495814.292355"/>
+			  <point x="710519.318990" y="495814.085008"/>
+			  <point x="710527.578297" y="495795.961613"/>
+			  <point x="710519.464476" y="495792.263931"/>
+			  <point x="710519.706380" y="495791.733121"/>
+			  <point x="710483.459590" y="495775.214506"/>
+			  <point x="710483.217685" y="495775.745317"/>
+			  <point x="710385.396849" y="495731.165794"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-400CB" type="explicit">
+			  <edge index="13" param="0.472803"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CB" type="explicit">
+			  <edge index="13" param="0.539749"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="3" param="0.479220"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="3" param="0.524616"/></portal>
+	</floor>
+	<space name="8-400CA" type="CORR">
+		  <contour>
+			  <centroid x="710435.960257" y="495786.737037"/>
+			  <extent maxx="710494.255573" maxy="495822.350754" minx="710372.869567" miny="495754.764356"/>
+			  <point x="710494.221015" y="495807.867204"/>
+			  <point x="710487.620481" y="495822.350754"/>
+			  <point x="710485.952219" y="495821.590483"/>
+			  <point x="710485.779430" y="495821.969634"/>
+			  <point x="710480.072208" y="495811.584489"/>
+			  <point x="710480.244997" y="495811.205339"/>
+			  <point x="710372.869567" y="495762.271536"/>
+			  <point x="710376.290786" y="495754.764356"/>
+			  <point x="710394.262521" y="495762.954547"/>
+			  <point x="710394.590820" y="495762.234161"/>
+			  <point x="710401.188039" y="495765.240687"/>
+			  <point x="710400.859741" y="495765.961073"/>
+			  <point x="710433.845837" y="495780.993703"/>
+			  <point x="710434.174136" y="495780.273317"/>
+			  <point x="710443.046258" y="495784.316576"/>
+			  <point x="710442.717959" y="495785.036962"/>
+			  <point x="710483.969537" y="495803.836389"/>
+			  <point x="710484.245999" y="495803.229748"/>
+			  <point x="710494.255573" y="495807.791374"/>
+			  <point x="710494.221015" y="495807.867204"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-408" type="explicit">
+			  <edge index="5" param="0.564266"/></portal>
+		  <portal class="horizontal" source="false" target="8-415" type="explicit">
+			  <edge index="15" param="0.453125"/></portal>
+		  <portal class="horizontal" source="false" target="8-417" type="explicit">
+			  <edge index="15" param="0.868566"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CB" type="explicit">
+			  <edge index="17" param="0.757576"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CB" type="explicit">
+			  <edge index="17" param="0.484848"/></portal>
+		  <portal class="horizontal" source="false" target="8-404" type="explicit">
+			  <edge index="5" param="0.856638"/></portal>
+		  <portal class="horizontal" source="false" target="8-403" type="explicit">
+			  <edge index="9" param="0.770115"/></portal>
+		  <portal class="horizontal" source="false" target="8-409" type="explicit">
+			  <edge index="13" param="0.794872"/></portal>
+		  <portal class="horizontal" source="false" target="8-402" type="explicit">
+			  <edge index="5" param="0.950565"/></portal>
+		  <portal class="horizontal" source="false" target="8-410" type="explicit">
+			  <edge index="5" param="0.335452"/></portal>
+		  <portal class="horizontal" source="true" target="8-415E" type="explicit">
+			  <edge index="15" param="0.651654"/></portal>
+	  <portal class="horizontal" target="8-400SA" type="implicit">
+      <edge index="0" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <portal class="horizontal" target="8-400CC" type="implicit">
+      <edge index="3" maxparam="0.0438595169351" minparam="0.956140483065"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="0" v1="5" v2="16"/>
+    <triangle v0="0" v1="16" v2="17"/>
+    <triangle v0="0" v1="17" v2="18"/>
+    <triangle v0="16" v1="5" v2="15"/>
+    <triangle v0="15" v1="5" v2="12"/>
+    <triangle v0="15" v1="12" v2="14"/>
+    <triangle v0="14" v1="12" v2="13"/>
+    <triangle v0="12" v1="5" v2="6"/>
+    <triangle v0="12" v1="6" v2="11"/>
+    <triangle v0="11" v1="6" v2="8"/>
+    <triangle v0="11" v1="8" v2="10"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-400CB" type="CORR">
+		  <contour>
+			  <centroid x="710495.874763" y="495795.296118"/>
+			  <extent maxx="710504.069980" maxy="495807.412224" minx="710487.679482" miny="495783.179982"/>
+			  <point x="710504.069980" y="495786.255624"/>
+			  <point x="710494.428362" y="495807.412224"/>
+			  <point x="710487.679482" y="495804.336582"/>
+			  <point x="710497.321100" y="495783.179982"/>
+			  <point x="710504.069980" y="495786.255624"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-4FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.685393"/></portal>
+		  <portal class="horizontal" source="true" target="8-4FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.325843"/></portal>
+		  <portal class="horizontal" source="false" target="8-419" type="explicit">
+			  <edge index="0" param="0.817204"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CA" type="explicit">
+			  <edge index="1" param="0.359551"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CA" type="explicit">
+			  <edge index="1" param="0.764045"/></portal>
+		  <portal class="horizontal" source="true" target="8-417A" type="explicit">
+			  <edge index="2" param="0.768817"/></portal>
+		  <portal class="horizontal" source="true" target="8-417T" type="explicit">
+			  <edge index="2" param="0.308244"/></portal>
+		  <portal class="horizontal" source="true" target="8-417T" type="explicit">
+			  <edge index="2" param="0.430108"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-400CC" type="CORR">
+		  <contour>
+			  <centroid x="710468.412742" y="495846.010816"/>
+			  <extent maxx="710485.529114" maxy="495881.778459" minx="710449.799602" miny="495812.039979"/>
+			  <point x="710463.684846" y="495819.410029"/>
+			  <point x="710465.792870" y="495814.784393"/>
+			  <point x="710476.788235" y="495819.795269"/>
+			  <point x="710480.322524" y="495812.039979"/>
+			  <point x="710485.529114" y="495821.514144"/>
+			  <point x="710458.065083" y="495881.778459"/>
+			  <point x="710449.799602" y="495878.011662"/>
+			  <point x="710461.583801" y="495852.153596"/>
+			  <point x="710461.962952" y="495852.326385"/>
+			  <point x="710474.680211" y="495824.420906"/>
+			  <point x="710463.684846" y="495819.410029"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-414" type="explicit">
+			  <edge index="0" param="0.663934"/></portal>
+		  <portal class="horizontal" source="false" target="8-414" type="explicit">
+			  <edge index="0" param="0.286885"/></portal>
+		  <portal class="horizontal" source="false" target="8-436" type="explicit">
+			  <edge index="6" param="0.170088"/></portal>
+		  <portal class="horizontal" source="false" target="8-434" type="explicit">
+			  <edge index="6" param="0.498534"/></portal>
+		  <portal class="horizontal" source="false" target="8-437" type="explicit">
+			  <edge index="4" param="0.846488"/></portal>
+		  <portal class="horizontal" source="false" target="8-433" type="explicit">
+			  <edge index="4" param="0.634466"/></portal>
+		  <portal class="horizontal" source="false" target="8-431A" type="explicit">
+			  <edge index="4" param="0.444464"/></portal>
+		  <portal class="horizontal" source="false" target="8-425" type="explicit">
+			  <edge index="4" param="0.058798"/></portal>
+		  <portal class="horizontal" source="false" target="8-432" type="explicit">
+			  <edge index="8" param="0.274457"/></portal>
+		  <portal class="horizontal" source="false" target="8-435" type="explicit">
+			  <edge index="4" param="0.706818"/></portal>
+		  <portal class="horizontal" source="true" target="8-416" type="explicit">
+			  <edge index="1" param="0.827586"/></portal>
+		  <portal class="horizontal" source="true" target="8-416" type="explicit">
+			  <edge index="1" param="0.503448"/></portal>
+		  <portal class="horizontal" source="true" target="8-416" type="explicit">
+			  <edge index="1" param="0.337931"/></portal>
+		  <portal class="horizontal" source="true" target="8-400E1" type="explicit">
+			  <edge index="9" param="0.717241"/></portal>
+		  <portal class="horizontal" source="true" target="8-400E1" type="explicit">
+			  <edge index="9" param="0.510345"/></portal>
+		  <portal class="horizontal" source="false" target="8-4FLOORCONTOUR" type="explicit">
+			  <edge index="5" param="0.690367"/></portal>
+		  <portal class="horizontal" source="false" target="8-4FLOORCONTOUR" type="explicit">
+			  <edge index="5" param="0.364679"/></portal>
+	  <portal class="horizontal" target="8-400CA" type="implicit">
+      <edge index="3" maxparam="-0.0480767642464" minparam="1.04807676425"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="9"/>
+    <triangle v0="9" v1="2" v2="4"/>
+    <triangle v0="9" v1="4" v2="8"/>
+    <triangle v0="8" v1="4" v2="5"/>
+    <triangle v0="8" v1="5" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-400E1" type="ELEV">
+		  <contour>
+			  <centroid x="710466.005176" y="495826.877994"/>
+			  <extent maxx="710472.990820" maxy="495833.966815" minx="710459.019547" miny="495819.789180"/>
+			  <point x="710463.512057" y="495819.789180"/>
+			  <point x="710472.990820" y="495824.108901"/>
+			  <point x="710468.498310" y="495833.966815"/>
+			  <point x="710459.019547" y="495829.647093"/>
+			  <point x="710463.512057" y="495819.789180"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-400CC" type="explicit">
+			  <edge index="0" param="0.328000"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CC" type="explicit">
+			  <edge index="0" param="0.568000"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="8-300E1" type="ELEV"/></space>
+	<space name="8-400SA" type="STAIR">
+		  <contour>
+			  <centroid x="710501.510192" y="495819.886162"/>
+			  <extent maxx="710514.953252" maxy="495831.785026" minx="710487.620481" miny="495807.867204"/>
+			  <point x="710514.770974" y="495817.232360"/>
+			  <point x="710513.877669" y="495819.192539"/>
+			  <point x="710514.399726" y="495821.001069"/>
+			  <point x="710514.953252" y="495821.253325"/>
+			  <point x="710513.363595" y="495824.741510"/>
+			  <point x="710512.908614" y="495824.534164"/>
+			  <point x="710511.363184" y="495825.111976"/>
+			  <point x="710508.322100" y="495831.785026"/>
+			  <point x="710487.620481" y="495822.350754"/>
+			  <point x="710494.221015" y="495807.867204"/>
+			  <point x="710514.770974" y="495817.232360"/>
+		</contour>
+	  <portal class="horizontal" target="8-400CA" type="implicit">
+      <edge index="8" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="9"/>
+    <triangle v0="9" v1="1" v2="6"/>
+    <triangle v0="9" v1="6" v2="8"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="1" v2="2"/>
+    <triangle v0="6" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  <portal class="VERTICAL" direction="DOWN" target="8-300SA" type="STAIR"/></space>
+	<space name="8-402" type="OFF">
+		  <contour>
+			  <centroid x="710373.705570" y="495776.716419"/>
+			  <extent maxx="710383.616313" maxy="495789.898048" minx="710362.744140" miny="495763.134495"/>
+			  <point x="710362.744140" y="495784.489757"/>
+			  <point x="710367.651344" y="495773.721882"/>
+			  <point x="710368.712965" y="495774.205691"/>
+			  <point x="710373.758400" y="495763.134495"/>
+			  <point x="710383.616313" y="495767.627006"/>
+			  <point x="710382.545023" y="495769.977739"/>
+			  <point x="710383.492899" y="495770.409711"/>
+			  <point x="710374.611552" y="495789.898048"/>
+			  <point x="710362.744140" y="495784.489757"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="3" param="0.430769"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="7"/>
+    <triangle v0="7" v1="2" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-403" type="P CIRC">
+		  <contour>
+			  <centroid x="710401.974139" y="495755.811688"/>
+			  <extent maxx="710415.296427" maxy="495768.398381" minx="710389.886509" miny="495739.078448"/>
+			  <point x="710395.096430" y="495752.986155"/>
+			  <point x="710406.622606" y="495758.238937"/>
+			  <point x="710412.393754" y="495745.575309"/>
+			  <point x="710413.189970" y="495745.938165"/>
+			  <point x="710413.362759" y="495745.559015"/>
+			  <point x="710415.296427" y="495746.440238"/>
+			  <point x="710411.493844" y="495754.784243"/>
+			  <point x="710412.980358" y="495758.760109"/>
+			  <point x="710411.290205" y="495759.451076"/>
+			  <point x="710407.212683" y="495768.398381"/>
+			  <point x="710403.459093" y="495766.687771"/>
+			  <point x="710404.564942" y="495764.261208"/>
+			  <point x="710402.138378" y="495763.155359"/>
+			  <point x="710401.360828" y="495764.861537"/>
+			  <point x="710394.763609" y="495761.855011"/>
+			  <point x="710395.627553" y="495759.959258"/>
+			  <point x="710392.025623" y="495758.317764"/>
+			  <point x="710392.906846" y="495756.384096"/>
+			  <point x="710390.707773" y="495755.381921"/>
+			  <point x="710391.331041" y="495754.014285"/>
+			  <point x="710389.886509" y="495750.150710"/>
+			  <point x="710389.953169" y="495750.004437"/>
+			  <point x="710393.816745" y="495748.559905"/>
+			  <point x="710398.137694" y="495739.078448"/>
+			  <point x="710399.161400" y="495739.544978"/>
+			  <point x="710399.334189" y="495739.165827"/>
+			  <point x="710401.040367" y="495739.943377"/>
+			  <point x="710395.096430" y="495752.986155"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-403C" type="explicit">
+			  <edge index="21" param="0.475490"/></portal>
+		  <portal class="horizontal" source="false" target="8-403D" type="explicit">
+			  <edge index="19" param="0.524510"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="13" param="0.229885"/></portal>
+		  <portal class="horizontal" source="false" target="8-403A" type="explicit">
+			  <edge index="8" param="0.237233"/></portal>
+		  <portal class="horizontal" source="false" target="8-403B" type="explicit">
+			  <edge index="6" param="0.537461"/></portal>
+	  <portal class="horizontal" target="8-403G" type="implicit">
+      <edge index="26" maxparam="0.558139495759" minparam="0"/>
+    </portal>
+    <portal class="horizontal" target="8-403L" type="implicit">
+      <edge index="1" maxparam="1" minparam="0.455089871207"/>
+    </portal>
+    <portal class="horizontal" target="8-403K" type="implicit">
+      <edge index="1" maxparam="0.443113744432" minparam="0.0119761267551"/>
+    </portal>
+    <portal class="horizontal" target="8-403H" type="implicit">
+      <edge index="26" maxparam="0.569767479045" minparam="0.988372016734"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="15"/>
+    <triangle v0="0" v1="15" v2="17"/>
+    <triangle v0="0" v1="17" v2="19"/>
+    <triangle v0="0" v1="19" v2="20"/>
+    <triangle v0="0" v1="20" v2="21"/>
+    <triangle v0="0" v1="21" v2="22"/>
+    <triangle v0="0" v1="22" v2="26"/>
+    <triangle v0="26" v1="22" v2="24"/>
+    <triangle v0="26" v1="24" v2="25"/>
+    <triangle v0="24" v1="22" v2="23"/>
+    <triangle v0="19" v1="17" v2="18"/>
+    <triangle v0="17" v1="15" v2="16"/>
+    <triangle v0="15" v1="1" v2="12"/>
+    <triangle v0="15" v1="12" v2="14"/>
+    <triangle v0="14" v1="12" v2="13"/>
+    <triangle v0="12" v1="1" v2="11"/>
+    <triangle v0="11" v1="1" v2="8"/>
+    <triangle v0="11" v1="8" v2="9"/>
+    <triangle v0="11" v1="9" v2="10"/>
+    <triangle v0="8" v1="1" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="1" v2="2"/>
+    <triangle v0="6" v1="2" v2="3"/>
+    <triangle v0="6" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-403A" type="OFF">
+		  <contour>
+			  <centroid x="710414.351663" y="495765.599961"/>
+			  <extent maxx="710421.159963" maxy="495772.424361" minx="710407.591834" miny="495759.103370"/>
+			  <point x="710407.591834" y="495768.571170"/>
+			  <point x="710411.600830" y="495759.774229"/>
+			  <point x="710413.241799" y="495759.103370"/>
+			  <point x="710421.159963" y="495762.711885"/>
+			  <point x="710417.721465" y="495770.256981"/>
+			  <point x="710417.152739" y="495769.997798"/>
+			  <point x="710416.046890" y="495772.424361"/>
+			  <point x="710407.591834" y="495768.571170"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-403" type="explicit">
+			  <edge index="0" param="0.775805"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="0" v1="5" v2="6"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-403B" type="OFF">
+		  <contour>
+			  <centroid x="710418.714431" y="495754.390696"/>
+			  <extent maxx="710426.291792" maxy="495762.332735" minx="710411.944565" miny="495746.613027"/>
+			  <point x="710421.332752" y="495762.332735"/>
+			  <point x="710413.411199" y="495758.722676"/>
+			  <point x="710411.944565" y="495754.799985"/>
+			  <point x="710415.675577" y="495746.613027"/>
+			  <point x="710426.291792" y="495751.451115"/>
+			  <point x="710421.332752" y="495762.332735"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-403" type="explicit">
+			  <edge index="1" param="0.496465"/></portal>
+	  <triangle v0="0" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-403C" type="OFF">
+		  <contour>
+			  <centroid x="710389.733348" y="495741.160540"/>
+			  <extent maxx="710397.931332" maxy="495749.571419" minx="710381.491731" miny="495733.152775"/>
+			  <point x="710393.509165" y="495748.230069"/>
+			  <point x="710389.921559" y="495749.571419"/>
+			  <point x="710388.849945" y="495746.705256"/>
+			  <point x="710381.491731" y="495743.351925"/>
+			  <point x="710386.139751" y="495733.152775"/>
+			  <point x="710397.931332" y="495738.526509"/>
+			  <point x="710393.509165" y="495748.230069"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-403" type="explicit">
+			  <edge index="0" param="0.519797"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-403D" type="CONF">
+		  <contour>
+			  <centroid x="710383.997399" y="495751.506003"/>
+			  <extent maxx="710390.880320" maxy="495758.186560" minx="710376.463575" miny="495743.731075"/>
+			  <point x="710384.804887" y="495758.186560"/>
+			  <point x="710376.463575" y="495754.385205"/>
+			  <point x="710381.318942" y="495743.731075"/>
+			  <point x="710388.520108" y="495747.012836"/>
+			  <point x="710389.574019" y="495749.831648"/>
+			  <point x="710389.435788" y="495750.134968"/>
+			  <point x="710390.880320" y="495753.998544"/>
+			  <point x="710389.205495" y="495757.673610"/>
+			  <point x="710385.755225" y="495756.101232"/>
+			  <point x="710384.804887" y="495758.186560"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-403" type="explicit">
+			  <edge index="5" param="0.517332"/></portal>
+	  <triangle v0="0" v1="1" v2="8"/>
+    <triangle v0="8" v1="1" v2="2"/>
+    <triangle v0="8" v1="2" v2="3"/>
+    <triangle v0="8" v1="3" v2="5"/>
+    <triangle v0="8" v1="5" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-403F" type="OFF SV">
+		  <contour>
+			  <centroid x="710391.108008" y="495756.915108"/>
+			  <extent maxx="710392.389465" maxy="495758.144975" minx="710389.826550" miny="495755.685241"/>
+			  <point x="710389.826550" y="495757.315589"/>
+			  <point x="710390.569542" y="495755.685241"/>
+			  <point x="710392.389465" y="495756.514628"/>
+			  <point x="710391.646473" y="495758.144975"/>
+			  <point x="710389.826550" y="495757.315589"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-403G" type="OFF">
+		  <contour>
+			  <centroid x="710402.225223" y="495744.879139"/>
+			  <extent maxx="710406.727625" maxy="495749.814900" minx="710397.722821" miny="495739.943377"/>
+			  <point x="710397.722821" y="495747.223067"/>
+			  <point x="710403.410079" y="495749.814900"/>
+			  <point x="710406.727625" y="495742.535210"/>
+			  <point x="710401.040367" y="495739.943377"/>
+			  <point x="710397.722821" y="495747.223067"/>
+		</contour>
+	  <portal class="horizontal" target="8-403" type="implicit">
+      <edge index="3" maxparam="1" minparam="0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+  </space>
+	<space name="8-403H" type="OFF">
+		  <contour>
+			  <centroid x="710399.253254" y="495751.400528"/>
+			  <extent maxx="710403.340963" maxy="495755.426328" minx="710395.165546" miny="495747.374728"/>
+			  <point x="710400.852804" y="495755.426328"/>
+			  <point x="710395.165546" y="495752.834495"/>
+			  <point x="710397.653705" y="495747.374728"/>
+			  <point x="710403.340963" y="495749.966560"/>
+			  <point x="710400.852804" y="495755.426328"/>
+		</contour>
+	  <portal class="horizontal" target="8-403" type="implicit">
+      <edge index="1" maxparam="-0.027777967554" minparam="2.3611115689"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-403K" type="OFF">
+		  <contour>
+			  <centroid x="710405.092173" y="495754.061476"/>
+			  <extent maxx="710409.179881" maxy="495758.087276" minx="710401.004464" miny="495750.035676"/>
+			  <point x="710401.004464" y="495755.495444"/>
+			  <point x="710406.691722" y="495758.087276"/>
+			  <point x="710409.179881" y="495752.627509"/>
+			  <point x="710403.492623" y="495750.035676"/>
+			  <point x="710401.004464" y="495755.495444"/>
+		</contour>
+	  <portal class="horizontal" target="8-403" type="implicit">
+      <edge index="1" maxparam="1" minparam="0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+	<space name="8-403L" type="OFF">
+		  <contour>
+			  <centroid x="710408.027200" y="495747.562686"/>
+			  <extent maxx="710412.393754" maxy="495752.475848" minx="710403.561739" miny="495742.604326"/>
+			  <point x="710406.879285" y="495742.604326"/>
+			  <point x="710403.561739" y="495749.884016"/>
+			  <point x="710409.248997" y="495752.475848"/>
+			  <point x="710412.393754" y="495745.575309"/>
+			  <point x="710411.370047" y="495745.108779"/>
+			  <point x="710411.542836" y="495744.729628"/>
+			  <point x="710406.879285" y="495742.604326"/>
+		</contour>
+	  <portal class="horizontal" target="8-403" type="implicit">
+      <edge index="2" maxparam="1" minparam="0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="4"/>
+    <triangle v0="1" v1="4" v2="2"/>
+    <triangle v0="2" v1="4" v2="3"/>
+    <triangle v0="4" v1="0" v2="5"/>
+  </space>
+	<space name="8-404" type="CLASS">
+		  <contour>
+			  <centroid x="710392.866608" y="495786.722028"/>
+			  <extent maxx="710410.758074" maxy="495802.788096" minx="710374.990702" miny="495768.663739"/>
+			  <point x="710383.872049" y="495770.582500"/>
+			  <point x="710384.819926" y="495771.014472"/>
+			  <point x="710385.891217" y="495768.663739"/>
+			  <point x="710389.568977" y="495770.339790"/>
+			  <point x="710387.409160" y="495775.079075"/>
+			  <point x="710394.064352" y="495775.731084"/>
+			  <point x="710401.282120" y="495779.020410"/>
+			  <point x="710405.988331" y="495783.363050"/>
+			  <point x="710410.758074" y="495785.536747"/>
+			  <point x="710402.896181" y="495802.788096"/>
+			  <point x="710391.976646" y="495797.811778"/>
+			  <point x="710392.374061" y="495796.939731"/>
+			  <point x="710386.535142" y="495794.278783"/>
+			  <point x="710386.137728" y="495795.150829"/>
+			  <point x="710374.990702" y="495790.070837"/>
+			  <point x="710383.872049" y="495770.582500"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-404A" type="explicit">
+			  <edge index="8" param="0.169231"/></portal>
+		  <portal class="horizontal" source="true" target="8-404A" type="explicit">
+			  <edge index="8" param="0.336264"/></portal>
+		  <portal class="horizontal" source="true" target="8-404A" type="explicit">
+			  <edge index="8" param="0.494505"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="2" param="0.597938"/></portal>
+	  <triangle v0="0" v1="1" v2="4"/>
+    <triangle v0="0" v1="4" v2="14"/>
+    <triangle v0="14" v1="4" v2="12"/>
+    <triangle v0="14" v1="12" v2="13"/>
+    <triangle v0="12" v1="4" v2="5"/>
+    <triangle v0="12" v1="5" v2="6"/>
+    <triangle v0="12" v1="6" v2="11"/>
+    <triangle v0="11" v1="6" v2="7"/>
+    <triangle v0="11" v1="7" v2="9"/>
+    <triangle v0="11" v1="9" v2="10"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-404A" type="CLA SV">
+		  <contour>
+			  <centroid x="710409.605327" y="495791.834045"/>
+			  <extent maxx="710412.721465" maxy="495796.859024" minx="710406.489205" miny="495786.809073"/>
+			  <point x="710412.721465" y="495787.759411"/>
+			  <point x="710408.574533" y="495796.859024"/>
+			  <point x="710406.489205" y="495795.908685"/>
+			  <point x="710410.636137" y="495786.809073"/>
+			  <point x="710412.721465" y="495787.759411"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-404" type="explicit">
+			  <edge index="2" param="0.800000"/></portal>
+		  <portal class="horizontal" source="false" target="8-404" type="explicit">
+			  <edge index="2" param="0.483333"/></portal>
+		  <portal class="horizontal" source="false" target="8-404" type="explicit">
+			  <edge index="2" param="0.183333"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-408" type="CONF">
+		  <contour>
+			  <centroid x="710415.812116" y="495796.139859"/>
+			  <extent maxx="710425.654438" maxy="495809.112168" minx="710405.663980" miny="495782.279500"/>
+			  <point x="710425.654438" y="495789.623831"/>
+			  <point x="710416.773091" y="495809.112168"/>
+			  <point x="710405.663980" y="495804.049455"/>
+			  <point x="710413.024785" y="495787.897642"/>
+			  <point x="710413.176446" y="495787.966758"/>
+			  <point x="710415.768278" y="495782.279500"/>
+			  <point x="710421.607197" y="495784.940448"/>
+			  <point x="710420.535906" y="495787.291182"/>
+			  <point x="710425.654438" y="495789.623831"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="5" param="0.636364"/></portal>
+		  <portal class="horizontal" source="true" target="8-408B" type="explicit">
+			  <edge index="2" param="0.328638"/></portal>
+		  <portal class="horizontal" source="true" target="8-408B" type="explicit">
+			  <edge index="2" param="0.206573"/></portal>
+		  <portal class="horizontal" source="true" target="8-408A" type="explicit">
+			  <edge index="4" param="0.306667"/></portal>
+	  <triangle v0="0" v1="1" v2="7"/>
+    <triangle v0="7" v1="1" v2="4"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-408A" type="OFF SV">
+		  <contour>
+			  <centroid x="710412.546064" y="495785.481581"/>
+			  <extent maxx="710414.317837" maxy="495787.490649" minx="710410.774368" miny="495783.472548"/>
+			  <point x="710414.317837" y="495784.457445"/>
+			  <point x="710412.935526" y="495787.490649"/>
+			  <point x="710410.774368" y="495786.505752"/>
+			  <point x="710412.156679" y="495783.472548"/>
+			  <point x="710414.317837" y="495784.457445"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-408" type="explicit">
+			  <edge index="0" param="0.525000"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-408B" type="OFF SV">
+		  <contour>
+			  <centroid x="710405.855836" y="495800.061624"/>
+			  <extent maxx="710408.436301" maxy="495803.911224" minx="710403.275332" miny="495796.212006"/>
+			  <point x="710405.360660" y="495803.911224"/>
+			  <point x="710403.275332" y="495802.960885"/>
+			  <point x="710406.350974" y="495796.212006"/>
+			  <point x="710408.436301" y="495797.162345"/>
+			  <point x="710405.360660" y="495803.911224"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-408" type="explicit">
+			  <edge index="3" param="0.213483"/></portal>
+		  <portal class="horizontal" source="false" target="8-408" type="explicit">
+			  <edge index="3" param="0.505618"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-409" type="SECY/R">
+		  <contour>
+			  <centroid x="710441.255794" y="495775.844391"/>
+			  <extent maxx="710453.568649" maxy="495785.341448" minx="710428.792660" miny="495765.558247"/>
+			  <point x="710432.697911" y="495777.082141"/>
+			  <point x="710428.792660" y="495775.302415"/>
+			  <point x="710433.233334" y="495765.558247"/>
+			  <point x="710453.176652" y="495774.646940"/>
+			  <point x="710451.483321" y="495778.362616"/>
+			  <point x="710453.568649" y="495779.312954"/>
+			  <point x="710450.821306" y="495785.341448"/>
+			  <point x="710443.996597" y="495782.231248"/>
+			  <point x="710443.219047" y="495783.937426"/>
+			  <point x="710434.346924" y="495779.894167"/>
+			  <point x="710435.124474" y="495778.187989"/>
+			  <point x="710434.745324" y="495778.015200"/>
+			  <point x="710433.639475" y="495780.441764"/>
+			  <point x="710431.592062" y="495779.508704"/>
+			  <point x="710432.697911" y="495777.082141"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-409B" type="explicit">
+			  <edge index="3" param="0.459184"/></portal>
+		  <portal class="horizontal" source="false" target="8-409C" type="explicit">
+			  <edge index="2" param="0.918251"/></portal>
+		  <portal class="horizontal" source="false" target="8-409F" type="explicit">
+			  <edge index="1" param="0.824903"/></portal>
+		  <portal class="horizontal" source="false" target="8-409D" type="explicit">
+			  <edge index="2" param="0.081749"/></portal>
+		  <portal class="horizontal" source="false" target="8-409G" type="explicit">
+			  <edge index="1" param="0.451362"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="8" param="0.205128"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="11"/>
+    <triangle v0="0" v1="11" v2="12"/>
+    <triangle v0="0" v1="12" v2="13"/>
+    <triangle v0="11" v1="2" v2="10"/>
+    <triangle v0="10" v1="2" v2="3"/>
+    <triangle v0="10" v1="3" v2="7"/>
+    <triangle v0="10" v1="7" v2="9"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="7" v1="3" v2="4"/>
+    <triangle v0="7" v1="4" v2="6"/>
+    <triangle v0="6" v1="4" v2="5"/>
+  </space>
+	<space name="8-409A" type="OFF">
+		  <contour>
+			  <centroid x="710456.222616" y="495785.279570"/>
+			  <extent maxx="710462.668262" maxy="495790.705422" minx="710450.094608" miny="495779.485743"/>
+			  <point x="710453.947799" y="495779.485743"/>
+			  <point x="710462.668262" y="495783.459887"/>
+			  <point x="710459.920919" y="495789.488380"/>
+			  <point x="710457.266865" y="495788.278858"/>
+			  <point x="710456.161016" y="495790.705422"/>
+			  <point x="710450.094608" y="495787.940800"/>
+			  <point x="710453.947799" y="495779.485743"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-409B" type="OFF">
+		  <contour>
+			  <centroid x="710460.263241" y="495774.419378"/>
+			  <extent maxx="710468.491246" maxy="495783.080736" minx="710452.035260" miny="495765.758032"/>
+			  <point x="710468.491246" y="495770.682514"/>
+			  <point x="710462.841050" y="495783.080736"/>
+			  <point x="710452.035260" y="495778.156254"/>
+			  <point x="710457.685456" y="495765.758032"/>
+			  <point x="710468.491246" y="495770.682514"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-409" type="explicit">
+			  <edge index="2" param="0.131498"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-409C" type="OFF">
+		  <contour>
+			  <centroid x="710450.474753" y="495767.714822"/>
+			  <extent maxx="710457.306305" maxy="495774.267790" minx="710443.643187" miny="495761.161848"/>
+			  <point x="710447.600052" y="495761.161848"/>
+			  <point x="710457.306305" y="495765.585243"/>
+			  <point x="710453.349441" y="495774.267790"/>
+			  <point x="710443.643187" y="495769.844395"/>
+			  <point x="710447.600052" y="495761.161848"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-409" type="explicit">
+			  <edge index="2" param="0.167969"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-409D" type="OFF">
+		  <contour>
+			  <centroid x="710440.313518" y="495763.084081"/>
+			  <extent maxx="710447.220901" maxy="495769.671606" minx="710433.406123" miny="495756.496549"/>
+			  <point x="710443.264036" y="495769.671606"/>
+			  <point x="710433.406123" y="495765.179096"/>
+			  <point x="710437.362987" y="495756.496549"/>
+			  <point x="710447.220901" y="495760.989059"/>
+			  <point x="710443.264036" y="495769.671606"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-409" type="explicit">
+			  <edge index="0" param="0.834615"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-409F" type="CONF">
+		  <contour>
+			  <centroid x="710429.002303" y="495760.172948"/>
+			  <extent maxx="710436.983837" maxy="495768.721983" minx="710421.020747" miny="495751.623904"/>
+			  <point x="710426.670942" y="495751.623904"/>
+			  <point x="710436.983837" y="495756.323760"/>
+			  <point x="710431.333641" y="495768.721983"/>
+			  <point x="710421.020747" y="495764.022126"/>
+			  <point x="710426.670942" y="495751.623904"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-409" type="explicit">
+			  <edge index="1" param="0.868502"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-409G" type="OFF">
+		  <contour>
+			  <centroid x="710424.231261" y="495770.685378"/>
+			  <extent maxx="710431.160853" maxy="495776.847756" minx="710418.100615" miny="495764.401276"/>
+			  <point x="710426.858993" y="495774.421192"/>
+			  <point x="710425.753144" y="495776.847756"/>
+			  <point x="710418.700944" y="495773.633883"/>
+			  <point x="710419.806793" y="495771.207320"/>
+			  <point x="710418.100615" y="495770.429770"/>
+			  <point x="710420.847958" y="495764.401276"/>
+			  <point x="710431.160853" y="495769.101133"/>
+			  <point x="710428.413510" y="495775.129627"/>
+			  <point x="710426.858993" y="495774.421192"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-409" type="explicit">
+			  <edge index="6" param="0.270440"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="6"/>
+    <triangle v0="0" v1="6" v2="7"/>
+    <triangle v0="6" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-410" type="RS LAB">
+		  <contour>
+			  <centroid x="710447.325750" y="495810.477018"/>
+			  <extent maxx="710465.626573" maxy="495827.370623" minx="710429.171313" miny="495794.409277"/>
+			  <point x="710454.928571" y="495827.370623"/>
+			  <point x="710445.298147" y="495822.981786"/>
+			  <point x="710445.626446" y="495822.261400"/>
+			  <point x="710429.171313" y="495814.762364"/>
+			  <point x="710438.052660" y="495795.274027"/>
+			  <point x="710441.313355" y="495796.760011"/>
+			  <point x="710442.384646" y="495794.409277"/>
+			  <point x="710446.631131" y="495796.344513"/>
+			  <point x="710445.559841" y="495798.695246"/>
+			  <point x="710447.379763" y="495799.524632"/>
+			  <point x="710448.451054" y="495797.173899"/>
+			  <point x="710451.711749" y="495798.659883"/>
+			  <point x="710450.640458" y="495801.010616"/>
+			  <point x="710455.872735" y="495803.395103"/>
+			  <point x="710456.944026" y="495801.044369"/>
+			  <point x="710465.626573" y="495805.001234"/>
+			  <point x="710459.855425" y="495817.664862"/>
+			  <point x="710459.438360" y="495817.474794"/>
+			  <point x="710454.928571" y="495827.370623"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-410A" type="explicit">
+			  <edge index="3" param="0.906615"/></portal>
+		  <portal class="horizontal" source="true" target="8-410B" type="explicit">
+			  <edge index="3" param="0.560311"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="6" param="0.392857"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="17"/>
+    <triangle v0="17" v1="2" v2="13"/>
+    <triangle v0="17" v1="13" v2="15"/>
+    <triangle v0="17" v1="15" v2="16"/>
+    <triangle v0="15" v1="13" v2="14"/>
+    <triangle v0="13" v1="2" v2="12"/>
+    <triangle v0="12" v1="2" v2="9"/>
+    <triangle v0="12" v1="9" v2="10"/>
+    <triangle v0="12" v1="10" v2="11"/>
+    <triangle v0="9" v1="2" v2="8"/>
+    <triangle v0="8" v1="2" v2="3"/>
+    <triangle v0="8" v1="3" v2="5"/>
+    <triangle v0="8" v1="5" v2="7"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-410A" type="RS LAB">
+		  <contour>
+			  <centroid x="710431.930743" y="495793.354096"/>
+			  <extent maxx="710438.744800" maxy="495798.589423" minx="710424.443931" miny="495788.499899"/>
+			  <point x="710428.346407" y="495790.850632"/>
+			  <point x="710429.417697" y="495788.499899"/>
+			  <point x="710438.744800" y="495792.750504"/>
+			  <point x="710436.083852" y="495798.589423"/>
+			  <point x="710424.443931" y="495793.284805"/>
+			  <point x="710426.033588" y="495789.796620"/>
+			  <point x="710428.346407" y="495790.850632"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-410" type="explicit">
+			  <edge index="2" param="0.714286"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+    <triangle v0="0" v1="4" v2="5"/>
+  </space>
+	<space name="8-410B" type="RS LAB">
+		  <contour>
+			  <centroid x="710426.548920" y="495804.088845"/>
+			  <extent maxx="710435.945621" maxy="495814.589575" minx="710417.152241" miny="495793.588125"/>
+			  <point x="710424.305700" y="495793.588125"/>
+			  <point x="710435.945621" y="495798.892743"/>
+			  <point x="710428.792163" y="495814.589575"/>
+			  <point x="710417.152241" y="495809.284957"/>
+			  <point x="710424.305700" y="495793.588125"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-410" type="explicit">
+			  <edge index="1" param="0.304348"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-414" type="U/M">
+		  <contour>
+			  <centroid x="710462.815489" y="495816.243576"/>
+			  <extent maxx="710465.396440" maxy="495819.237240" minx="710460.234576" miny="495813.249929"/>
+			  <point x="710463.305695" y="495819.237240"/>
+			  <point x="710460.234576" y="495817.837651"/>
+			  <point x="710462.325321" y="495813.249929"/>
+			  <point x="710465.396440" y="495814.649519"/>
+			  <point x="710463.305695" y="495819.237240"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="3" param="0.330579"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="3" param="0.710744"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-415" type="M LAV">
+		  <contour>
+			  <centroid x="710470.160050" y="495782.310308"/>
+			  <extent maxx="710480.396572" maxy="495794.022967" minx="710459.725031" miny="495770.855303"/>
+			  <point x="710465.963424" y="495788.487370"/>
+			  <point x="710463.440707" y="495794.022967"/>
+			  <point x="710459.725031" y="495792.329637"/>
+			  <point x="710460.830880" y="495789.903073"/>
+			  <point x="710460.300069" y="495789.661169"/>
+			  <point x="710464.516117" y="495780.409896"/>
+			  <point x="710466.639360" y="495781.377514"/>
+			  <point x="710466.777591" y="495781.074193"/>
+			  <point x="710464.654348" y="495780.106576"/>
+			  <point x="710468.870396" y="495770.855303"/>
+			  <point x="710480.396572" y="495776.108084"/>
+			  <point x="710473.243114" y="495791.804916"/>
+			  <point x="710465.963424" y="495788.487370"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="1" param="0.500000"/></portal>
+		  <portal class="horizontal" source="true" target="8-415EA" type="explicit">
+			  <edge index="0" param="0.356164"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+    <triangle v0="0" v1="4" v2="5"/>
+    <triangle v0="0" v1="5" v2="6"/>
+    <triangle v0="0" v1="6" v2="11"/>
+    <triangle v0="11" v1="6" v2="7"/>
+    <triangle v0="11" v1="7" v2="10"/>
+    <triangle v0="10" v1="7" v2="9"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-415E" type="ELEC">
+		  <contour>
+			  <centroid x="710470.618175" y="495796.057612"/>
+			  <extent maxx="710473.776700" maxy="495798.308131" minx="710467.459702" miny="495793.807116"/>
+			  <point x="710473.776700" y="495796.260718"/>
+			  <point x="710472.843640" y="495798.308131"/>
+			  <point x="710467.459702" y="495795.854529"/>
+			  <point x="710468.392762" y="495793.807116"/>
+			  <point x="710473.776700" y="495796.260718"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-400CA" type="explicit">
+			  <edge index="1" param="0.570423"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-415EA" type="ELEC">
+		  <contour>
+			  <centroid x="710469.073434" y="495792.767967"/>
+			  <extent maxx="710475.193568" maxy="495795.881568" minx="710463.819857" miny="495789.039309"/>
+			  <point x="710473.949488" y="495795.881568"/>
+			  <point x="710468.186400" y="495793.255177"/>
+			  <point x="710467.080552" y="495795.681740"/>
+			  <point x="710463.819857" y="495794.195756"/>
+			  <point x="710466.169786" y="495789.039309"/>
+			  <point x="710475.193568" y="495793.151684"/>
+			  <point x="710473.949488" y="495795.881568"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-415" type="explicit">
+			  <edge index="3" param="0.691176"/></portal>
+		  <portal class="horizontal" source="true" target="8-415Z" type="explicit">
+			  <edge index="4" param="0.878151"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-415Z" type="SHAFT">
+		  <contour>
+			  <centroid x="710478.071021" y="495784.526694"/>
+			  <extent maxx="710482.519815" maxy="495792.772533" minx="710473.622265" miny="495776.280873"/>
+			  <point x="710482.519815" y="495777.075701"/>
+			  <point x="710475.366357" y="495792.772533"/>
+			  <point x="710473.622265" y="495791.977705"/>
+			  <point x="710480.775723" y="495776.280873"/>
+			  <point x="710482.519815" y="495777.075701"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-415EA" type="explicit">
+			  <edge index="1" param="0.630435"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-416" type="U/M">
+		  <contour>
+			  <centroid x="710470.791419" y="495812.561402"/>
+			  <extent maxx="710479.000917" maxy="495819.243330" minx="710462.498110" miny="495805.174023"/>
+			  <point x="710479.000917" y="495813.935222"/>
+			  <point x="710476.581873" y="495819.243330"/>
+			  <point x="710466.155234" y="495814.491637"/>
+			  <point x="710466.137955" y="495814.529552"/>
+			  <point x="710462.498110" y="495812.870779"/>
+			  <point x="710466.005724" y="495805.174023"/>
+			  <point x="710468.470202" y="495806.297150"/>
+			  <point x="710467.398911" y="495808.647884"/>
+			  <point x="710470.432115" y="495810.030194"/>
+			  <point x="710471.503406" y="495807.679461"/>
+			  <point x="710476.129043" y="495809.787485"/>
+			  <point x="710475.057752" y="495812.138218"/>
+			  <point x="710479.000917" y="495813.935222"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-400CC" type="explicit">
+			  <edge index="1" param="0.145455"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CC" type="explicit">
+			  <edge index="1" param="0.487273"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CC" type="explicit">
+			  <edge index="1" param="0.661818"/></portal>
+	  <triangle v0="0" v1="1" v2="11"/>
+    <triangle v0="11" v1="1" v2="2"/>
+    <triangle v0="11" v1="2" v2="8"/>
+    <triangle v0="11" v1="8" v2="9"/>
+    <triangle v0="11" v1="9" v2="10"/>
+    <triangle v0="8" v1="2" v2="7"/>
+    <triangle v0="7" v1="2" v2="4"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-417" type="LAB SV">
+		  <contour>
+			  <centroid x="710480.773921" y="495793.531230"/>
+			  <extent maxx="710492.535834" maxy="495801.798466" minx="710475.745508" miny="495786.386018"/>
+			  <point x="710480.502480" y="495801.798466"/>
+			  <point x="710476.180164" y="495799.828673"/>
+			  <point x="710478.702882" y="495794.293075"/>
+			  <point x="710475.745508" y="495792.945322"/>
+			  <point x="710478.734755" y="495786.386018"/>
+			  <point x="710492.535834" y="495792.675532"/>
+			  <point x="710492.414882" y="495792.940937"/>
+			  <point x="710486.196813" y="495790.107200"/>
+			  <point x="710482.568247" y="495798.069361"/>
+			  <point x="710482.264927" y="495797.931130"/>
+			  <point x="710480.502480" y="495801.798466"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CA" type="explicit">
+			  <edge index="0" param="0.412281"/></portal>
+	  <triangle v0="0" v1="1" v2="9"/>
+    <triangle v0="9" v1="1" v2="2"/>
+    <triangle v0="9" v1="2" v2="7"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="7" v1="2" v2="4"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-417A" type="LAB SV">
+		  <contour>
+			  <centroid x="710487.874031" y="495784.690467"/>
+			  <extent maxx="710496.941950" maxy="495792.599702" minx="710478.769312" miny="495777.201488"/>
+			  <point x="710483.960587" y="495777.732299"/>
+			  <point x="710484.202492" y="495777.201488"/>
+			  <point x="710496.941950" y="495783.007194"/>
+			  <point x="710492.570392" y="495792.599702"/>
+			  <point x="710478.769312" y="495786.310188"/>
+			  <point x="710482.898966" y="495777.248490"/>
+			  <point x="710483.960587" y="495777.732299"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-400CB" type="explicit">
+			  <edge index="2" param="0.509881"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+    <triangle v0="0" v1="4" v2="5"/>
+  </space>
+	<space name="8-417T" type="TELE">
+		  <contour>
+			  <centroid x="710487.255273" y="495797.016424"/>
+			  <extent maxx="710492.276651" maxy="495804.163793" minx="710482.871568" miny="495790.548752"/>
+			  <point x="710483.432996" y="495802.401347"/>
+			  <point x="710484.918980" y="495799.140652"/>
+			  <point x="710482.871568" y="495798.207593"/>
+			  <point x="710486.361902" y="495790.548752"/>
+			  <point x="710492.276651" y="495793.244258"/>
+			  <point x="710487.300332" y="495804.163793"/>
+			  <point x="710483.432996" y="495802.401347"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-400CB" type="explicit">
+			  <edge index="4" param="0.402778"/></portal>
+		  <portal class="horizontal" source="false" target="8-400CB" type="explicit">
+			  <edge index="4" param="0.166667"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-419" type="OFF SV">
+		  <contour>
+			  <centroid x="710510.494854" y="495800.709963"/>
+			  <extent maxx="710525.591316" maxy="495813.993779" minx="710495.567783" miny="495786.428413"/>
+			  <point x="710525.591316" y="495796.704515"/>
+			  <point x="710517.712144" y="495813.993779"/>
+			  <point x="710509.598323" y="495810.296098"/>
+			  <point x="710508.838052" y="495811.964360"/>
+			  <point x="710495.567783" y="495805.916750"/>
+			  <point x="710504.449130" y="495786.428413"/>
+			  <point x="710517.719399" y="495792.476023"/>
+			  <point x="710517.477494" y="495793.006833"/>
+			  <point x="710525.591316" y="495796.704515"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CB" type="explicit">
+			  <edge index="4" param="0.112840"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="7"/>
+    <triangle v0="7" v1="2" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-419A" type="OFF SV">
+		  <contour>
+			  <centroid x="710499.954259" y="495809.152099"/>
+			  <extent maxx="710501.950941" maxy="495810.632811" minx="710497.957819" miny="495807.671497"/>
+			  <point x="710497.957819" y="495809.112269"/>
+			  <point x="710498.614417" y="495807.671497"/>
+			  <point x="710501.950941" y="495809.192039"/>
+			  <point x="710501.294344" y="495810.632811"/>
+			  <point x="710497.957819" y="495809.112269"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-419B" type="OFF SV">
+		  <contour>
+			  <centroid x="710505.148688" y="495811.519336"/>
+			  <extent maxx="710508.699821" maxy="495813.708452" minx="710501.597664" miny="495809.330270"/>
+			  <point x="710508.043223" y="495813.708452"/>
+			  <point x="710501.597664" y="495810.771042"/>
+			  <point x="710502.254262" y="495809.330270"/>
+			  <point x="710508.699821" y="495812.267680"/>
+			  <point x="710508.043223" y="495813.708452"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-425" type="OFF">
+		  <contour>
+			  <centroid x="710487.394964" y="495830.425822"/>
+			  <extent maxx="710494.841127" maxy="495838.876660" minx="710479.939167" miny="495821.969634"/>
+			  <point x="710494.841127" y="495826.099288"/>
+			  <point x="710489.018143" y="495838.876660"/>
+			  <point x="710481.700538" y="495835.541836"/>
+			  <point x="710481.683259" y="495835.579751"/>
+			  <point x="710479.939167" y="495834.784922"/>
+			  <point x="710485.779430" y="495821.969634"/>
+			  <point x="710494.841127" y="495826.099288"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-425A" type="explicit">
+			  <edge index="0" param="0.237389"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="4" param="0.745562"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-425A" type="OFF">
+		  <contour>
+			  <centroid x="710499.266204" y="495835.831441"/>
+			  <extent maxx="710509.135102" maxy="495845.390800" minx="710489.397294" miny="495826.272076"/>
+			  <point x="710509.135102" y="495832.613427"/>
+			  <point x="710503.312118" y="495845.390800"/>
+			  <point x="710489.397294" y="495839.049449"/>
+			  <point x="710495.220278" y="495826.272076"/>
+			  <point x="710509.135102" y="495832.613427"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-425" type="explicit">
+			  <edge index="2" param="0.762611"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-431" type="OFF">
+		  <contour>
+			  <centroid x="710489.523494" y="495849.073330"/>
+			  <extent maxx="710503.140162" maxy="495862.638412" minx="710476.016860" miny="495835.920986"/>
+			  <point x="710477.969374" y="495839.107238"/>
+			  <point x="710479.713466" y="495839.902067"/>
+			  <point x="710481.527749" y="495835.920986"/>
+			  <point x="710503.140162" y="495845.770330"/>
+			  <point x="710495.542501" y="495862.638412"/>
+			  <point x="710478.519476" y="495854.880572"/>
+			  <point x="710482.424504" y="495846.311771"/>
+			  <point x="710476.016860" y="495843.391639"/>
+			  <point x="710477.969374" y="495839.107238"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-433A" type="explicit">
+			  <edge index="4" param="0.166997"/></portal>
+		  <portal class="horizontal" source="true" target="8-431A" type="explicit">
+			  <edge index="5" param="0.460177"/></portal>
+	  <triangle v0="0" v1="1" v2="7"/>
+    <triangle v0="7" v1="1" v2="6"/>
+    <triangle v0="6" v1="1" v2="2"/>
+    <triangle v0="6" v1="2" v2="3"/>
+    <triangle v0="6" v1="3" v2="4"/>
+    <triangle v0="6" v1="4" v2="5"/>
+  </space>
+	<space name="8-431A" type="OFF SV">
+		  <contour>
+			  <centroid x="710476.992191" y="495849.239283"/>
+			  <extent maxx="710481.872564" maxy="495854.707784" minx="710472.111832" miny="495843.770789"/>
+			  <point x="710472.111832" y="495851.960441"/>
+			  <point x="710475.844071" y="495843.770789"/>
+			  <point x="710481.872564" y="495846.518132"/>
+			  <point x="710478.140325" y="495854.707784"/>
+			  <point x="710472.111832" y="495851.960441"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="0" param="0.425926"/></portal>
+		  <portal class="horizontal" source="false" target="8-431" type="explicit">
+			  <edge index="2" param="0.518519"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-432" type="OFF">
+		  <contour>
+			  <centroid x="710460.024510" y="495840.740027"/>
+			  <extent maxx="710469.462973" maxy="495851.774445" minx="710450.588928" miny="495829.387910"/>
+			  <point x="710469.462973" y="495834.864332"/>
+			  <point x="710461.756590" y="495851.774445"/>
+			  <point x="710461.377439" y="495851.601656"/>
+			  <point x="710461.394718" y="495851.563741"/>
+			  <point x="710450.588928" y="495846.639259"/>
+			  <point x="710458.450821" y="495829.387910"/>
+			  <point x="710459.019547" y="495829.647093"/>
+			  <point x="710458.846758" y="495830.026244"/>
+			  <point x="710469.462973" y="495834.864332"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="0" param="0.569507"/></portal>
+		  <portal class="horizontal" source="true" target="8-432A" type="explicit">
+			  <edge index="4" param="0.771429"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="7"/>
+    <triangle v0="7" v1="3" v2="4"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-432A" type="OFF SV">
+		  <contour>
+			  <centroid x="710447.672456" y="495834.910080"/>
+			  <extent maxx="710458.071670" maxy="495846.466470" minx="710437.280745" miny="495823.360936"/>
+			  <point x="710454.773061" y="495827.711858"/>
+			  <point x="710458.071670" y="495829.215121"/>
+			  <point x="710450.209778" y="495846.466470"/>
+			  <point x="710437.280745" y="495840.574371"/>
+			  <point x="710445.125358" y="495823.360936"/>
+			  <point x="710454.755782" y="495827.749773"/>
+			  <point x="710454.773061" y="495827.711858"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-432" type="explicit">
+			  <edge index="1" param="0.228571"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-433" type="OFF">
+		  <contour>
+			  <centroid x="710478.687083" y="495861.596432"/>
+			  <extent maxx="710490.100353" maxy="495870.853242" minx="710467.273744" miny="495852.339591"/>
+			  <point x="710490.100353" y="495860.616177"/>
+			  <point x="710485.435054" y="495870.853242"/>
+			  <point x="710467.273744" y="495862.576656"/>
+			  <point x="710471.939043" y="495852.339591"/>
+			  <point x="710490.100353" y="495860.616177"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="2" param="0.259259"/></portal>
+		  <portal class="horizontal" source="true" target="8-435A" type="explicit">
+			  <edge index="1" param="0.089770"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-433A" type="OFF">
+		  <contour>
+			  <centroid x="710490.592409" y="495867.022002"/>
+			  <extent maxx="710495.370546" maxy="495873.255007" minx="710485.814205" miny="495860.788966"/>
+			  <point x="710485.814205" y="495871.026031"/>
+			  <point x="710490.479504" y="495860.788966"/>
+			  <point x="710495.370546" y="495863.017942"/>
+			  <point x="710490.705247" y="495873.255007"/>
+			  <point x="710485.814205" y="495871.026031"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-431" type="explicit">
+			  <edge index="1" param="0.418605"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-434" type="RS LAB">
+		  <contour>
+			  <centroid x="710446.393646" y="495853.814593"/>
+			  <extent maxx="710461.221929" maxy="495866.957253" minx="710431.475039" miny="495840.953521"/>
+			  <point x="710431.475039" y="495853.313828"/>
+			  <point x="710437.107956" y="495840.953521"/>
+			  <point x="710461.221929" y="495851.942892"/>
+			  <point x="710454.379491" y="495866.957253"/>
+			  <point x="710437.810613" y="495859.406380"/>
+			  <point x="710439.020135" y="495856.752326"/>
+			  <point x="710431.475039" y="495853.313828"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="2" param="0.866162"/></portal>
+		  <portal class="horizontal" source="true" target="8-436A" type="explicit">
+			  <edge index="3" param="0.869565"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-435" type="OFF SV">
+		  <contour>
+			  <centroid x="710473.247929" y="495870.333970"/>
+			  <extent maxx="710482.729508" maxy="495878.436252" minx="710463.817967" miny="495862.955806"/>
+			  <point x="710463.817967" y="495870.159666"/>
+			  <point x="710467.100955" y="495862.955806"/>
+			  <point x="710481.470760" y="495869.504504"/>
+			  <point x="710479.525485" y="495873.773020"/>
+			  <point x="710482.729508" y="495876.790021"/>
+			  <point x="710481.979277" y="495878.436252"/>
+			  <point x="710463.817967" y="495870.159666"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-435A" type="explicit">
+			  <edge index="2" param="0.381947"/></portal>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="0" param="0.815789"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-435A" type="P CIRC">
+		  <contour>
+			  <centroid x="710482.579570" y="495872.788444"/>
+			  <extent maxx="710485.262265" maxy="495876.389552" minx="710480.028389" miny="495869.677293"/>
+			  <point x="710481.849911" y="495869.677293"/>
+			  <point x="710485.262265" y="495871.232392"/>
+			  <point x="710482.912012" y="495876.389552"/>
+			  <point x="710480.028389" y="495873.674257"/>
+			  <point x="710481.849911" y="495869.677293"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-435" type="explicit">
+			  <edge index="3" param="0.592104"/></portal>
+		  <portal class="horizontal" source="true" target="8-435B" type="explicit">
+			  <edge index="1" param="0.669025"/></portal>
+		  <portal class="horizontal" source="false" target="8-433" type="explicit">
+			  <edge index="0" param="0.522222"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-435B" type="OFF SV">
+		  <contour>
+			  <centroid x="710486.445363" y="495876.121563"/>
+			  <extent maxx="710490.532458" maxy="495880.838017" minx="710482.358428" miny="495871.405181"/>
+			  <point x="710490.532458" y="495873.634157"/>
+			  <point x="710487.249470" y="495880.838017"/>
+			  <point x="710482.358428" y="495878.609041"/>
+			  <point x="710485.641416" y="495871.405181"/>
+			  <point x="710490.532458" y="495873.634157"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-435A" type="explicit">
+			  <edge index="2" param="0.521053"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="8-436" type="OFF">
+		  <contour>
+			  <centroid x="710444.304104" y="495869.732761"/>
+			  <extent maxx="710454.206702" maxy="495877.838873" minx="710431.259141" miny="495861.755324"/>
+			  <point x="710431.259141" y="495869.562287"/>
+			  <point x="710432.727846" y="495866.339508"/>
+			  <point x="710438.642594" y="495869.035014"/>
+			  <point x="710441.960140" y="495861.755324"/>
+			  <point x="710454.206702" y="495867.336403"/>
+			  <point x="710449.420451" y="495877.838873"/>
+			  <point x="710431.259141" y="495869.562287"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="4" param="0.581227"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="8-436A" type="LAB SV">
+		  <contour>
+			  <centroid x="710434.267566" y="495861.300130"/>
+			  <extent maxx="710441.580990" maxy="495868.483074" minx="710426.947971" miny="495853.692979"/>
+			  <point x="710438.468195" y="495856.958688"/>
+			  <point x="710437.258673" y="495859.612742"/>
+			  <point x="710441.580990" y="495861.582535"/>
+			  <point x="710438.436232" y="495868.483074"/>
+			  <point x="710426.947971" y="495863.247572"/>
+			  <point x="710431.302250" y="495853.692979"/>
+			  <point x="710438.468195" y="495856.958688"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-434" type="explicit">
+			  <edge index="1" param="0.587719"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="8-437" type="OFF">
+		  <contour>
+			  <centroid x="710469.410123" y="495880.060871"/>
+			  <extent maxx="710480.365716" maxy="495889.588515" minx="710458.444234" miny="495870.538817"/>
+			  <point x="710476.965133" y="495885.721180"/>
+			  <point x="710475.202687" y="495889.588515"/>
+			  <point x="710458.444234" y="495881.951248"/>
+			  <point x="710463.645178" y="495870.538817"/>
+			  <point x="710480.365716" y="495878.158805"/>
+			  <point x="710476.927218" y="495885.703901"/>
+			  <point x="710476.965133" y="495885.721180"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="8-400CC" type="explicit">
+			  <edge index="2" param="0.810631"/></portal>
+		  <portal class="horizontal" source="true" target="8-437A" type="explicit">
+			  <edge index="4" param="0.703518"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="2"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="8-437A" type="OFF">
+		  <contour>
+			  <centroid x="710482.191518" y="495883.546926"/>
+			  <extent maxx="710487.076681" maxy="495888.762263" minx="710477.306369" miny="495878.331594"/>
+			  <point x="710483.638183" y="495888.762263"/>
+			  <point x="710477.306369" y="495885.876690"/>
+			  <point x="710480.744867" y="495878.331594"/>
+			  <point x="710487.076681" y="495881.217168"/>
+			  <point x="710483.638183" y="495888.762263"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="8-437" type="explicit">
+			  <edge index="1" param="0.296482"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="710403.397950" y="498826.539428"/>
+			  <extent maxx="710409.028520" maxy="498834.733404" minx="710397.766735" miny="498818.345554"/>
+			  <point x="710406.655930" y="498818.345554"/>
+			  <point x="710397.766735" y="498819.753464"/>
+			  <point x="710400.139325" y="498834.733404"/>
+			  <point x="710409.028520" y="498833.325494"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NE125-3000SE" type="explicit">
+			  <edge index="3" param="0.819453"/></portal>
+	</floor>
+	<space name="NE125-3000SE" type="STAIR">
+		  <contour>
+			  <centroid x="710403.385795" y="498826.456981"/>
+			  <extent maxx="710408.430386" maxy="498833.996728" minx="710398.338797" miny="498818.917615"/>
+			  <point x="710400.528879" y="498833.996728"/>
+			  <point x="710408.430386" y="498832.745252"/>
+			  <point x="710406.240303" y="498818.917615"/>
+			  <point x="710398.338797" y="498820.169091"/>
+			  <point x="710400.528879" y="498833.996728"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="NE125-3FLOORCONTOUR" type="explicit">
+			  <edge index="1" param="0.841029"/></portal>
+	  <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="NE125-2000SE" type="STAIR"/></space>
+	<space name="NE125-3118" type="U/M">
+		  <contour>
+			  <centroid x="710163.227623" y="498859.585022"/>
+			  <extent maxx="710167.850675" maxy="498872.031518" minx="710158.611818" miny="498847.137378"/>
+			  <point x="710164.044103" y="498847.137378"/>
+			  <point x="710158.611818" y="498847.997768"/>
+			  <point x="710162.418390" y="498872.031518"/>
+			  <point x="710167.850675" y="498871.171128"/>
+			  <point x="710164.044103" y="498847.137378"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+  </space>
+	<space name="NE125-3120" type="U/M">
+		  <contour>
+			  <centroid x="710168.990664" y="498858.672246"/>
+			  <extent maxx="710173.612191" maxy="498871.118983" minx="710164.373333" miny="498846.224844"/>
+			  <point x="710169.805619" y="498846.224844"/>
+			  <point x="710164.373333" y="498847.085234"/>
+			  <point x="710168.179905" y="498871.118983"/>
+			  <point x="710173.612191" y="498870.258594"/>
+			  <point x="710169.805619" y="498846.224844"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+	<space name="NE125-3216" type="U/M">
+		  <contour>
+			  <centroid x="710390.461214" y="498843.944127"/>
+			  <extent maxx="710397.961234" maxy="498856.847490" minx="710382.960861" miny="498831.040816"/>
+			  <point x="710394.154662" y="498831.040816"/>
+			  <point x="710382.960861" y="498832.813740"/>
+			  <point x="710386.767433" y="498856.847490"/>
+			  <point x="710397.961234" y="498855.074566"/>
+			  <point x="710394.154662" y="498831.040816"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+  </space>
+	<space name="NE125-3218" type="U/M">
+		  <contour>
+			  <centroid x="710394.319677" y="498868.307149"/>
+			  <extent maxx="710401.819952" maxy="498881.210474" minx="710386.819578" miny="498855.403795"/>
+			  <point x="710398.013379" y="498855.403795"/>
+			  <point x="710386.819578" y="498857.176719"/>
+			  <point x="710390.626151" y="498881.210474"/>
+			  <point x="710401.819952" y="498879.437550"/>
+			  <point x="710398.013379" y="498855.403795"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+  </space>
+
+</MITquest>

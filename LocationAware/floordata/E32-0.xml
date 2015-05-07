@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="711715.929564" y="496244.257948"/>
+			  <extent maxx="711728.219178" maxy="496265.205740" minx="711703.639940" miny="496223.310156"/>
+			  <point x="711728.219178" y="496263.208953"/>
+			  <point x="711724.377361" y="496223.310156"/>
+			  <point x="711703.639940" y="496225.306943"/>
+			  <point x="711707.481758" y="496265.205740"/>
+			  <point x="711728.219178" y="496263.208953"/>
+		</contour>
+	</floor>
+	<space name="E32-000SA" type="STAIR">
+		  <contour>
+			  <centroid x="711714.616716" y="496261.923440"/>
+			  <extent maxx="711721.155559" maxy="496264.114498" minx="711708.077796" miny="496259.732390"/>
+			  <point x="711708.381308" y="496264.114498"/>
+			  <point x="711708.077796" y="496260.962410"/>
+			  <point x="711720.852048" y="496259.732390"/>
+			  <point x="711721.155559" y="496262.884478"/>
+			  <point x="711708.381308" y="496264.114498"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E32-001" type="explicit">
+			  <edge index="1" param="0.879870"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="UP" target="E32-100SA" type="STAIR"/></space>
+	<space name="E32-001" type="U/M">
+		  <contour>
+			  <centroid x="711716.071971" y="496242.823745"/>
+			  <extent maxx="711727.293836" maxy="496262.596940" minx="711704.763131" miny="496224.717222"/>
+			  <point x="711727.293836" y="496262.293429"/>
+			  <point x="711724.141748" y="496262.596940"/>
+			  <point x="711723.958043" y="496260.689098"/>
+			  <point x="711721.967251" y="496260.880789"/>
+			  <point x="711721.751598" y="496258.641148"/>
+			  <point x="711707.981951" y="496259.967014"/>
+			  <point x="711704.763131" y="496226.538292"/>
+			  <point x="711723.675658" y="496224.717222"/>
+			  <point x="711727.293836" y="496262.293429"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="E32-000SA" type="explicit">
+			  <edge index="4" param="0.183735"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="4"/>
+    <triangle v0="0" v1="4" v2="7"/>
+    <triangle v0="7" v1="4" v2="6"/>
+    <triangle v0="6" v1="4" v2="5"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

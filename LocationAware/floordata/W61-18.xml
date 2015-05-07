@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="708117.411915" y="494220.542103"/>
+			  <extent maxx="708132.886944" maxy="494238.349020" minx="708101.936887" miny="494202.735188"/>
+			  <point x="708101.936887" y="494229.882366"/>
+			  <point x="708120.515263" y="494238.349020"/>
+			  <point x="708132.886944" y="494211.201842"/>
+			  <point x="708114.308568" y="494202.735188"/>
+			  <point x="708101.936887" y="494229.882366"/>
+		</contour>
+	</floor>
+	<space name="W61-1800SB" type="STAIR">
+		  <contour>
+			  <centroid x="708119.790265" y="494211.002817"/>
+			  <extent maxx="708127.059485" maxy="494216.538597" minx="708112.521054" miny="494205.467042"/>
+			  <point x="708115.078329" y="494205.467042"/>
+			  <point x="708127.059485" y="494210.927169"/>
+			  <point x="708124.502210" y="494216.538597"/>
+			  <point x="708112.521054" y="494211.078469"/>
+			  <point x="708115.078329" y="494205.467042"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W61-1801" type="explicit">
+			  <edge index="2" param="0.167722"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W61-1700SB" type="STAIR"/></space>
+	<space name="W61-1801" type="U/M">
+		  <contour>
+			  <centroid x="708116.368908" y="494222.665835"/>
+			  <extent maxx="708130.320180" maxy="494234.200297" minx="708104.503651" miny="494211.341863"/>
+			  <point x="708112.106360" y="494211.988431"/>
+			  <point x="708124.997478" y="494217.863252"/>
+			  <point x="708127.969447" y="494211.341863"/>
+			  <point x="708130.320180" y="494212.413153"/>
+			  <point x="708122.510124" y="494229.550757"/>
+			  <point x="708119.401090" y="494228.133889"/>
+			  <point x="708116.636468" y="494234.200297"/>
+			  <point x="708104.503651" y="494228.671054"/>
+			  <point x="708112.106360" y="494211.988431"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W61-1800SB" type="explicit">
+			  <edge index="0" param="0.773529"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="0" v1="5" v2="7"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+
+</MITquest>

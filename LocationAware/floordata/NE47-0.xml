@@ -1,0 +1,462 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709973.544734" y="496848.212764"/>
+			  <extent maxx="710035.250000" maxy="496974.885416" minx="709927.249999" miny="496726.218750"/>
+			  <point x="710011.000000" y="496957.968750"/>
+			  <point x="710011.000000" y="496884.718750"/>
+			  <point x="710035.250000" y="496884.718749"/>
+			  <point x="710035.249999" y="496812.468749"/>
+			  <point x="710010.999999" y="496812.468750"/>
+			  <point x="710010.999999" y="496739.218750"/>
+			  <point x="709979.624999" y="496739.218750"/>
+			  <point x="709979.624999" y="496726.218750"/>
+			  <point x="709937.624999" y="496726.218750"/>
+			  <point x="709937.624999" y="496739.218750"/>
+			  <point x="709927.249999" y="496739.218750"/>
+			  <point x="709927.250000" y="496957.968750"/>
+			  <point x="709960.538872" y="496957.968750"/>
+			  <point x="709960.538872" y="496973.885416"/>
+			  <point x="709968.456078" y="496973.885416"/>
+			  <point x="709968.456078" y="496974.885416"/>
+			  <point x="709969.456078" y="496974.885416"/>
+			  <point x="709969.456078" y="496973.885416"/>
+			  <point x="709976.372208" y="496973.885416"/>
+			  <point x="709976.372208" y="496973.552083"/>
+			  <point x="709982.122187" y="496973.552083"/>
+			  <point x="709982.122208" y="496962.802083"/>
+			  <point x="710009.955541" y="496962.800615"/>
+			  <point x="710009.955541" y="496957.968750"/>
+		</contour>
+	</floor>
+	<space name="NE47-015" type="RS LAB">
+		  <contour>
+			  <centroid x="709989.333581" y="496937.876479"/>
+			  <extent maxx="709996.750595" maxy="496943.990577" minx="709981.916667" miny="496931.762405"/>
+			  <point x="709996.750397" y="496943.990577"/>
+			  <point x="709996.750595" y="496931.762405"/>
+			  <point x="709981.916667" y="496931.762405"/>
+			  <point x="709981.916667" y="496943.990577"/>
+			  <point x="709996.750397" y="496943.990577"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="NE47-015A" type="explicit">
+			  <edge index="3" param="0.345496"/></portal>
+		  <portal class="horizontal" source="true" target="NE47-015B" type="explicit">
+			  <edge index="0" param="0.512737"/></portal>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+	<space name="NE47-015A" type="RS LAB">
+		  <contour>
+			  <centroid x="709989.314363" y="496950.621634"/>
+			  <extent maxx="709996.752233" maxy="496956.718750" minx="709981.916667" miny="496944.490577"/>
+			  <point x="709996.750595" y="496945.740289"/>
+			  <point x="709994.750595" y="496945.740577"/>
+			  <point x="709994.750595" y="496944.490577"/>
+			  <point x="709981.916667" y="496944.490577"/>
+			  <point x="709981.916667" y="496955.593750"/>
+			  <point x="709983.622208" y="496955.593750"/>
+			  <point x="709983.625000" y="496956.718750"/>
+			  <point x="709996.752233" y="496956.716775"/>
+			  <point x="709996.750890" y="496947.802083"/>
+			  <point x="709996.750595" y="496945.740577"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NE47-015" type="explicit">
+			  <edge index="2" param="0.600668"/></portal>
+	  <triangle v0="1" v1="0" v2="9"/>
+    <triangle v0="1" v1="9" v2="8"/>
+    <triangle v0="1" v1="8" v2="5"/>
+    <triangle v0="1" v1="5" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+    <triangle v0="3" v1="5" v2="4"/>
+    <triangle v0="5" v1="8" v2="7"/>
+    <triangle v0="5" v1="7" v2="6"/>
+    <triangle v0="9" v1="0" v2="8"/>
+    <triangle v0="8" v1="0" v2="0"/>
+    <triangle v0="8" v1="0" v2="7"/>
+    <triangle v0="7" v1="0" v2="0"/>
+    <triangle v0="7" v1="0" v2="6"/>
+    <triangle v0="6" v1="0" v2="4"/>
+    <triangle v0="6" v1="4" v2="5"/>
+    <triangle v0="4" v1="0" v2="3"/>
+    <triangle v0="3" v1="0" v2="0"/>
+    <triangle v0="3" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="0"/>
+    <triangle v0="2" v1="0" v2="1"/>
+    <triangle v0="0" v1="0" v2="0"/>
+    <triangle v0="0" v1="0" v2="0"/>
+  </space>
+	<space name="NE47-015B" type="RS LAB">
+		  <contour>
+			  <centroid x="710003.419370" y="496944.222979"/>
+			  <extent maxx="710009.625000" maxy="496956.593750" minx="709997.167262" miny="496931.762405"/>
+			  <point x="709998.417262" y="496933.783238"/>
+			  <point x="709997.167262" y="496933.783238"/>
+			  <point x="709997.168900" y="496956.593750"/>
+			  <point x="710008.500000" y="496956.593750"/>
+			  <point x="710008.500000" y="496955.468750"/>
+			  <point x="710009.625000" y="496955.468750"/>
+			  <point x="710009.625000" y="496931.762405"/>
+			  <point x="709998.417262" y="496931.762405"/>
+			  <point x="709998.417262" y="496933.783238"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NE47-015" type="explicit">
+			  <edge index="1" param="0.172618"/></portal>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="4"/>
+    <triangle v0="2" v1="4" v2="3"/>
+    <triangle v0="4" v1="0" v2="6"/>
+    <triangle v0="4" v1="6" v2="5"/>
+    <triangle v0="6" v1="0" v2="7"/>
+  </space>
+	<space name="NE47-015C" type="RS LAB">
+		  <contour>
+			  <centroid x="709986.984933" y="496925.507149"/>
+			  <extent maxx="709991.500000" maxy="496931.345738" minx="709981.916666" miny="496920.304072"/>
+			  <point x="709984.500000" y="496931.345738"/>
+			  <point x="709991.500000" y="496931.345738"/>
+			  <point x="709991.500000" y="496920.304072"/>
+			  <point x="709981.916666" y="496920.304072"/>
+			  <point x="709981.916667" y="496928.345738"/>
+			  <point x="709984.500000" y="496928.345738"/>
+			  <point x="709984.500000" y="496931.345738"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="5"/>
+    <triangle v0="1" v1="5" v2="2"/>
+    <triangle v0="2" v1="5" v2="3"/>
+    <triangle v0="3" v1="5" v2="4"/>
+  </space>
+	<space name="NE47-017" type="LAB SV">
+		  <contour>
+			  <centroid x="709991.563749" y="496916.093540"/>
+			  <extent maxx="710002.416666" maxy="496919.804072" minx="709981.916666" miny="496913.054072"/>
+			  <point x="710002.416666" y="496918.387405"/>
+			  <point x="710002.416666" y="496913.054072"/>
+			  <point x="709981.916666" y="496913.054072"/>
+			  <point x="709981.916666" y="496919.804072"/>
+			  <point x="709991.500000" y="496919.804072"/>
+			  <point x="709991.500000" y="496918.387405"/>
+			  <point x="710002.416666" y="496918.387405"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NE47-017A" type="explicit">
+			  <edge index="5" param="0.229008"/></portal>
+	  <triangle v0="1" v1="0" v2="5"/>
+    <triangle v0="1" v1="5" v2="2"/>
+    <triangle v0="2" v1="5" v2="3"/>
+    <triangle v0="3" v1="5" v2="4"/>
+  </space>
+	<space name="NE47-017A" type="LAB SV">
+		  <contour>
+			  <centroid x="709997.208333" y="496925.116573"/>
+			  <extent maxx="710002.416667" maxy="496931.345738" minx="709992.000000" miny="496918.887405"/>
+			  <point x="709992.000000" y="496931.345738"/>
+			  <point x="710002.416667" y="496931.345738"/>
+			  <point x="710002.416666" y="496918.887405"/>
+			  <point x="709992.000000" y="496918.887405"/>
+			  <point x="709992.000000" y="496931.345738"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="NE47-017" type="explicit">
+			  <edge index="2" param="0.808000"/></portal>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+	<space name="NE47-017B" type="CMPUTR">
+		  <contour>
+			  <centroid x="710005.557788" y="496921.581667"/>
+			  <extent maxx="710009.750000" maxy="496931.345738" minx="710002.833333" miny="496913.054072"/>
+			  <point x="710009.750000" y="496931.345738"/>
+			  <point x="710009.750000" y="496930.593750"/>
+			  <point x="710008.625000" y="496930.593750"/>
+			  <point x="710008.625000" y="496929.010416"/>
+			  <point x="710006.833333" y="496929.010416"/>
+			  <point x="710006.833333" y="496918.177083"/>
+			  <point x="710009.750000" y="496918.177083"/>
+			  <point x="710009.750000" y="496913.054072"/>
+			  <point x="710002.833333" y="496913.054072"/>
+			  <point x="710002.833333" y="496931.345738"/>
+			  <point x="710009.750000" y="496931.345738"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="NE47-017BA" type="explicit">
+			  <edge index="4" param="0.361418"/></portal>
+		  <portal class="horizontal" source="true" target="NE47-017BA" type="explicit">
+			  <edge index="4" param="0.361418"/></portal>
+		  <portal class="horizontal" source="true" target="NE47-017BA" type="explicit">
+			  <edge index="4" param="0.638582"/></portal>
+		  <portal class="horizontal" source="true" target="NE47-017BA" type="explicit">
+			  <edge index="4" param="0.638582"/></portal>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="9"/>
+    <triangle v0="2" v1="9" v2="4"/>
+    <triangle v0="2" v1="4" v2="3"/>
+    <triangle v0="4" v1="9" v2="5"/>
+    <triangle v0="5" v1="9" v2="8"/>
+    <triangle v0="5" v1="8" v2="7"/>
+    <triangle v0="5" v1="7" v2="6"/>
+  </space>
+	<space name="NE47-017BA" type="CMP SV">
+		  <contour>
+			  <centroid x="710008.500000" y="496923.593750"/>
+			  <extent maxx="710009.750000" maxy="496928.593750" minx="710007.250000" miny="496918.593750"/>
+			  <point x="710009.750000" y="496928.593750"/>
+			  <point x="710009.750000" y="496918.593750"/>
+			  <point x="710007.250000" y="496918.593750"/>
+			  <point x="710007.250000" y="496928.593750"/>
+			  <point x="710009.750000" y="496928.593750"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NE47-017B" type="explicit">
+			  <edge index="2" param="0.691848"/></portal>
+		  <portal class="horizontal" source="false" target="NE47-017B" type="explicit">
+			  <edge index="2" param="0.691848"/></portal>
+		  <portal class="horizontal" source="false" target="NE47-017B" type="explicit">
+			  <edge index="2" param="0.308152"/></portal>
+		  <portal class="horizontal" source="false" target="NE47-017B" type="explicit">
+			  <edge index="2" param="0.308152"/></portal>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+	<space name="NE47-017C" type="LAB SV">
+		  <contour>
+			  <centroid x="709998.928591" y="496907.158944"/>
+			  <extent maxx="710009.750000" maxy="496912.637405" minx="709988.302083" miny="496901.593750"/>
+			  <point x="710008.625000" y="496901.593750"/>
+			  <point x="710008.625000" y="496903.593750"/>
+			  <point x="710009.750000" y="496903.593750"/>
+			  <point x="710009.750000" y="496912.637405"/>
+			  <point x="709988.302083" y="496912.637405"/>
+			  <point x="709988.302083" y="496901.593750"/>
+			  <point x="710008.625000" y="496901.593750"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="NE47-019" type="OFF SV">
+		  <contour>
+			  <centroid x="709984.975254" y="496907.366451"/>
+			  <extent maxx="709987.802083" maxy="496912.637405" minx="709981.916666" miny="496901.593750"/>
+			  <point x="709987.802083" y="496901.593750"/>
+			  <point x="709987.802083" y="496912.637405"/>
+			  <point x="709981.916666" y="496912.637405"/>
+			  <point x="709981.916666" y="496903.593750"/>
+			  <point x="709983.625000" y="496903.593750"/>
+			  <point x="709983.625000" y="496901.593750"/>
+			  <point x="709987.802083" y="496901.593750"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="4"/>
+    <triangle v0="0" v1="4" v2="5"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="NE47-065" type="LAB SP">
+		  <contour>
+			  <centroid x="709938.348832" y="496824.147114"/>
+			  <extent maxx="709947.999999" maxy="496832.807119" minx="709928.583333" miny="496815.455475"/>
+			  <point x="709947.999999" y="496815.455475"/>
+			  <point x="709947.999999" y="496832.807119"/>
+			  <point x="709928.583333" y="496832.807119"/>
+			  <point x="709928.583333" y="496822.593750"/>
+			  <point x="709929.624999" y="496822.593750"/>
+			  <point x="709929.624999" y="496820.593750"/>
+			  <point x="709928.583333" y="496820.593750"/>
+			  <point x="709928.583333" y="496815.455475"/>
+			  <point x="709947.999999" y="496815.455475"/>
+		</contour>
+	  <portal class="horizontal" target="NE47-065A" type="implicit">
+      <edge index="7" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="4"/>
+    <triangle v0="0" v1="4" v2="5"/>
+    <triangle v0="0" v1="5" v2="7"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="NE47-065A" type="LAB SP">
+		  <contour>
+			  <centroid x="709938.291666" y="496806.779656"/>
+			  <extent maxx="709947.999999" maxy="496815.455475" minx="709928.583332" miny="496798.103821"/>
+			  <point x="709947.999999" y="496798.103821"/>
+			  <point x="709947.999999" y="496803.371796"/>
+			  <point x="709947.999999" y="496815.455475"/>
+			  <point x="709928.583333" y="496815.455475"/>
+			  <point x="709928.583332" y="496798.103821"/>
+			  <point x="709947.999999" y="496798.103821"/>
+		</contour>
+	  <portal class="horizontal" target="NE47-065" type="implicit">
+      <edge index="2" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="NE47-070T" type="TELE">
+		  <contour>
+			  <centroid x="709938.354021" y="496789.695947"/>
+			  <extent maxx="709947.999999" maxy="496797.687154" minx="709928.583332" miny="496781.770833"/>
+			  <point x="709947.999999" y="496797.687154"/>
+			  <point x="709947.999999" y="496781.770833"/>
+			  <point x="709928.583332" y="496781.770833"/>
+			  <point x="709928.583332" y="496793.593750"/>
+			  <point x="709929.624999" y="496793.593750"/>
+			  <point x="709929.624999" y="496795.593750"/>
+			  <point x="709928.583332" y="496795.593750"/>
+			  <point x="709928.583332" y="496797.687154"/>
+			  <point x="709947.999999" y="496797.687154"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="4"/>
+    <triangle v0="1" v1="4" v2="2"/>
+    <triangle v0="2" v1="4" v2="3"/>
+    <triangle v0="4" v1="0" v2="5"/>
+    <triangle v0="5" v1="0" v2="7"/>
+    <triangle v0="5" v1="7" v2="6"/>
+  </space>
+	<space name="NE47-071T" type="TELE">
+		  <contour>
+			  <centroid x="709929.124999" y="496778.854220"/>
+			  <extent maxx="709929.666666" maxy="496781.354167" minx="709928.583332" miny="496776.354167"/>
+			  <point x="709929.666666" y="496781.354167"/>
+			  <point x="709929.666666" y="496776.354167"/>
+			  <point x="709928.583332" y="496776.354167"/>
+			  <point x="709928.583332" y="496781.354167"/>
+			  <point x="709929.666666" y="496781.354167"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="3"/>
+  </space>
+	<space name="NE47-080T" type="TELE">
+		  <contour>
+			  <centroid x="709968.896657" y="496789.162845"/>
+			  <extent maxx="709983.166666" maxy="496793.385417" minx="709954.833332" miny="496784.802083"/>
+			  <point x="709983.166666" y="496793.385416"/>
+			  <point x="709983.166666" y="496785.052083"/>
+			  <point x="709967.291666" y="496785.052083"/>
+			  <point x="709967.291666" y="496784.802083"/>
+			  <point x="709954.833332" y="496784.802083"/>
+			  <point x="709954.833332" y="496793.385417"/>
+			  <point x="709983.166666" y="496793.385416"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="5"/>
+    <triangle v0="2" v1="5" v2="4"/>
+    <triangle v0="2" v1="4" v2="3"/>
+  </space>
+	<space name="NE47-083" type="LAB SP">
+		  <contour>
+			  <centroid x="709999.939195" y="496766.788382"/>
+			  <extent maxx="710009.749999" maxy="496775.568746" minx="709990.249999" miny="496758.018758"/>
+			  <point x="709990.249999" y="496775.568746"/>
+			  <point x="710009.749999" y="496775.568745"/>
+			  <point x="710009.749999" y="496768.593750"/>
+			  <point x="710008.624999" y="496768.593750"/>
+			  <point x="710008.624999" y="496766.593750"/>
+			  <point x="710009.749999" y="496766.593750"/>
+			  <point x="710009.749999" y="496758.018758"/>
+			  <point x="709990.249999" y="496758.018758"/>
+			  <point x="709990.249999" y="496775.568746"/>
+		</contour>
+	  <portal class="horizontal" target="NE47-083A" type="implicit">
+      <edge index="6" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+    <triangle v0="3" v1="0" v2="4"/>
+    <triangle v0="4" v1="0" v2="7"/>
+    <triangle v0="4" v1="7" v2="6"/>
+    <triangle v0="4" v1="6" v2="5"/>
+  </space>
+	<space name="NE47-083A" type="LAB SP">
+		  <contour>
+			  <centroid x="709999.965895" y="496749.274258"/>
+			  <extent maxx="710009.749999" maxy="496758.018758" minx="709990.249999" miny="496740.468750"/>
+			  <point x="710009.749999" y="496758.018758"/>
+			  <point x="710009.749999" y="496741.593750"/>
+			  <point x="710008.624999" y="496741.593750"/>
+			  <point x="710008.624999" y="496740.468750"/>
+			  <point x="709990.249999" y="496740.468750"/>
+			  <point x="709990.249999" y="496758.018758"/>
+			  <point x="710009.749999" y="496758.018758"/>
+		</contour>
+	  <portal class="horizontal" target="NE47-083" type="implicit">
+      <edge index="5" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="5"/>
+    <triangle v0="2" v1="5" v2="4"/>
+    <triangle v0="2" v1="4" v2="3"/>
+  </space>
+	<space name="NE47-084" type="RS LAB">
+		  <contour>
+			  <centroid x="709970.051775" y="496761.288805"/>
+			  <extent maxx="709983.416666" maxy="496777.968750" minx="709962.249999" miny="496740.593750"/>
+			  <point x="709983.416666" y="496777.968750"/>
+			  <point x="709983.416666" y="496768.802083"/>
+			  <point x="709972.333332" y="496768.802083"/>
+			  <point x="709972.333332" y="496768.385416"/>
+			  <point x="709974.833332" y="496768.385416"/>
+			  <point x="709974.833332" y="496740.593750"/>
+			  <point x="709962.249999" y="496740.593750"/>
+			  <point x="709962.249999" y="496777.968750"/>
+			  <point x="709983.416666" y="496777.968750"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="NE47-084A" type="explicit">
+			  <edge index="1" param="0.558221"/></portal>
+	  <triangle v0="1" v1="0" v2="2"/>
+    <triangle v0="2" v1="0" v2="7"/>
+    <triangle v0="2" v1="7" v2="3"/>
+    <triangle v0="3" v1="7" v2="6"/>
+    <triangle v0="3" v1="6" v2="5"/>
+    <triangle v0="3" v1="5" v2="4"/>
+  </space>
+	<space name="NE47-084A" type="LAB SP">
+		  <contour>
+			  <centroid x="709979.088539" y="496764.696095"/>
+			  <extent maxx="709983.416666" maxy="496768.385416" minx="709975.249999" miny="496761.385416"/>
+			  <point x="709983.416666" y="496766.218750"/>
+			  <point x="709983.416666" y="496761.385416"/>
+			  <point x="709975.249999" y="496761.385416"/>
+			  <point x="709975.249999" y="496768.385416"/>
+			  <point x="709981.499999" y="496768.385416"/>
+			  <point x="709981.499999" y="496766.218750"/>
+			  <point x="709983.416666" y="496766.218750"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="NE47-084" type="explicit">
+			  <edge index="3" param="0.320000"/></portal>
+	  <triangle v0="1" v1="0" v2="5"/>
+    <triangle v0="1" v1="5" v2="2"/>
+    <triangle v0="2" v1="5" v2="3"/>
+    <triangle v0="3" v1="5" v2="4"/>
+  </space>
+	<space name="NE47-087" type="RS LAB">
+		  <contour>
+			  <centroid x="709983.378922" y="496752.745463"/>
+			  <extent maxx="709989.833332" maxy="496768.385416" minx="709975.833332" miny="496740.593750"/>
+			  <point x="709989.833332" y="496768.385416"/>
+			  <point x="709989.833332" y="496740.593750"/>
+			  <point x="709983.749999" y="496740.593750"/>
+			  <point x="709983.749999" y="496741.718750"/>
+			  <point x="709981.499999" y="496741.718750"/>
+			  <point x="709981.499999" y="496740.593750"/>
+			  <point x="709975.833332" y="496740.593750"/>
+			  <point x="709975.833332" y="496760.968750"/>
+			  <point x="709983.833332" y="496760.968750"/>
+			  <point x="709983.833332" y="496768.385416"/>
+			  <point x="709989.833332" y="496768.385416"/>
+		</contour>
+	  <triangle v0="1" v1="0" v2="8"/>
+    <triangle v0="1" v1="8" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+    <triangle v0="3" v1="8" v2="4"/>
+    <triangle v0="4" v1="8" v2="7"/>
+    <triangle v0="4" v1="7" v2="6"/>
+    <triangle v0="4" v1="6" v2="5"/>
+    <triangle v0="8" v1="0" v2="9"/>
+  </space>
+
+</MITquest>

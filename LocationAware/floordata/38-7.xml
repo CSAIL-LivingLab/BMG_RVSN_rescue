@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="710026.385228" y="496234.554794"/>
+			  <extent maxx="710081.105631" maxy="496273.860541" minx="709970.625816" miny="496197.569979"/>
+			  <point x="710081.105631" y="496236.931279"/>
+			  <point x="709994.735140" y="496197.569979"/>
+			  <point x="709991.769886" y="496204.277586"/>
+			  <point x="709984.414366" y="496200.925483"/>
+			  <point x="709970.625816" y="496231.181695"/>
+			  <point x="710064.275997" y="496273.860541"/>
+			  <point x="710081.105631" y="496236.931279"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="3" param="0.540100"/></portal>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="4" param="0.154251"/></portal>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="4" param="0.474089"/></portal>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="4" param="0.504049"/></portal>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="0" param="0.374451"/></portal>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="0" param="0.405180"/></portal>
+		  <portal class="horizontal" source="true" target="38-790" type="explicit">
+			  <edge index="0" param="0.960931"/></portal>
+	</floor>
+	<space name="38-790" type="U/M">
+		  <contour>
+			  <centroid x="710026.314179" y="496234.940786"/>
+			  <extent maxx="710072.045765" maxy="496273.198214" minx="709976.540924" miny="496198.232307"/>
+			  <point x="710064.028362" y="496273.198214"/>
+			  <point x="709979.022814" y="496234.458953"/>
+			  <point x="709984.275595" y="496222.932777"/>
+			  <point x="709976.540924" y="496219.407885"/>
+			  <point x="709978.821737" y="496214.403098"/>
+			  <point x="709986.025597" y="496217.686086"/>
+			  <point x="709991.934976" y="496204.719138"/>
+			  <point x="709994.837828" y="496198.349409"/>
+			  <point x="709994.913658" y="496198.383967"/>
+			  <point x="709994.982774" y="496198.232307"/>
+			  <point x="710070.661220" y="496232.720961"/>
+			  <point x="710062.263682" y="496251.147677"/>
+			  <point x="710065.903527" y="496252.806450"/>
+			  <point x="710065.108698" y="496254.550542"/>
+			  <point x="710068.596883" y="496256.140200"/>
+			  <point x="710069.391711" y="496254.396107"/>
+			  <point x="710072.045765" y="496255.605629"/>
+			  <point x="710064.028362" y="496273.198214"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="BMAP-4370" type="TRANSITION">
+			  <edge index="3" param="0.386364"/></portal>
+		  <portal class="horizontal" source="false" target="BMAP-4369" type="TRANSITION">
+			  <edge index="0" param="0.926405"/></portal>
+		  <portal class="horizontal" source="false" target="BMAP-4369" type="TRANSITION">
+			  <edge index="0" param="0.574041"/></portal>
+		  <portal class="horizontal" source="false" target="BMAP-4369" type="TRANSITION">
+			  <edge index="0" param="0.541035"/></portal>
+		  <portal class="horizontal" source="false" target="38-7FLOORCONTOUR" type="explicit">
+			  <edge index="9" param="0.707916"/></portal>
+		  <portal class="horizontal" source="false" target="38-7FLOORCONTOUR" type="explicit">
+			  <edge index="9" param="0.672846"/></portal>
+		  <portal class="horizontal" source="false" target="38-7FLOORCONTOUR" type="explicit">
+			  <edge index="9" param="0.038577"/></portal>
+	  <triangle v0="0" v1="1" v2="11"/>
+    <triangle v0="0" v1="11" v2="13"/>
+    <triangle v0="0" v1="13" v2="14"/>
+    <triangle v0="0" v1="14" v2="16"/>
+    <triangle v0="16" v1="14" v2="15"/>
+    <triangle v0="13" v1="11" v2="12"/>
+    <triangle v0="11" v1="1" v2="2"/>
+    <triangle v0="11" v1="2" v2="5"/>
+    <triangle v0="11" v1="5" v2="6"/>
+    <triangle v0="11" v1="6" v2="10"/>
+    <triangle v0="10" v1="6" v2="8"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+
+</MITquest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor>
+		  <contour>
+			  <centroid x="709389.758346" y="495611.313838"/>
+			  <extent maxx="709407.098419" maxy="495644.089790" minx="709372.418176" miny="495578.537841"/>
+			  <point x="709401.032010" y="495578.537841"/>
+			  <point x="709392.046990" y="495598.253669"/>
+			  <point x="709372.418176" y="495641.325169"/>
+			  <point x="709378.484585" y="495644.089790"/>
+			  <point x="709407.098419" y="495581.302463"/>
+			  <point x="709401.032010" y="495578.537841"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W32-240M" type="explicit">
+			  <edge index="0" param="0.303846"/></portal>
+		  <portal class="horizontal" source="false" target="W32-240M" type="explicit">
+			  <edge index="2" param="0.387500"/></portal>
+	</floor>
+	<space name="W32-240M" type="ATHLET">
+		  <contour>
+			  <centroid x="709389.070963" y="495612.420053"/>
+			  <extent maxx="709403.997889" maxy="495641.482739" minx="709374.144095" miny="495583.357395"/>
+			  <point x="709392.805291" y="495598.599246"/>
+			  <point x="709399.751403" y="495583.357395"/>
+			  <point x="709403.997889" y="495585.292630"/>
+			  <point x="709378.390581" y="495641.482739"/>
+			  <point x="709374.144095" y="495639.547503"/>
+			  <point x="709392.805291" y="495598.599246"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W32-2FLOORCONTOUR" type="explicit">
+			  <edge index="0" param="0.900498"/></portal>
+		  <portal class="horizontal" source="true" target="W32-2FLOORCONTOUR" type="explicit">
+			  <edge index="3" param="0.625000"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+  </space>
+
+</MITquest>

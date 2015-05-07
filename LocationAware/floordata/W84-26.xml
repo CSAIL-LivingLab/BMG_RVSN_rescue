@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="707043.976467" y="493734.891452"/>
+			  <extent maxx="707065.408995" maxy="493756.344615" minx="707022.543941" miny="493713.438289"/>
+			  <point x="707022.543941" y="493742.936200"/>
+			  <point x="707051.966022" y="493756.344615"/>
+			  <point x="707065.408995" y="493726.846704"/>
+			  <point x="707035.986913" y="493713.438289"/>
+			  <point x="707022.543941" y="493742.936200"/>
+		</contour>
+	</floor>
+	<space name="W84-2600SA" type="STAIR">
+		  <contour>
+			  <centroid x="707038.965103" y="493746.390279"/>
+			  <extent maxx="707046.554421" maxy="493751.771530" minx="707031.375776" miny="493741.009025"/>
+			  <point x="707031.375776" y="493745.862151"/>
+			  <point x="707033.587473" y="493741.009025"/>
+			  <point x="707046.554421" y="493746.918403"/>
+			  <point x="707044.342724" y="493751.771530"/>
+			  <point x="707031.375776" y="493745.862151"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W84-2602" type="explicit">
+			  <edge index="0" param="0.640625"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W84-2500SA" type="STAIR"/></space>
+	<space name="W84-2601" type="U/M">
+		  <contour>
+			  <centroid x="707045.998621" y="493732.878494"/>
+			  <extent maxx="707063.164709" maxy="493755.089076" minx="707027.829310" miny="493714.087187"/>
+			  <point x="707036.606983" y="493714.087187"/>
+			  <point x="707062.237559" y="493725.767713"/>
+			  <point x="707060.889806" y="493728.725087"/>
+			  <point x="707063.164709" y="493729.761821"/>
+			  <point x="707051.622414" y="493755.089076"/>
+			  <point x="707044.646044" y="493751.909761"/>
+			  <point x="707046.995973" y="493746.753314"/>
+			  <point x="707033.725704" y="493740.705704"/>
+			  <point x="707035.488151" y="493736.838369"/>
+			  <point x="707027.829310" y="493733.348034"/>
+			  <point x="707036.606983" y="493714.087187"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="8"/>
+    <triangle v0="0" v1="8" v2="9"/>
+    <triangle v0="8" v1="2" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="2" v2="3"/>
+    <triangle v0="6" v1="3" v2="4"/>
+    <triangle v0="6" v1="4" v2="5"/>
+  </space>
+	<space name="W84-2602" type="U/M">
+		  <contour>
+			  <centroid x="707028.567369" y="493740.095971"/>
+			  <extent maxx="707033.222737" maxy="493745.585689" minx="707023.716935" miny="493733.954675"/>
+			  <point x="707023.716935" y="493742.371817"/>
+			  <point x="707027.552848" y="493733.954675"/>
+			  <point x="707031.571843" y="493735.786237"/>
+			  <point x="707030.189532" y="493738.819441"/>
+			  <point x="707033.222737" y="493740.201752"/>
+			  <point x="707033.119063" y="493740.429242"/>
+			  <point x="707030.769135" y="493745.585689"/>
+			  <point x="707023.716935" y="493742.371817"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W84-2600SA" type="explicit">
+			  <edge index="5" param="0.397059"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="6"/>
+    <triangle v0="6" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+
+</MITquest>

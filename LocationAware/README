@@ -1,0 +1,49 @@
+~~~~~~ How to compile and run the Location Server and Client ~~~~~~
+
+Yoni Battat <battat@mit.edu>
+May 6, 2015
+
+~~~ Directory contents: ~~~
+
+README: this file
+MITquest2D.java: sample client Java code (hardcoded to localhost)
+route.xml: sample client CGI wrapper
+locationserver: server code directory
+floordata: XML data directory for digestion by server
+
+~~~ Compilation and Execution: ~~~
+
+Assuming you are in the LocationAware directory:
+
+(1) Set the (Java) CLASSPATH to the current directory (exact command depends on your shell):
+% setenv CLASSPATH `pwd`
+
+(2) Compile the Java code:
+% javac *.java locationserver/*.java
+
+(3) Compile the Java RMI server code:
+% rmic locationserver.JavaLocationServer
+
+(4) Run the Java RMI Registry:
+% rmiregistry &
+
+(5) Run the Location Server:
+% java -Xmx1500000000 -Djava.rmi.server.codebase=file://./ -Djava.security.policy=locationserver/java.policy locationserver.JavaLocationServerRMI BATCH_OUT full.db floordata/ orderedFloors_filtered.xml
+
+~~~ Notes: ~~~
+
+The Location Server command (step (5) above) digests the XML data as found in floordata/ and
+builds the space graph in memory. This process can take several minutes. Before becoming
+fully initialized, the software serializes the in-memory graph to a file (as specified at
+the command line; e.g. full.db above). At this stage, the software will output:
+
+Serializing to: full.db
+
+Once complete, the server fully initializes by binding to the Java RMI Registry:
+
+Beginning binding process
+JavaLocationServerRMI bound in registry
+
+At this point, the server is ready to receive route queries.
+
+% java MITquest2D 10-250 1-190

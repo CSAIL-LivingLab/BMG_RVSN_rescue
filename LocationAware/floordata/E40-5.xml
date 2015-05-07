@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="712047.976589" y="496282.790338"/>
+			  <extent maxx="712071.970384" maxy="496300.964727" minx="712023.982816" miny="496264.615958"/>
+			  <point x="712071.970384" y="496282.689672"/>
+			  <point x="712032.311238" y="496264.615958"/>
+			  <point x="712023.982816" y="496282.891013"/>
+			  <point x="712063.641961" y="496300.964727"/>
+			  <point x="712071.970384" y="496282.689672"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="E40-501" type="explicit">
+			  <edge index="0" param="0.099426"/></portal>
+		  <portal class="horizontal" source="true" target="E40-501" type="explicit">
+			  <edge index="0" param="0.156788"/></portal>
+		  <portal class="horizontal" source="true" target="E40-503" type="explicit">
+			  <edge index="0" param="0.690727"/></portal>
+		  <portal class="horizontal" source="true" target="E40-503" type="explicit">
+			  <edge index="0" param="0.756692"/></portal>
+	</floor>
+	<space name="E40-501" type="U/M">
+		  <contour>
+			  <centroid x="712061.929335" y="496289.148971"/>
+			  <extent maxx="712069.996831" maxy="496298.743541" minx="712053.861847" miny="496279.554404"/>
+			  <point x="712063.188950" y="496298.743541"/>
+			  <point x="712053.861847" y="496294.492935"/>
+			  <point x="712060.669728" y="496279.554404"/>
+			  <point x="712069.996831" y="496283.805010"/>
+			  <point x="712063.188950" y="496298.743541"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="BMAP-6336" type="TRANSITION">
+			  <edge index="2" param="0.707317"/></portal>
+		  <portal class="horizontal" source="false" target="BMAP-6336" type="TRANSITION">
+			  <edge index="2" param="0.463415"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="E40-503" type="U/M">
+		  <contour>
+			  <centroid x="712038.725336" y="496278.574299"/>
+			  <extent maxx="712050.887644" maxy="496290.034982" minx="712026.563009" miny="496267.113607"/>
+			  <point x="712044.079763" y="496290.034982"/>
+			  <point x="712026.563009" y="496282.052138"/>
+			  <point x="712033.370890" y="496267.113607"/>
+			  <point x="712050.887644" y="496275.096452"/>
+			  <point x="712044.079763" y="496290.034982"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="E40-5FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.596320"/></portal>
+		  <portal class="horizontal" source="false" target="E40-5FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.446970"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

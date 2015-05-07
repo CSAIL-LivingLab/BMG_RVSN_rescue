@@ -1,0 +1,1197 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709386.577748" y="495465.811060"/>
+			  <extent maxx="709524.088382" maxy="495575.600422" minx="709247.793629" miny="495358.902921"/>
+			  <point x="709434.913523" y="495404.904958"/>
+			  <point x="709400.183334" y="495389.077499"/>
+			  <point x="709394.343071" y="495401.892787"/>
+			  <point x="709388.504153" y="495399.231839"/>
+			  <point x="709392.512854" y="495390.435546"/>
+			  <point x="709383.413242" y="495386.288614"/>
+			  <point x="709379.404540" y="495395.084906"/>
+			  <point x="709300.010419" y="495358.902921"/>
+			  <point x="709247.793629" y="495473.482211"/>
+			  <point x="709471.871592" y="495575.600422"/>
+			  <point x="709524.088382" y="495461.021132"/>
+			  <point x="709443.935960" y="495424.493569"/>
+			  <point x="709447.944662" y="495415.697276"/>
+			  <point x="709439.906670" y="495412.034153"/>
+			  <point x="709435.897969" y="495420.830445"/>
+			  <point x="709429.073260" y="495417.720246"/>
+			  <point x="709434.913523" y="495404.904958"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200LA" type="explicit">
+			  <edge index="4" param="0.339583"/></portal>
+		  <portal class="horizontal" source="true" target="W20-200LA" type="explicit">
+			  <edge index="4" param="0.685417"/></portal>
+		  <portal class="horizontal" source="true" target="W20-200LB" type="explicit">
+			  <edge index="12" param="0.301887"/></portal>
+		  <portal class="horizontal" source="true" target="W20-200LB" type="explicit">
+			  <edge index="12" param="0.698113"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202" type="explicit">
+			  <edge index="8" param="0.185279"/></portal>
+		  <portal class="horizontal" source="true" target="W20-208" type="explicit">
+			  <edge index="8" param="0.812860"/></portal>
+	</floor>
+	<space name="W20-200" type="LOUNGE">
+		  <contour>
+			  <centroid x="709407.160654" y="495419.951817"/>
+			  <extent maxx="709435.014866" maxy="495447.473670" minx="709376.008654" miny="495389.960602"/>
+			  <point x="709428.190157" y="495418.050424"/>
+			  <point x="709435.014866" y="495421.160624"/>
+			  <point x="709423.023320" y="495447.473670"/>
+			  <point x="709420.141776" y="495446.160475"/>
+			  <point x="709409.673281" y="495445.419183"/>
+			  <point x="709409.327704" y="495446.177484"/>
+			  <point x="709386.123691" y="495435.602806"/>
+			  <point x="709386.469269" y="495434.844505"/>
+			  <point x="709379.041858" y="495427.430164"/>
+			  <point x="709376.008654" y="495426.047853"/>
+			  <point x="709388.000200" y="495399.734806"/>
+			  <point x="709394.673250" y="495402.775890"/>
+			  <point x="709400.513513" y="495389.960602"/>
+			  <point x="709434.030420" y="495405.235136"/>
+			  <point x="709428.190157" y="495418.050424"/>
+		</contour>
+	  <portal class="horizontal" target="W20-200CA" type="implicit">
+      <edge index="9" maxparam="0.397694509114" minparam="0.118155657323"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+    <triangle v0="0" v1="4" v2="7"/>
+    <triangle v0="0" v1="7" v2="11"/>
+    <triangle v0="0" v1="11" v2="13"/>
+    <triangle v0="13" v1="11" v2="12"/>
+    <triangle v0="11" v1="7" v2="8"/>
+    <triangle v0="11" v1="8" v2="10"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="7" v1="4" v2="6"/>
+    <triangle v0="6" v1="4" v2="5"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-200CA" type="CORR">
+		  <contour>
+			  <centroid x="709357.751061" y="495420.552775"/>
+			  <extent maxx="709387.545220" maxy="495441.816755" minx="709325.205883" miny="495395.898894"/>
+			  <point x="709325.205883" y="495420.570441"/>
+			  <point x="709372.027616" y="495441.816755"/>
+			  <point x="709378.455361" y="495427.712355"/>
+			  <point x="709375.346327" y="495426.295487"/>
+			  <point x="709376.970542" y="495422.731472"/>
+			  <point x="709377.425523" y="495422.938819"/>
+			  <point x="709380.777626" y="495415.583298"/>
+			  <point x="709380.322646" y="495415.375952"/>
+			  <point x="709387.545220" y="495399.527459"/>
+			  <point x="709379.583059" y="495395.898894"/>
+			  <point x="709367.999491" y="495421.115761"/>
+			  <point x="709334.330924" y="495405.772111"/>
+			  <point x="709333.708884" y="495407.137053"/>
+			  <point x="709331.737301" y="495406.238551"/>
+			  <point x="709325.205883" y="495420.570441"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-201" type="explicit">
+			  <edge index="10" param="0.918919"/></portal>
+		  <portal class="horizontal" source="true" target="W20-201" type="explicit">
+			  <edge index="10" param="0.833333"/></portal>
+		  <portal class="horizontal" source="true" target="W20-201" type="explicit">
+			  <edge index="10" param="0.178491"/></portal>
+		  <portal class="horizontal" source="true" target="W20-201" type="explicit">
+			  <edge index="10" param="0.094032"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200LA" type="explicit">
+			  <edge index="8" param="0.292857"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200LA" type="explicit">
+			  <edge index="8" param="0.688095"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202" type="explicit">
+			  <edge index="13" param="0.634921"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202" type="explicit">
+			  <edge index="13" param="0.380952"/></portal>
+	  <portal class="horizontal" target="W20-200" type="implicit">
+      <edge index="5" maxparam="1" minparam="0"/>
+    </portal>
+    <portal class="horizontal" target="W20-200CC" type="implicit">
+      <edge index="1" maxparam="1" minparam="0"/>
+    </portal>
+    <triangle v0="1" v1="0" v2="10"/>
+    <triangle v0="1" v1="10" v2="3"/>
+    <triangle v0="1" v1="3" v2="2"/>
+    <triangle v0="3" v1="10" v2="4"/>
+    <triangle v0="4" v1="10" v2="7"/>
+    <triangle v0="4" v1="7" v2="5"/>
+    <triangle v0="5" v1="7" v2="6"/>
+    <triangle v0="7" v1="10" v2="9"/>
+    <triangle v0="7" v1="9" v2="8"/>
+    <triangle v0="10" v1="0" v2="12"/>
+    <triangle v0="10" v1="12" v2="11"/>
+    <triangle v0="12" v1="0" v2="13"/>
+  </space>
+	<space name="W20-200CB" type="CORR">
+		  <contour>
+			  <centroid x="709349.848887" y="495474.554871"/>
+			  <extent maxx="709399.572203" maxy="495500.517232" minx="709305.634546" miny="495452.338511"/>
+			  <point x="709340.114685" y="495464.820580"/>
+			  <point x="709348.455997" y="495468.621935"/>
+			  <point x="709348.490555" y="495468.546105"/>
+			  <point x="709355.466925" y="495471.725420"/>
+			  <point x="709356.158080" y="495470.208818"/>
+			  <point x="709358.584643" y="495471.314666"/>
+			  <point x="709357.789815" y="495473.058759"/>
+			  <point x="709373.562477" y="495480.246775"/>
+			  <point x="709389.638459" y="495487.573022"/>
+			  <point x="709399.572203" y="495492.100090"/>
+			  <point x="709395.736291" y="495500.517232"/>
+			  <point x="709319.072053" y="495465.579326"/>
+			  <point x="709316.756683" y="495470.659943"/>
+			  <point x="709309.476993" y="495467.342397"/>
+			  <point x="709308.440260" y="495469.617301"/>
+			  <point x="709305.634546" y="495468.338663"/>
+			  <point x="709312.926235" y="495452.338511"/>
+			  <point x="709319.675115" y="495455.414152"/>
+			  <point x="709319.640557" y="495455.489982"/>
+			  <point x="709323.811213" y="495457.390660"/>
+			  <point x="709325.746448" y="495453.144174"/>
+			  <point x="709328.627992" y="495454.457369"/>
+			  <point x="709328.662550" y="495454.381539"/>
+			  <point x="709334.577298" y="495457.077045"/>
+			  <point x="709334.542740" y="495457.152875"/>
+			  <point x="709337.803435" y="495458.638859"/>
+			  <point x="709335.868199" y="495462.885345"/>
+			  <point x="709340.114685" y="495464.820580"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-206Z" type="explicit">
+			  <edge index="2" param="0.576087"/></portal>
+		  <portal class="horizontal" source="false" target="W20-204" type="explicit">
+			  <edge index="19" param="0.616071"/></portal>
+		  <portal class="horizontal" source="true" target="W20-204A" type="explicit">
+			  <edge index="22" param="0.480769"/></portal>
+		  <portal class="horizontal" source="false" target="W20-205" type="explicit">
+			  <edge index="25" param="0.375000"/></portal>
+		  <portal class="horizontal" source="false" target="W20-203" type="explicit">
+			  <edge index="10" param="0.916419"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202C" type="explicit">
+			  <edge index="16" param="0.674157"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202" type="explicit">
+			  <edge index="15" param="0.405213"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202" type="explicit">
+			  <edge index="15" param="0.637441"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="9" param="0.283784"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="10" param="0.051434"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="10" param="0.087043"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="10" param="0.458952"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="10" param="0.494560"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="10" param="0.781405"/></portal>
+	  <portal class="horizontal" target="W20-200CC" type="implicit">
+      <edge index="8" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="11"/>
+    <triangle v0="0" v1="11" v2="26"/>
+    <triangle v0="26" v1="11" v2="19"/>
+    <triangle v0="26" v1="19" v2="24"/>
+    <triangle v0="26" v1="24" v2="25"/>
+    <triangle v0="24" v1="19" v2="21"/>
+    <triangle v0="24" v1="21" v2="23"/>
+    <triangle v0="23" v1="21" v2="22"/>
+    <triangle v0="21" v1="19" v2="20"/>
+    <triangle v0="19" v1="11" v2="18"/>
+    <triangle v0="18" v1="11" v2="16"/>
+    <triangle v0="18" v1="16" v2="17"/>
+    <triangle v0="16" v1="11" v2="13"/>
+    <triangle v0="16" v1="13" v2="15"/>
+    <triangle v0="15" v1="13" v2="14"/>
+    <triangle v0="13" v1="11" v2="12"/>
+    <triangle v0="11" v1="1" v2="6"/>
+    <triangle v0="11" v1="6" v2="10"/>
+    <triangle v0="10" v1="6" v2="7"/>
+    <triangle v0="10" v1="7" v2="8"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="6" v1="1" v2="3"/>
+    <triangle v0="6" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-200CC" type="CORR">
+		  <contour>
+			  <centroid x="709387.903847" y="495458.816960"/>
+			  <extent maxx="709420.161920" maxy="495492.100090" minx="709357.789815" miny="495427.712355"/>
+			  <point x="709378.752443" y="495427.847743"/>
+			  <point x="709385.870312" y="495434.953087"/>
+			  <point x="709385.461364" y="495435.850440"/>
+			  <point x="709409.575338" y="495446.839811"/>
+			  <point x="709409.984285" y="495445.942457"/>
+			  <point x="709420.016498" y="495446.652857"/>
+			  <point x="709420.161920" y="495446.719129"/>
+			  <point x="709412.904788" y="495462.643451"/>
+			  <point x="709400.291202" y="495490.321440"/>
+			  <point x="709400.367032" y="495490.355998"/>
+			  <point x="709399.572203" y="495492.100090"/>
+			  <point x="709389.638459" y="495487.573022"/>
+			  <point x="709404.809320" y="495454.283606"/>
+			  <point x="709388.733338" y="495446.957358"/>
+			  <point x="709373.562477" y="495480.246775"/>
+			  <point x="709357.789815" y="495473.058759"/>
+			  <point x="709358.584643" y="495471.314666"/>
+			  <point x="709371.198230" y="495443.636678"/>
+			  <point x="709378.455361" y="495427.712355"/>
+			  <point x="709378.752443" y="495427.847743"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-200SB" type="explicit">
+			  <edge index="16" param="0.139726"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200SC" type="explicit">
+			  <edge index="7" param="0.856164"/></portal>
+	  <portal class="horizontal" target="W20-200CD" type="implicit">
+      <edge index="6" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <portal class="horizontal" target="W20-200CA" type="implicit">
+      <edge index="17" maxparam="1" minparam="0.114285659174"/>
+    </portal>
+    <portal class="horizontal" target="W20-200CB" type="implicit">
+      <edge index="10" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="17"/>
+    <triangle v0="0" v1="17" v2="18"/>
+    <triangle v0="17" v1="2" v2="13"/>
+    <triangle v0="17" v1="13" v2="14"/>
+    <triangle v0="17" v1="14" v2="16"/>
+    <triangle v0="16" v1="14" v2="15"/>
+    <triangle v0="13" v1="2" v2="3"/>
+    <triangle v0="13" v1="3" v2="12"/>
+    <triangle v0="12" v1="3" v2="7"/>
+    <triangle v0="12" v1="7" v2="11"/>
+    <triangle v0="11" v1="7" v2="8"/>
+    <triangle v0="11" v1="8" v2="10"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="7" v1="3" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="W20-200CD" type="CORR">
+		  <contour>
+			  <centroid x="709439.450489" y="495458.030171"/>
+			  <extent maxx="709468.699097" maxy="495482.490266" minx="709412.904788" miny="495421.367970"/>
+			  <point x="709436.076488" y="495421.644432"/>
+			  <point x="709443.204518" y="495424.892863"/>
+			  <point x="709443.735328" y="495425.134767"/>
+			  <point x="709432.400380" y="495450.007042"/>
+			  <point x="709429.946778" y="495455.390979"/>
+			  <point x="709441.776274" y="495460.781992"/>
+			  <point x="709444.022530" y="495455.853035"/>
+			  <point x="709449.482297" y="495458.341194"/>
+			  <point x="709448.411006" y="495460.691927"/>
+			  <point x="709458.799731" y="495465.426342"/>
+			  <point x="709461.495237" y="495459.511594"/>
+			  <point x="709468.699097" y="495462.794582"/>
+			  <point x="709466.591073" y="495467.420218"/>
+			  <point x="709467.046054" y="495467.627565"/>
+			  <point x="709460.272731" y="495482.490266"/>
+			  <point x="709431.381460" y="495469.323755"/>
+			  <point x="709430.690305" y="495470.840357"/>
+			  <point x="709428.415402" y="495469.803624"/>
+			  <point x="709429.106557" y="495468.287022"/>
+			  <point x="709416.139609" y="495462.377643"/>
+			  <point x="709415.483011" y="495463.818415"/>
+			  <point x="709412.904788" y="495462.643451"/>
+			  <point x="709420.161920" y="495446.719129"/>
+			  <point x="709423.270954" y="495448.135998"/>
+			  <point x="709435.469847" y="495421.367970"/>
+			  <point x="709436.076488" y="495421.644432"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-200LB" type="explicit">
+			  <edge index="0" param="0.720745"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200LB" type="explicit">
+			  <edge index="0" param="0.268617"/></portal>
+		  <portal class="horizontal" source="true" target="W20-208A" type="explicit">
+			  <edge index="13" param="0.377551"/></portal>
+		  <portal class="horizontal" source="true" target="W20-208A" type="explicit">
+			  <edge index="13" param="0.622449"/></portal>
+	  <portal class="horizontal" target="W20-201E" type="implicit">
+      <edge index="18" maxparam="0.0350877477051" minparam="0.397660806535"/>
+    </portal>
+    <portal class="horizontal" target="W20-201T" type="implicit">
+      <edge index="18" maxparam="0.43274855424" minparam="0.672514611764"/>
+    </portal>
+    <portal class="horizontal" target="W20-209" type="implicit">
+      <edge index="2" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <portal class="horizontal" target="W20-201AE" type="implicit">
+      <edge index="18" maxparam="0.707602359469" minparam="0.964912252286"/>
+    </portal>
+    <portal class="horizontal" target="W20-200CC" type="implicit">
+      <edge index="21" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="23"/>
+    <triangle v0="0" v1="23" v2="24"/>
+    <triangle v0="23" v1="3" v2="4"/>
+    <triangle v0="23" v1="4" v2="19"/>
+    <triangle v0="23" v1="19" v2="22"/>
+    <triangle v0="22" v1="19" v2="21"/>
+    <triangle v0="21" v1="19" v2="20"/>
+    <triangle v0="19" v1="4" v2="18"/>
+    <triangle v0="18" v1="4" v2="15"/>
+    <triangle v0="18" v1="15" v2="17"/>
+    <triangle v0="17" v1="15" v2="16"/>
+    <triangle v0="15" v1="4" v2="5"/>
+    <triangle v0="15" v1="5" v2="8"/>
+    <triangle v0="15" v1="8" v2="14"/>
+    <triangle v0="14" v1="8" v2="9"/>
+    <triangle v0="14" v1="9" v2="12"/>
+    <triangle v0="14" v1="12" v2="13"/>
+    <triangle v0="12" v1="9" v2="10"/>
+    <triangle v0="12" v1="10" v2="11"/>
+    <triangle v0="8" v1="5" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-200E1" type="ELEV">
+		  <contour>
+			  <centroid x="709364.812982" y="495445.992545"/>
+			  <extent maxx="709370.384242" maxy="495451.625697" minx="709359.241781" miny="495440.359419"/>
+			  <point x="709359.241781" y="495448.169920"/>
+			  <point x="709362.801231" y="495440.359419"/>
+			  <point x="709370.384242" y="495443.815196"/>
+			  <point x="709366.824792" y="495451.625697"/>
+			  <point x="709359.241781" y="495448.169920"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W20-100E1" type="ELEV"/><portal class="VERTICAL" direction="UP" target="W20-300E1" type="ELEV"/></space>
+	<space name="W20-200E2" type="ELEV">
+		  <contour>
+			  <centroid x="709415.164202" y="495468.938918"/>
+			  <extent maxx="709420.583772" maxy="495474.502941" minx="709409.744632" miny="495463.374894"/>
+			  <point x="709409.744632" y="495471.185395"/>
+			  <point x="709413.304082" y="495463.374894"/>
+			  <point x="709420.583772" y="495466.692440"/>
+			  <point x="709417.024322" y="495474.502941"/>
+			  <point x="709409.744632" y="495471.185395"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W20-100E2" type="ELEV"/><portal class="VERTICAL" direction="UP" target="W20-300E2" type="ELEV"/></space>
+	<space name="W20-200E3" type="ELEV">
+		  <contour>
+			  <centroid x="709345.917054" y="495462.249975"/>
+			  <extent maxx="709351.436650" maxy="495467.738832" minx="709340.391148" miny="495456.782589"/>
+			  <point x="709348.499239" y="495466.718483"/>
+			  <point x="709348.575069" y="495466.753041"/>
+			  <point x="709348.125818" y="495467.738832"/>
+			  <point x="709340.391148" y="495464.213940"/>
+			  <point x="709343.777809" y="495456.782589"/>
+			  <point x="709351.436650" y="495460.272924"/>
+			  <point x="709348.499239" y="495466.718483"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+    <triangle v0="0" v1="4" v2="5"/>
+  <portal class="VERTICAL" direction="DOWN" target="W20-100E3" type="ELEV"/><portal class="VERTICAL" direction="UP" target="W20-300E3" type="ELEV"/></space>
+	<space name="W20-200E5" type="ELEV">
+		  <contour>
+			  <centroid x="709422.159266" y="495495.387815"/>
+			  <extent maxx="709426.166817" maxy="495501.149481" minx="709418.151564" miny="495489.626080"/>
+			  <point x="709418.151564" y="495499.559824"/>
+			  <point x="709422.678632" y="495489.626080"/>
+			  <point x="709426.166817" y="495491.215737"/>
+			  <point x="709421.639749" y="495501.149481"/>
+			  <point x="709418.151564" y="495499.559824"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-200LA" type="LOBBY">
+		  <contour>
+			  <centroid x="709385.820466" y="495393.063547"/>
+			  <extent maxx="709391.850527" maxy="495399.176152" minx="709379.790405" miny="495386.950941"/>
+			  <point x="709387.980057" y="495399.176152"/>
+			  <point x="709379.790405" y="495395.443913"/>
+			  <point x="709383.660876" y="495386.950941"/>
+			  <point x="709391.850527" y="495390.683180"/>
+			  <point x="709387.980057" y="495399.176152"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.312500"/></portal>
+		  <portal class="horizontal" source="true" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.696759"/></portal>
+		  <portal class="horizontal" source="false" target="W20-2FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.678241"/></portal>
+		  <portal class="horizontal" source="false" target="W20-2FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.293981"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-200LB" type="LOBBY">
+		  <contour>
+			  <centroid x="709441.783084" y="495418.567181"/>
+			  <extent maxx="709447.282334" maxy="495424.437882" minx="709436.283834" miny="495412.696480"/>
+			  <point x="709443.411864" y="495424.437882"/>
+			  <point x="709436.283834" y="495421.189452"/>
+			  <point x="709440.154304" y="495412.696480"/>
+			  <point x="709447.282334" y="495415.944910"/>
+			  <point x="709443.411864" y="495424.437882"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CD" type="explicit">
+			  <edge index="0" param="0.279255"/></portal>
+		  <portal class="horizontal" source="true" target="W20-200CD" type="explicit">
+			  <edge index="0" param="0.731383"/></portal>
+		  <portal class="horizontal" source="false" target="W20-2FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.723404"/></portal>
+		  <portal class="horizontal" source="false" target="W20-2FLOORCONTOUR" type="explicit">
+			  <edge index="2" param="0.276596"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-200SA" type="STAIR">
+		  <contour>
+			  <centroid x="709387.021561" y="495466.375792"/>
+			  <extent maxx="709399.406849" maxy="495482.742634" minx="709374.004028" miny="495447.398910"/>
+			  <point x="709388.898427" y="495447.398910"/>
+			  <point x="709394.661515" y="495450.025301"/>
+			  <point x="709390.030774" y="495460.186535"/>
+			  <point x="709396.683860" y="495455.434306"/>
+			  <point x="709399.406849" y="495463.726826"/>
+			  <point x="709391.983018" y="495466.754121"/>
+			  <point x="709390.462476" y="495470.090646"/>
+			  <point x="709393.089491" y="495477.789954"/>
+			  <point x="709385.031177" y="495480.802834"/>
+			  <point x="709384.266341" y="495473.036380"/>
+			  <point x="709379.842946" y="495482.742634"/>
+			  <point x="709374.004028" y="495480.081686"/>
+			  <point x="709388.898427" y="495447.398910"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="11"/>
+    <triangle v0="11" v1="2" v2="9"/>
+    <triangle v0="11" v1="9" v2="10"/>
+    <triangle v0="9" v1="2" v2="6"/>
+    <triangle v0="9" v1="6" v2="7"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="6" v1="2" v2="5"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W20-100SC" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W20-300SA" type="STAIR"/></space>
+	<space name="W20-200SB" type="STAIR">
+		  <contour>
+			  <centroid x="709357.965314" y="495459.310311"/>
+			  <extent maxx="709366.548330" maxy="495470.431563" minx="709349.382342" miny="495448.189079"/>
+			  <point x="709349.382342" y="495466.388304"/>
+			  <point x="709357.676207" y="495448.189079"/>
+			  <point x="709366.548330" y="495452.232338"/>
+			  <point x="709358.254465" y="495470.431563"/>
+			  <point x="709349.382342" y="495466.388304"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CC" type="explicit">
+			  <edge index="2" param="0.820833"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  <portal class="VERTICAL" direction="DOWN" target="W20-100SB" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W20-300SB" type="STAIR"/></space>
+	<space name="W20-200SC" type="STAIR">
+		  <contour>
+			  <centroid x="709409.643568" y="495482.861448"/>
+			  <extent maxx="709418.112802" maxy="495493.930847" minx="709401.174305" miny="495471.792036"/>
+			  <point x="709401.174305" y="495489.991261"/>
+			  <point x="709409.468169" y="495471.792036"/>
+			  <point x="709418.112802" y="495475.731622"/>
+			  <point x="709409.818937" y="495493.930847"/>
+			  <point x="709401.174305" y="495489.991261"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CC" type="explicit">
+			  <edge index="0" param="0.185417"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  <portal class="VERTICAL" direction="DOWN" target="W20-100SC" type="STAIR"/><portal class="VERTICAL" direction="UP" target="W20-300SC" type="STAIR"/></space>
+	<space name="W20-200SD" type="STAIR">
+		  <contour>
+			  <centroid x="709505.032944" y="495492.586034"/>
+			  <extent maxx="709512.112235" maxy="495502.451228" minx="709497.953579" miny="495482.720806"/>
+			  <point x="709497.953579" y="495499.479260"/>
+			  <point x="709505.590846" y="495482.720806"/>
+			  <point x="709512.112235" y="495485.692774"/>
+			  <point x="709504.474968" y="495502.451228"/>
+			  <point x="709497.953579" y="495499.479260"/>
+		</contour>
+	  <portal class="horizontal" target="W20-208A" type="implicit">
+      <edge index="3" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-200SE" type="STAIR">
+		  <contour>
+			  <centroid x="709483.244443" y="495540.396994"/>
+			  <extent maxx="709490.375398" maxy="495550.375855" minx="709476.113068" miny="495530.417943"/>
+			  <point x="709483.854008" y="495530.417943"/>
+			  <point x="709490.375398" y="495533.389911"/>
+			  <point x="709482.634457" y="495550.375855"/>
+			  <point x="709476.113068" y="495547.403886"/>
+			  <point x="709483.854008" y="495530.417943"/>
+		</contour>
+	  <portal class="horizontal" target="W20-208" type="implicit">
+      <edge index="2" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-201" type="MULTI">
+		  <contour>
+			  <centroid x="709356.455862" y="495400.333757"/>
+			  <extent maxx="709379.052248" maxy="495420.453434" minx="709334.386610" miny="495380.451570"/>
+			  <point x="709367.751857" y="495420.453434"/>
+			  <point x="709334.386610" y="495405.248015"/>
+			  <point x="709338.429870" y="495396.375893"/>
+			  <point x="709336.609947" y="495395.546506"/>
+			  <point x="709339.754704" y="495388.645966"/>
+			  <point x="709341.574627" y="495389.475353"/>
+			  <point x="709345.687001" y="495380.451570"/>
+			  <point x="709379.052248" y="495395.656989"/>
+			  <point x="709367.751857" y="495420.453434"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.250000"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.750000"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.913636"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.827273"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.166477"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.081250"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="0" v1="5" v2="7"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="2" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+  </space>
+	<space name="W20-201AE" type="ELEC">
+		  <contour>
+			  <centroid x="709417.934311" y="495464.065537"/>
+			  <extent maxx="709419.931114" maxy="495465.546304" minx="709415.937992" miny="495462.584990"/>
+			  <point x="709415.937992" y="495464.025762"/>
+			  <point x="709416.594590" y="495462.584990"/>
+			  <point x="709419.931114" y="495464.105532"/>
+			  <point x="709419.274517" y="495465.546304"/>
+			  <point x="709415.937992" y="495464.025762"/>
+		</contour>
+	  <portal class="horizontal" target="W20-200CD" type="implicit">
+      <edge index="1" maxparam="-0.136363772609" minparam="3.75000059937"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-201E" type="ELEC">
+		  <contour>
+			  <centroid x="709425.972587" y="495467.728790"/>
+			  <extent maxx="709428.651576" maxy="495469.520448" minx="709423.293512" miny="495465.937094"/>
+			  <point x="709428.651576" y="495468.079676"/>
+			  <point x="709427.994979" y="495469.520448"/>
+			  <point x="709423.293512" y="495467.377866"/>
+			  <point x="709423.950110" y="495465.937094"/>
+			  <point x="709428.651576" y="495468.079676"/>
+		</contour>
+	  <portal class="horizontal" target="W20-200CD" type="implicit">
+      <edge index="3" maxparam="-1.66129054213" minparam="1.09677428273"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-201T" type="TELE">
+		  <contour>
+			  <centroid x="709421.612183" y="495465.741640"/>
+			  <extent maxx="709423.495129" maxy="495467.170519" minx="709419.729497" miny="495464.312879"/>
+			  <point x="709421.397760" y="495466.513922"/>
+			  <point x="709419.729497" y="495465.753651"/>
+			  <point x="709420.386095" y="495464.312879"/>
+			  <point x="709423.495129" y="495465.729747"/>
+			  <point x="709422.838532" y="495467.170519"/>
+			  <point x="709421.397760" y="495466.513922"/>
+		</contour>
+	  <portal class="horizontal" target="W20-200CD" type="implicit">
+      <edge index="2" maxparam="-1.3658538311" minparam="2.80487829975"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+  </space>
+	<space name="W20-202" type="MULTI">
+		  <contour>
+			  <centroid x="709296.155565" y="495426.541330"/>
+			  <extent maxx="709343.412098" maxy="495492.849961" minx="709248.676732" miny="495359.786024"/>
+			  <point x="709332.111707" y="495404.211282"/>
+			  <point x="709324.370767" y="495421.197226"/>
+			  <point x="709324.674087" y="495421.335457"/>
+			  <point x="709310.920095" y="495451.515839"/>
+			  <point x="709312.436697" y="495452.206994"/>
+			  <point x="709305.179565" y="495468.131316"/>
+			  <point x="709303.511303" y="495467.371046"/>
+			  <point x="709291.899892" y="495492.849961"/>
+			  <point x="709248.676732" y="495473.152032"/>
+			  <point x="709300.340598" y="495359.786024"/>
+			  <point x="709343.412098" y="495379.414837"/>
+			  <point x="709332.111707" y="495404.211282"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="4" param="0.592857"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="4" param="0.359524"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202A" type="explicit">
+			  <edge index="6" param="0.750000"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202A" type="explicit">
+			  <edge index="6" param="0.880952"/></portal>
+		  <portal class="horizontal" source="true" target="W20-203" type="explicit">
+			  <edge index="6" param="0.159226"/></portal>
+		  <portal class="horizontal" source="true" target="W20-203" type="explicit">
+			  <edge index="6" param="0.299107"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202B" type="explicit">
+			  <edge index="6" param="0.459077"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202B" type="explicit">
+			  <edge index="6" param="0.591518"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202C" type="explicit">
+			  <edge index="2" param="0.159548"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202C" type="explicit">
+			  <edge index="2" param="0.287688"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202C" type="explicit">
+			  <edge index="2" param="0.432161"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202C" type="explicit">
+			  <edge index="2" param="0.557789"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202C" type="explicit">
+			  <edge index="2" param="0.703518"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202C" type="explicit">
+			  <edge index="2" param="0.829146"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202AE" type="explicit">
+			  <edge index="10" param="0.860092"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202AE" type="explicit">
+			  <edge index="10" param="0.727064"/></portal>
+		  <portal class="horizontal" source="true" target="W20-201" type="explicit">
+			  <edge index="10" param="0.572630"/></portal>
+		  <portal class="horizontal" source="true" target="W20-201" type="explicit">
+			  <edge index="10" param="0.433486"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202E" type="explicit">
+			  <edge index="10" param="0.272936"/></portal>
+		  <portal class="horizontal" source="true" target="W20-202E" type="explicit">
+			  <edge index="10" param="0.127676"/></portal>
+		  <portal class="horizontal" source="false" target="BMAP-4461" type="TRANSITION">
+			  <edge index="7" param="0.053509"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.642857"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CA" type="explicit">
+			  <edge index="0" param="0.428571"/></portal>
+	  <triangle v0="0" v1="1" v2="9"/>
+    <triangle v0="0" v1="9" v2="10"/>
+    <triangle v0="9" v1="1" v2="8"/>
+    <triangle v0="8" v1="1" v2="3"/>
+    <triangle v0="8" v1="3" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-202A" type="FOODSV">
+		  <contour>
+			  <centroid x="709306.962418" y="495491.755299"/>
+			  <extent maxx="709321.068969" maxy="495503.355523" minx="709292.354873" miny="495480.395650"/>
+			  <point x="709314.952244" y="495503.355523"/>
+			  <point x="709292.354873" y="495493.057308"/>
+			  <point x="709296.121670" y="495484.791826"/>
+			  <point x="709297.789932" y="495485.552097"/>
+			  <point x="709300.139860" y="495480.395650"/>
+			  <point x="709321.068969" y="495489.933595"/>
+			  <point x="709314.952244" y="495503.355523"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="1" param="0.770642"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="1" param="0.366972"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="5"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-202AE" type="ELEC">
+		  <contour>
+			  <centroid x="709335.167140" y="495400.521089"/>
+			  <extent maxx="709337.767542" maxy="495405.040668" minx="709332.566688" miny="495396.001487"/>
+			  <point x="709333.931630" y="495405.040668"/>
+			  <point x="709332.566688" y="495404.418628"/>
+			  <point x="709336.402600" y="495396.001487"/>
+			  <point x="709337.767542" y="495396.623527"/>
+			  <point x="709333.931630" y="495405.040668"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="1" param="0.412162"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="1" param="0.804054"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-202B" type="FOODSV">
+		  <contour>
+			  <centroid x="709298.490757" y="495481.200953"/>
+			  <extent maxx="709300.652497" maxy="495484.889770" minx="709296.329016" miny="495477.512136"/>
+			  <point x="709296.329016" y="495484.336846"/>
+			  <point x="709299.439215" y="495477.512136"/>
+			  <point x="709300.652497" y="495478.065060"/>
+			  <point x="709297.542298" y="495484.889770"/>
+			  <point x="709296.329016" y="495484.336846"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="0" param="0.741667"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="0" param="0.247222"/></portal>
+	  <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-202C" type="FOODSV">
+		  <contour>
+			  <centroid x="709322.502357" y="495438.255329"/>
+			  <extent maxx="709333.394549" maxy="495454.959172" minx="709311.582422" miny="495421.542803"/>
+			  <point x="709319.882461" y="495454.959172"/>
+			  <point x="709312.678601" y="495451.676184"/>
+			  <point x="709312.644043" y="495451.752014"/>
+			  <point x="709311.582422" y="495451.268205"/>
+			  <point x="709325.129068" y="495421.542803"/>
+			  <point x="709333.394549" y="495425.309600"/>
+			  <point x="709319.882461" y="495454.959172"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CB" type="explicit">
+			  <edge index="0" param="0.305263"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.838010"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.707908"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.561224"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.433673"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.285714"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="3" param="0.158163"/></portal>
+	  <triangle v0="0" v1="1" v2="5"/>
+    <triangle v0="5" v1="1" v2="4"/>
+    <triangle v0="4" v1="1" v2="3"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-202E" type="ELEC">
+		  <contour>
+			  <centroid x="709342.597011" y="495384.217593"/>
+			  <extent maxx="709345.232021" maxy="495388.813026" minx="709339.962051" miny="495379.622184"/>
+			  <point x="709345.232021" y="495380.244224"/>
+			  <point x="709341.326993" y="495388.813026"/>
+			  <point x="709339.962051" y="495388.190986"/>
+			  <point x="709343.867079" y="495379.622184"/>
+			  <point x="709345.232021" y="495380.244224"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="2" param="0.210177"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="2" param="0.630531"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-203" type="FOODSV">
+		  <contour>
+			  <centroid x="709314.973965" y="495476.924361"/>
+			  <extent maxx="709329.708412" maxy="495489.478614" minx="709299.646562" miny="495466.241654"/>
+			  <point x="709319.319687" y="495466.241654"/>
+			  <point x="709329.708412" y="495470.976068"/>
+			  <point x="709321.276316" y="495489.478614"/>
+			  <point x="709300.347207" y="495479.940669"/>
+			  <point x="709301.314824" y="495477.817426"/>
+			  <point x="709299.646562" y="495477.057155"/>
+			  <point x="709303.758937" y="495468.033373"/>
+			  <point x="709304.972218" y="495468.586297"/>
+			  <point x="709308.687894" y="495470.279628"/>
+			  <point x="709309.724627" y="495468.004725"/>
+			  <point x="709317.004317" y="495471.322271"/>
+			  <point x="709319.319687" y="495466.241654"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CB" type="explicit">
+			  <edge index="0" param="0.572993"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="5" param="0.600840"/></portal>
+		  <portal class="horizontal" source="false" target="W20-202" type="explicit">
+			  <edge index="5" param="0.205882"/></portal>
+	  <triangle v0="0" v1="1" v2="10"/>
+    <triangle v0="10" v1="1" v2="2"/>
+    <triangle v0="10" v1="2" v2="4"/>
+    <triangle v0="10" v1="4" v2="8"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="8" v1="4" v2="7"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="W20-204" type="F LAV">
+		  <contour>
+			  <centroid x="709332.785871" y="495439.413217"/>
+			  <extent maxx="709344.844895" maxy="495456.728333" minx="709320.302884" miny="495425.516947"/>
+			  <point x="709344.844895" y="495430.527824"/>
+			  <point x="709339.453883" y="495442.357320"/>
+			  <point x="709331.643382" y="495438.797870"/>
+			  <point x="709330.917669" y="495440.390302"/>
+			  <point x="709333.875043" y="495441.738055"/>
+			  <point x="709328.380358" y="495453.795042"/>
+			  <point x="709325.498814" y="495452.481847"/>
+			  <point x="709323.563579" y="495456.728333"/>
+			  <point x="709320.302884" y="495455.242348"/>
+			  <point x="709333.849530" y="495425.516947"/>
+			  <point x="709344.844895" y="495430.527824"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CB" type="explicit">
+			  <edge index="6" param="0.491071"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="9"/>
+    <triangle v0="9" v1="2" v2="3"/>
+    <triangle v0="9" v1="3" v2="8"/>
+    <triangle v0="8" v1="3" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="3" v2="4"/>
+    <triangle v0="6" v1="4" v2="5"/>
+  </space>
+	<space name="W20-204A" type="PB LAV">
+		  <contour>
+			  <centroid x="709334.557359" y="495449.283744"/>
+			  <extent maxx="709340.244772" maxy="495456.622064" minx="709328.869896" miny="495441.945402"/>
+			  <point x="709334.330024" y="495441.945402"/>
+			  <point x="709340.244772" y="495444.640908"/>
+			  <point x="709334.784644" y="495456.622064"/>
+			  <point x="709328.869896" y="495453.926558"/>
+			  <point x="709334.330024" y="495441.945402"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="2" param="0.519231"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-205" type="M LAV">
+		  <contour>
+			  <centroid x="709343.891376" y="495446.028505"/>
+			  <extent maxx="709353.413697" maxy="495464.158253" minx="709335.205067" miny="495430.735170"/>
+			  <point x="709339.867051" y="495464.158253"/>
+			  <point x="709336.530527" y="495462.637711"/>
+			  <point x="709338.465762" y="495458.391225"/>
+			  <point x="709335.205067" y="495456.905241"/>
+			  <point x="709340.699753" y="495444.848254"/>
+			  <point x="709344.036277" y="495446.368796"/>
+			  <point x="709344.761991" y="495444.776364"/>
+			  <point x="709339.908864" y="495442.564667"/>
+			  <point x="709345.299876" y="495430.735170"/>
+			  <point x="709353.413697" y="495434.432852"/>
+			  <point x="709339.867051" y="495464.158253"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-200CB" type="explicit">
+			  <edge index="1" param="0.517857"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="5"/>
+    <triangle v0="0" v1="5" v2="9"/>
+    <triangle v0="9" v1="5" v2="6"/>
+    <triangle v0="9" v1="6" v2="8"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="5" v1="2" v2="4"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="W20-205E" type="ELEC">
+		  <contour>
+			  <centroid x="709358.656080" y="495437.096680"/>
+			  <extent maxx="709361.355715" maxy="495438.867705" minx="709355.956378" miny="495435.325624"/>
+			  <point x="709361.355715" y="495437.502764"/>
+			  <point x="709360.733675" y="495438.867705"/>
+			  <point x="709355.956378" y="495436.690566"/>
+			  <point x="709356.578418" y="495435.325624"/>
+			  <point x="709361.355715" y="495437.502764"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-205EE" type="ELEC">
+		  <contour>
+			  <centroid x="709366.883613" y="495440.846183"/>
+			  <extent maxx="709368.862895" maxy="495442.288925" minx="709364.904331" miny="495439.403441"/>
+			  <point x="709368.240855" y="495442.288925"/>
+			  <point x="709364.904331" y="495440.768383"/>
+			  <point x="709365.526371" y="495439.403441"/>
+			  <point x="709368.862895" y="495440.923983"/>
+			  <point x="709368.240855" y="495442.288925"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-205T" type="TELE">
+		  <contour>
+			  <centroid x="709363.130104" y="495439.135610"/>
+			  <extent maxx="709365.071390" maxy="495440.561036" minx="709361.188656" miny="495437.710110"/>
+			  <point x="709362.401937" y="495439.627976"/>
+			  <point x="709361.188656" y="495439.075052"/>
+			  <point x="709361.810695" y="495437.710110"/>
+			  <point x="709365.071390" y="495439.196094"/>
+			  <point x="709364.449350" y="495440.561036"/>
+			  <point x="709362.401937" y="495439.627976"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+    <triangle v0="0" v1="3" v2="4"/>
+  </space>
+	<space name="W20-206" type="FOODSV">
+		  <contour>
+			  <centroid x="709383.120383" y="495512.257321"/>
+			  <extent maxx="709446.235561" maxy="495554.466465" minx="709315.407225" miny="495471.183415"/>
+			  <point x="709421.969927" y="495502.032584"/>
+			  <point x="709446.235561" y="495513.091071"/>
+			  <point x="709432.066876" y="495544.181414"/>
+			  <point x="709431.839385" y="495544.077741"/>
+			  <point x="709427.104971" y="495554.466465"/>
+			  <point x="709315.407225" y="495503.562870"/>
+			  <point x="709330.163393" y="495471.183415"/>
+			  <point x="709395.983925" y="495501.179559"/>
+			  <point x="709400.130857" y="495492.079946"/>
+			  <point x="709409.382130" y="495496.295994"/>
+			  <point x="709409.416688" y="495496.220164"/>
+			  <point x="709417.303019" y="495499.814172"/>
+			  <point x="709417.268461" y="495499.890003"/>
+			  <point x="709421.969927" y="495502.032584"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-208" type="explicit">
+			  <edge index="3" param="0.510949"/></portal>
+		  <portal class="horizontal" source="false" target="W20-207" type="explicit">
+			  <edge index="0" param="0.056250"/></portal>
+		  <portal class="horizontal" source="true" target="W20-207" type="explicit">
+			  <edge index="0" param="0.154688"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="7" param="0.712500"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="6" param="0.933180"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="6" param="0.891705"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="6" param="0.458525"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="6" param="0.417051"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="6" param="0.082949"/></portal>
+		  <portal class="horizontal" source="false" target="W20-207" type="explicit">
+			  <edge index="0" param="0.154688"/></portal>
+		  <portal class="horizontal" source="true" target="W20-207" type="explicit">
+			  <edge index="0" param="0.056250"/></portal>
+		  <portal class="horizontal" source="false" target="W20-207A" type="explicit">
+			  <edge index="0" param="0.729949"/></portal>
+		  <portal class="horizontal" source="true" target="W20-207A" type="explicit">
+			  <edge index="0" param="0.631030"/></portal>
+	  <portal class="horizontal" target="W20-208" type="implicit">
+      <edge index="1" maxparam="-0.00731712223211" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="7"/>
+    <triangle v0="0" v1="7" v2="12"/>
+    <triangle v0="12" v1="7" v2="9"/>
+    <triangle v0="12" v1="9" v2="10"/>
+    <triangle v0="12" v1="10" v2="11"/>
+    <triangle v0="9" v1="7" v2="8"/>
+    <triangle v0="7" v1="3" v2="4"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-206Z" type="SHAFT">
+		  <contour>
+			  <centroid x="709352.200542" y="495469.046317"/>
+			  <extent maxx="709355.703099" maxy="495471.063093" minx="709348.697901" miny="495467.029503"/>
+			  <point x="709349.181710" y="495467.029503"/>
+			  <point x="709355.703099" y="495470.001471"/>
+			  <point x="709355.219291" y="495471.063093"/>
+			  <point x="709348.697901" y="495468.091124"/>
+			  <point x="709349.181710" y="495467.029503"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-200CB" type="explicit">
+			  <edge index="2" param="0.383721"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-207" type="P CIRC">
+		  <contour>
+			  <centroid x="709427.012255" y="495497.599449"/>
+			  <extent maxx="709431.847360" maxy="495503.858416" minx="709422.177274" miny="495491.340539"/>
+			  <point x="709427.182061" y="495503.858416"/>
+			  <point x="709422.177274" y="495501.577604"/>
+			  <point x="709426.842573" y="495491.340539"/>
+			  <point x="709431.847360" y="495493.621352"/>
+			  <point x="709427.182061" y="495503.858416"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="0" param="0.727273"/></portal>
+		  <portal class="horizontal" source="false" target="W20-206" type="explicit">
+			  <edge index="0" param="0.250000"/></portal>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="0" param="0.250000"/></portal>
+		  <portal class="horizontal" source="false" target="W20-206" type="explicit">
+			  <edge index="0" param="0.727273"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-207A" type="FOODSV">
+		  <contour>
+			  <centroid x="709439.255570" y="495503.087471"/>
+			  <extent maxx="709450.874002" maxy="495512.497859" minx="709427.637042" miny="495493.677039"/>
+			  <point x="709427.637042" y="495504.065763"/>
+			  <point x="709432.371456" y="495493.677039"/>
+			  <point x="709450.874002" y="495502.109135"/>
+			  <point x="709446.139588" y="495512.497859"/>
+			  <point x="709427.637042" y="495504.065763"/>
+		</contour>
+		  <portal class="horizontal" source="true" target="W20-206" type="explicit">
+			  <edge index="3" param="0.337772"/></portal>
+		  <portal class="horizontal" source="false" target="W20-206" type="explicit">
+			  <edge index="3" param="0.467502"/></portal>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+	<space name="W20-207B" type="FOODSV">
+		  <contour>
+			  <centroid x="709441.319297" y="495485.833608"/>
+			  <extent maxx="709459.686233" maxy="495501.654154" minx="709422.955094" miny="495469.986083"/>
+			  <point x="709422.955094" y="495489.019439"/>
+			  <point x="709430.937939" y="495471.502685"/>
+			  <point x="709431.629094" y="495469.986083"/>
+			  <point x="709459.686233" y="495482.772458"/>
+			  <point x="709451.081349" y="495501.654154"/>
+			  <point x="709432.123822" y="495493.014711"/>
+			  <point x="709432.054707" y="495493.166372"/>
+			  <point x="709427.049920" y="495490.885559"/>
+			  <point x="709422.955094" y="495489.019439"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="7"/>
+    <triangle v0="7" v1="1" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="5" v1="1" v2="3"/>
+    <triangle v0="5" v1="3" v2="4"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-208" type="FOOD">
+		  <contour>
+			  <centroid x="709461.371565" y="495536.295292"/>
+			  <extent maxx="709497.252394" maxy="495574.717319" minx="709427.559951" miny="495498.290771"/>
+			  <point x="709453.346763" y="495498.290771"/>
+			  <point x="709497.252394" y="495518.299720"/>
+			  <point x="709490.375398" y="495533.389911"/>
+			  <point x="709483.854008" y="495530.417943"/>
+			  <point x="709476.113068" y="495547.403886"/>
+			  <point x="709482.634457" y="495550.375855"/>
+			  <point x="709471.541413" y="495574.717319"/>
+			  <point x="709427.559951" y="495554.673812"/>
+			  <point x="709432.294366" y="495544.285087"/>
+			  <point x="709432.066876" y="495544.181414"/>
+			  <point x="709446.339235" y="495512.863580"/>
+			  <point x="709446.642555" y="495513.001812"/>
+			  <point x="709453.346763" y="495498.290771"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-206" type="explicit">
+			  <edge index="7" param="0.489051"/></portal>
+		  <portal class="horizontal" source="false" target="BMAP-4461" type="TRANSITION">
+			  <edge index="6" param="0.939655"/></portal>
+	  <portal class="horizontal" target="W20-200SE" type="implicit">
+      <edge index="4" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <portal class="horizontal" target="W20-208A" type="implicit">
+      <edge index="0" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <portal class="horizontal" target="W20-206" type="implicit">
+      <edge index="9" maxparam="0.0" minparam="0.992736029131"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="3"/>
+    <triangle v0="0" v1="3" v2="11"/>
+    <triangle v0="11" v1="3" v2="4"/>
+    <triangle v0="11" v1="4" v2="8"/>
+    <triangle v0="11" v1="8" v2="10"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="8" v1="4" v2="6"/>
+    <triangle v0="8" v1="6" v2="7"/>
+    <triangle v0="6" v1="4" v2="5"/>
+    <triangle v0="3" v1="1" v2="2"/>
+  </space>
+	<space name="W20-208A" type="FOOD">
+		  <contour>
+			  <centroid x="709487.580267" y="495479.305295"/>
+			  <extent maxx="709523.205279" maxy="495518.299720" minx="709453.346763" miny="495441.446035"/>
+			  <point x="709469.816405" y="495462.754294"/>
+			  <point x="709479.527138" y="495441.446035"/>
+			  <point x="709523.205279" y="495461.351310"/>
+			  <point x="709512.112235" y="495485.692774"/>
+			  <point x="709505.590846" y="495482.720806"/>
+			  <point x="709497.953579" y="495499.479260"/>
+			  <point x="709504.474968" y="495502.451228"/>
+			  <point x="709497.252394" y="495518.299720"/>
+			  <point x="709453.346763" y="495498.290771"/>
+			  <point x="709460.292874" y="495483.048920"/>
+			  <point x="709460.520365" y="495483.152593"/>
+			  <point x="709467.501034" y="495467.834912"/>
+			  <point x="709469.816405" y="495462.754294"/>
+		</contour>
+		  <portal class="horizontal" source="false" target="W20-200CD" type="explicit">
+			  <edge index="10" param="0.633663"/></portal>
+		  <portal class="horizontal" source="false" target="W20-200CD" type="explicit">
+			  <edge index="10" param="0.396040"/></portal>
+	  <portal class="horizontal" target="W20-200SD" type="implicit">
+      <edge index="5" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <portal class="horizontal" target="W20-208" type="implicit">
+      <edge index="7" maxparam="-0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="4"/>
+    <triangle v0="0" v1="4" v2="11"/>
+    <triangle v0="11" v1="4" v2="5"/>
+    <triangle v0="11" v1="5" v2="10"/>
+    <triangle v0="10" v1="5" v2="8"/>
+    <triangle v0="10" v1="8" v2="9"/>
+    <triangle v0="8" v1="5" v2="7"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+	<space name="W20-209" type="EXHIB">
+		  <contour>
+			  <centroid x="709454.144002" y="495445.970565"/>
+			  <extent maxx="709478.617177" maxy="495464.764015" minx="709430.609105" miny="495425.134767"/>
+			  <point x="709432.400380" y="495450.007042"/>
+			  <point x="709443.735328" y="495425.134767"/>
+			  <point x="709478.617177" y="495441.031341"/>
+			  <point x="709468.906444" y="495462.339601"/>
+			  <point x="709461.247603" y="495458.849266"/>
+			  <point x="709458.552097" y="495464.764015"/>
+			  <point x="709449.073334" y="495460.444293"/>
+			  <point x="709450.144624" y="495458.093560"/>
+			  <point x="709443.774896" y="495455.190707"/>
+			  <point x="709441.528640" y="495460.119664"/>
+			  <point x="709430.609105" y="495455.143345"/>
+			  <point x="709432.855360" y="495450.214389"/>
+			  <point x="709432.400380" y="495450.007042"/>
+		</contour>
+	  <portal class="horizontal" target="W20-200CD" type="implicit">
+      <edge index="0" maxparam="0.0" minparam="1.0"/>
+    </portal>
+    <triangle v0="0" v1="1" v2="11"/>
+    <triangle v0="11" v1="1" v2="8"/>
+    <triangle v0="11" v1="8" v2="9"/>
+    <triangle v0="11" v1="9" v2="10"/>
+    <triangle v0="8" v1="1" v2="7"/>
+    <triangle v0="7" v1="1" v2="4"/>
+    <triangle v0="7" v1="4" v2="5"/>
+    <triangle v0="7" v1="5" v2="6"/>
+    <triangle v0="4" v1="1" v2="2"/>
+    <triangle v0="4" v1="2" v2="3"/>
+  </space>
+
+</MITquest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MITquest [
+
+<!ATTLIST space name ID #IMPLIED>
+
+]>
+<MITquest>
+	<floor name="FLOORCONTOUR">
+		  <contour>
+			  <centroid x="709552.203501" y="496240.419767"/>
+			  <extent maxx="709559.594772" maxy="496246.424788" minx="709544.812237" miny="496234.414750"/>
+			  <point x="709544.812237" y="496238.375707"/>
+			  <point x="709556.973071" y="496246.424788"/>
+			  <point x="709559.594772" y="496242.463831"/>
+			  <point x="709547.433937" y="496234.414750"/>
+			  <point x="709544.812237" y="496238.375707"/>
+		</contour>
+	</floor>
+	<space name="N16-300SA" type="STAIR">
+		  <contour>
+			  <centroid x="709552.203506" y="496240.419770"/>
+			  <extent maxx="709558.901861" maxy="496245.731877" minx="709545.505148" miny="496235.107661"/>
+			  <point x="709547.574912" y="496235.107661"/>
+			  <point x="709558.901861" y="496242.604805"/>
+			  <point x="709556.832097" y="496245.731877"/>
+			  <point x="709545.505148" y="496238.234733"/>
+			  <point x="709547.574912" y="496235.107661"/>
+		</contour>
+	  <triangle v0="0" v1="1" v2="2"/>
+    <triangle v0="0" v1="2" v2="3"/>
+  </space>
+
+</MITquest>
